@@ -41,7 +41,7 @@ def check_earthquake_threads():
         
         time.sleep(3)
         
-        print("\nSearching for gündem topics...\n")
+        print("\nSearching gündem section...\n")
         
         try:
             gundem_section = driver.find_element(By.CSS_SELECTOR, "ul.topic-list.partial")
@@ -71,7 +71,7 @@ def check_earthquake_threads():
         today = datetime.now().strftime("%d.%m.%Y")
         
         if earthquake_threads:
-            print(f"✓ FOUND {len(earthquake_threads)} earthquake-related thread(s):\n")
+            print(f"✓ FOUND {len(earthquake_threads)} earthquake related thread(s):\n")
             print("=" * 80)
             
             for i, thread in enumerate(earthquake_threads, 1):
@@ -79,10 +79,10 @@ def check_earthquake_threads():
                 print(f"   URL: {thread['url']}")
             
             print("\n" + "=" * 80)
-            print(f"\n⚠️  Possible earthquake detected today ({today})")
+            print(f"\n Possible earthquake detected today ({today})")
             
             save_dir = r"D:\Python Projects D"
-            os.makedirs(save_dir, exist_ok=True)  # make sure the folder exists
+            os.makedirs(save_dir, exist_ok=True)
             output_path = os.path.join(save_dir, f"earthquake_threads_{today.replace('.', '_')}.txt")
 
 
@@ -99,7 +99,7 @@ def check_earthquake_threads():
             print(f"\n✓ Results saved to: earthquake_threads_{today.replace('.', '_')}.txt")
             
         else:
-            print("✓ No earthquake-related threads found on the main page.")
+            print("✓ No earthquake related threads found on the main page.")
             print(f"✓ All clear for today ({today})")
         
     except Exception as e:
@@ -111,4 +111,5 @@ def check_earthquake_threads():
             driver.quit()
 
 if __name__ == "__main__":
+
     check_earthquake_threads()
