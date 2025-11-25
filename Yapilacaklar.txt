@@ -1,0 +1,11 @@
+6.11.2025
+
+Github reposu şimdilik priv olabilir data da olsun kodlar da
+Otomatik checkleyen ekşiyi checker
+Tek bir dosyada tüm entryler, word countla sonra bu bütün entryleri
+
+repoyu clonela
+databasee ekle
+sadece id ve content olan dosya
+analyzerdan geçir word list dosyasını, analiz edilemeyenleri büyük harf yap başını,
+başka değişiklik yapma, artık analiz edilebilenleri datada değiştir.
