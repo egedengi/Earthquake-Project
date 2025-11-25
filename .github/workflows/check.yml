@@ -21,14 +21,12 @@ jobs:
       with:
         python-version: '3.10'
     
-    - name: Install Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y chromium-browser chromium-chromedriver
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@latest
     
     - name: Install dependencies
       run: |
-        pip install selenium
+        pip install selenium webdriver-manager
     
     - name: Run earthquake checker
       run: |
