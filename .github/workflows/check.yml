@@ -21,9 +21,14 @@ jobs:
       with:
         python-version: '3.10'
     
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser chromium-chromedriver
+    
     - name: Install dependencies
       run: |
-        pip install requests beautifulsoup4
+        pip install selenium
     
     - name: Run earthquake checker
       run: |
@@ -34,4 +39,4 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add earthquake_alert_*.txt reported_threads.json || true
-        git diff --quiet && git diff --staged --quiet || (git commit -m " Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🚨 Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)
