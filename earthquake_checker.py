@@ -22,8 +22,8 @@ def save_reported_threads(reported_threads):
 
 def check_earthquake_threads():
     earthquake_keywords = [
-        'deprem', 'zelzele', 'sarsıntı', 'earthquake', 
-        'kandilli', 'afad', 'richter', 'büyüklüğünde deprem'
+        'deprem', 'sarsıntı', 'earthquake', 
+        'depremi'
     ]
     
     chrome_options = Options()
