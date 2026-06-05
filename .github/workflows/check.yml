@@ -26,7 +26,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install selenium webdriver-manager
+        pip install selenium webdriver-manager google-generativeai
 
     - name: Run earthquake checker
       run: |
@@ -61,20 +61,60 @@ jobs:
             print("No new threads to scrape.")
             exit(0)
 
+        scraped_in_this_run = []
         for url in new_urls:
             print(f"Scraping: {url}")
             result = subprocess.run(["python", "eksisozluk_into_text.py", url])
             if result.returncode == 0:
                 scraped_urls.append(url)
+                scraped_in_this_run.append(url)
 
         with open(scraped_file, "w", encoding="utf-8") as f:
             json.dump(scraped_urls, f, ensure_ascii=False, indent=2)
+
+        with open("newly_scraped.json", "w", encoding="utf-8") as f:
+            json.dump(scraped_in_this_run, f, ensure_ascii=False, indent=2)
+        EOF
+
+    - name: Classify new entries
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python - <<'EOF'
+        import json
+        import os
+        import subprocess
+        import glob
+
+        if not os.path.exists("newly_scraped.json"):
+            print("No new threads to classify.")
+            exit(0)
+
+        with open("newly_scraped.json", "r", encoding="utf-8") as f:
+            new_urls = json.load(f)
+
+        if not new_urls:
+            print("No new threads to classify.")
+            exit(0)
+
+        entries_files = glob.glob("*_entries.txt")
+        if not entries_files:
+            print("No entries files found.")
+            exit(0)
+
+        entries_files.sort(key=os.path.getmtime, reverse=True)
+        latest_file = entries_files[0]
+
+        print(f"Classifying: {latest_file}")
+        output_dir = latest_file.replace("_entries.txt", "_classified")
+        subprocess.run(["python", "earthquake_classifier.py", latest_file, output_dir], check=True)
         EOF
 
     - name: Commit and push files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json || true
+        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json newly_scraped.json || true
         git add *_entries.txt 2>/dev/null || true
+        git add *_classified/ 2>/dev/null || true
         git diff --quiet && git diff --staged --quiet || (git commit -m "🚨 Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)
