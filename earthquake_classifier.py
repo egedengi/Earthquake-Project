@@ -6,7 +6,7 @@ import time
 import os
 
 BATCH_SIZE = 50
-MODEL = "gemini-1.5-flash-8b"
+MODEL = "gemini-2.5-flash-lite"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
