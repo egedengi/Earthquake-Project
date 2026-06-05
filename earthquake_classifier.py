@@ -1,43 +1,15 @@
-"""
-earthquake_classifier.py
-
-Automatically classifies Eksi Sozluk earthquake entries using the Anthropic API.
-Designed to be integrated into the existing GitHub Actions pipeline.
-
-Classification Schema:
-    Class 1 - Structural damage + Aid needed + Location/contact available  (HIGHEST PRIORITY)
-    Class 2 - No structural damage + Aid needed + Location/contact available
-    Class 3 - Structural damage + Aid needed + No location info
-    Class 4 - No structural damage + Aid needed + No location info
-    Class 5 - Structural damage present + No aid needed (rescued, informational)
-    Class 6 - No damage / Coordination / Info only                         (LOWEST PRIORITY)
-
-Aid Type Codes:
-    K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
-    Y=Clothing, H=Hygiene, U=Transport, M=Financial Aid, F=Fuel, P=Missing Person
-"""
-
-import anthropic
+import google.generativeai as genai
 import json
 import re
 import sys
 import time
-from pathlib import Path
+import os
 
-
-# ── Configuration ────────────────────────────────────────────────────────────
-
-BATCH_SIZE  = 10         # Number of entries sent per API call (reduces cost)
-MODEL       = "claude-sonnet-4-20250514"
-MAX_RETRIES = 3
-RETRY_DELAY = 5          # seconds between retries on failure
-
-
-# ── Prompts ──────────────────────────────────────────────────────────────────
+BATCH_SIZE = 10
+MODEL = "gemini-1.5-flash"
 
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
-You will classify Turkish social media entries (from Eksi Sozluk) posted during the
-2023 Kahramanmaras earthquake disaster.
+You will classify Turkish social media entries (from Eksi Sozluk) posted during earthquake disasters.
 
 Classification Classes:
 - Class 1: Structural damage/debris + Aid needed + Location or contact info AVAILABLE
@@ -76,14 +48,7 @@ Respond with this exact JSON format:
 }}"""
 
 
-# ── Entry Parsing ─────────────────────────────────────────────────────────────
-
-def parse_entries_from_file(filepath: str) -> list[dict]:
-    """
-    Reads preprocessed entries from a text file.
-    Expects entries separated by lines of dashes, with [ENTRY N] headers.
-    Compatible with the output format of the existing preprocessing pipeline.
-    """
+def parse_entries_from_file(filepath):
     entries = []
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
@@ -103,7 +68,6 @@ def parse_entries_from_file(filepath: str) -> list[dict]:
             entry_id = len(entries) + 1
             text = block
 
-        # Skip already-classified entries
         if "► Class:" in text or "► Aid Types:" in text:
             continue
 
@@ -113,55 +77,64 @@ def parse_entries_from_file(filepath: str) -> list[dict]:
     return entries
 
 
-# ── API Classification ────────────────────────────────────────────────────────
+def parse_entries_from_raw_file(filepath):
+    entries = []
+    entry_id = 1
+    current_content = []
+    in_content = False
 
-def classify_batch(client: anthropic.Anthropic, batch: list[dict]) -> list[dict]:
-    """
-    Sends a batch of entries to the Anthropic API and returns classification results.
-    Retries up to MAX_RETRIES times on failure.
-    """
+    with open(filepath, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith("Content:"):
+                in_content = True
+                current_content = []
+            elif line.startswith("-" * 10) or line.startswith("=" * 10):
+                if in_content and current_content:
+                    text = "\n".join(current_content).strip()
+                    if text:
+                        entries.append({"id": entry_id, "text": text})
+                        entry_id += 1
+                in_content = False
+                current_content = []
+            elif in_content:
+                current_content.append(line)
+
+    if in_content and current_content:
+        text = "\n".join(current_content).strip()
+        if text:
+            entries.append({"id": entry_id, "text": text})
+
+    return entries
+
+
+def classify_batch(model, batch):
     formatted = "\n\n".join(
         f"[ENTRY {e['id']}]\n{e['text'][:500]}"
         for e in batch
     )
 
-    user_prompt = USER_PROMPT_TEMPLATE.format(
+    prompt = SYSTEM_PROMPT + "\n\n" + USER_PROMPT_TEMPLATE.format(
         count=len(batch),
         entries=formatted
     )
 
-    for attempt in range(MAX_RETRIES):
+    for attempt in range(3):
         try:
-            response = client.messages.create(
-                model=MODEL,
-                max_tokens=1024,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": user_prompt}]
-            )
-
-            raw = response.content[0].text.strip()
+            response = model.generate_content(prompt)
+            raw = response.text.strip()
             raw = re.sub(r'^```json\s*|\s*```$', '', raw, flags=re.MULTILINE).strip()
             data = json.loads(raw)
             return data["results"]
+        except Exception as e:
+            print(f"  Attempt {attempt + 1} failed: {e}")
+            if attempt < 2:
+                time.sleep(5)
 
-        except (json.JSONDecodeError, KeyError) as e:
-            print(f"  Parse error on attempt {attempt + 1}: {e}")
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-
-        except anthropic.APIError as e:
-            print(f"  API error on attempt {attempt + 1}: {e}")
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-
-    print(f"  Failed after {MAX_RETRIES} attempts, skipping batch.")
     return []
 
 
-# ── Output Formatting ─────────────────────────────────────────────────────────
-
-def format_entry_output(entry: dict, result: dict) -> str:
-    """Formats a single classified entry for the output file."""
+def format_entry_output(entry, result):
     lines = [
         f"[ENTRY {result['entry_id']}]",
         entry["text"],
@@ -175,26 +148,19 @@ def format_entry_output(entry: dict, result: dict) -> str:
     return "\n".join(lines)
 
 
-def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: str):
-    """
-    Writes classified entries to two output files:
-      - class_1_2.txt : High priority (damage/need + location) -> Forward to AFAD
-      - class_3_6.txt : Lower priority or informational
-    Also writes a JSON summary for downstream processing.
-    """
-    output_path = Path(output_dir)
-    output_path.mkdir(exist_ok=True)
+def write_outputs(all_entries, all_results, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
 
     result_map = {r["entry_id"]: r for r in all_results}
-    entry_map  = {e["id"]: e for e in all_entries}
+    entry_map = {e["id"]: e for e in all_entries}
 
     sep = "-" * 80 + "\n"
     priority_count = 0
-    other_count    = 0
+    other_count = 0
 
     header = (
         "Class Definitions:\n"
-        "  1: Damage + Aid needed + Location AVAILABLE  (forward to AFAD immediately)\n"
+        "  1: Damage + Aid needed + Location AVAILABLE\n"
         "  2: Aid needed + Location AVAILABLE\n"
         "  3: Damage + Aid needed, No location\n"
         "  4: Aid needed, No location\n"
@@ -203,8 +169,8 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
         + "=" * 80 + "\n\n"
     )
 
-    with open(output_path / "class_1_2.txt", "w", encoding="utf-8") as f1, \
-         open(output_path / "class_3_6.txt", "w", encoding="utf-8") as f2:
+    with open(os.path.join(output_dir, "class_1_2.txt"), "w", encoding="utf-8") as f1, \
+         open(os.path.join(output_dir, "class_3_6.txt"), "w", encoding="utf-8") as f2:
 
         f1.write(header)
         f2.write(header)
@@ -221,7 +187,6 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
                 f2.write(formatted + sep)
                 other_count += 1
 
-    # JSON summary for downstream use (e.g., AFAD API integration)
     summary = {
         "total_classified": len(all_results),
         "priority_entries": priority_count,
@@ -236,62 +201,68 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
         if result["class"] in (1, 2):
             entry = entry_map.get(result["entry_id"], {})
             summary["priority_list"].append({
-                "entry_id":  result["entry_id"],
-                "class":     result["class"],
+                "entry_id": result["entry_id"],
+                "class": result["class"],
                 "aid_types": result.get("aid_types", ""),
-                "contact":   result.get("contact", ""),
-                "preview":   entry.get("text", "")[:150]
+                "contact": result.get("contact", ""),
+                "preview": entry.get("text", "")[:150]
             })
 
-    with open(output_path / "summary.json", "w", encoding="utf-8") as f:
+    with open(os.path.join(output_dir, "summary.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
     return priority_count, other_count
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
 def main():
     if len(sys.argv) < 2:
-        print("Usage:   python earthquake_classifier.py <input_file> [output_dir]")
-        print("Example: python earthquake_classifier.py entries.txt output/")
+        print("Usage: python earthquake_classifier.py <input_file> [output_dir]")
         sys.exit(1)
 
     input_file = sys.argv[1]
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "classified_output"
 
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: GEMINI_API_KEY environment variable not set.")
+        sys.exit(1)
+
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel(MODEL)
+
     print(f"Reading entries from: {input_file}")
+
     entries = parse_entries_from_file(input_file)
-    print(f"Found {len(entries)} unclassified entries")
+    if not entries:
+        entries = parse_entries_from_raw_file(input_file)
+
+    print(f"Found {len(entries)} entries")
 
     if not entries:
-        print("No entries to classify. Exiting.")
+        print("No entries to classify.")
         sys.exit(0)
 
-    client = anthropic.Anthropic()  # Reads ANTHROPIC_API_KEY from environment
-
-    all_results   = []
+    all_results = []
     total_batches = (len(entries) + BATCH_SIZE - 1) // BATCH_SIZE
 
     for i in range(0, len(entries), BATCH_SIZE):
-        batch     = entries[i:i + BATCH_SIZE]
+        batch = entries[i:i + BATCH_SIZE]
         batch_num = i // BATCH_SIZE + 1
-        print(f"Classifying batch {batch_num}/{total_batches} "
-              f"(entries {batch[0]['id']}—{batch[-1]['id']})...")
+        print(f"Classifying batch {batch_num}/{total_batches}...")
 
-        results = classify_batch(client, batch)
+        results = classify_batch(model, batch)
         all_results.extend(results)
 
         if batch_num < total_batches:
-            time.sleep(0.5)
+            time.sleep(1)
 
-    print(f"\nDone. {len(all_results)}/{len(entries)} entries classified.")
+    print(f"Done. {len(all_results)}/{len(entries)} entries classified.")
     priority, other = write_outputs(entries, all_results, output_dir)
 
     print(f"Output written to: {output_dir}/")
-    print(f"  Priority (Class 1-2): {priority} entries  -> class_1_2.txt")
-    print(f"  Other    (Class 3-6): {other} entries  -> class_3_6.txt")
-    print(f"  JSON summary:          summary.json")
+    print(f"  Priority (Class 1-2): {priority} entries -> class_1_2.txt")
+    print(f"  Other    (Class 3-6): {other} entries -> class_3_6.txt")
+    print(f"  Summary:               summary.json")
 
 
 if __name__ == "__main__":
