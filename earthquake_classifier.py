@@ -13,23 +13,27 @@ API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:gener
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
 You will classify Turkish social media entries (from Eksi Sozluk) posted during earthquake disasters.
 
-Classification Classes:
-- Class 1: Structural damage/debris + Aid needed + Location or contact info AVAILABLE
-- Class 2: No structural damage + Aid needed + Location or contact info AVAILABLE
-- Class 3: Structural damage/debris + Aid needed + No location info
-- Class 4: No structural damage + Aid needed + No location info
-- Class 5: Structural damage present + No aid needed (already rescued, informational)
-- Class 6: No damage / Coordination message / General info only
+CLASSIFICATION RULES - READ CAREFULLY:
 
-Aid Type Codes:
+CLASS 1: Structural damage OR people trapped + Aid explicitly requested + Specific location OR phone number provided
+CLASS 2: No structural damage + Aid explicitly requested + Specific location OR phone number provided
+CLASS 3: Structural damage OR people trapped + Aid explicitly requested + NO specific location or phone number
+CLASS 4: No structural damage + Aid explicitly requested + NO specific location or phone number
+CLASS 5: Structural damage mentioned + NO aid request (informational, already rescued, person reporting damage without asking for help)
+CLASS 6: No damage + No aid request (felt the earthquake, general comments, coordination info, offering help, news updates)
+
+CRITICAL DISTINCTIONS:
+- "Aid requested" means the entry is ASKING for rescue, food, shelter, medical help etc. — NOT offering it
+- Entries that OFFER help → Class 6
+- "I felt the earthquake", "it was scary", "buildings shook" with no help request → Class 6
+- "Buildings collapsed" or "I'm trapped" but no help request → Class 5
+- General city name like "Adana" or "Kahramanmaras" is NOT specific enough for location — needs neighborhood, street, building name, or phone number
+- A phone number counts as contact info → location available
+- Do NOT classify as Class 1 or 2 unless there is a clear, explicit request for help AND a specific address or phone number
+
+Aid Type Codes (only fill if aid is explicitly requested):
 K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
 Y=Clothing, H=Hygiene, U=Transport, M=Financial Aid, F=Fuel, P=Missing Person
-
-Rules:
-- Entries OFFERING help count as no aid needed (Class 5 or 6)
-- Coordination messages, Twitter links, short acknowledgement posts -> Class 6
-- A phone number OR an address counts as location/contact info AVAILABLE
-- Write only the phone number in the contact field, not the address
 
 Respond ONLY with valid JSON, nothing else."""
 
