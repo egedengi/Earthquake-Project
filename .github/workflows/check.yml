@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        ref: test-merge
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -73,5 +75,6 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json *_entries.txt || true
+        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json || true
+        git add *_entries.txt 2>/dev/null || true
         git diff --quiet && git diff --staged --quiet || (git commit -m "🚨 Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)
