@@ -1,0 +1,231 @@
+{
+  "total_classified": 200,
+  "priority_entries": 31,
+  "other_entries": 169,
+  "class_distribution": {
+    "6": 121,
+    "3": 9,
+    "1": 31,
+    "5": 37,
+    "4": 2
+  },
+  "priority_list": [
+    {
+      "entry_id": 5,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "ben ve ailem iyiyiz.\nbir akrabamıza ulaşamıyoruz.kendisi adana yurt mahallesinde ki apartmanda göçük altında kalmış vaziyette...karşısında ki,yanında "
+    },
+    {
+      "entry_id": 8,
+      "class": 1,
+      "aid_types": "K,P",
+      "contact": "",
+      "preview": "hatay’da bir tanıdığımıza ulaşamıyoruz. ilk entry’e sabitleyebilir misiniz lütfen? kendisi subay ve görev için oradaydı. hiçbir tanıdığı yok çevresind"
+    },
+    {
+      "entry_id": 12,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "adres:\nharaparası mah. süreyya halepoğlu cad. balıkçılar çarşısı mevkii, özden apt. antakya/hatay. antakya ticaret borsası yanı.\n\narkadaşlarımın aile "
+    },
+    {
+      "entry_id": 37,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "https://twitter.com/…?s=46&t=hjbfyf01ohxcojll5odg8g\n\nadıyamanda uzman kurtarma ekibi desteğine ihtiyaç olduğu söyleniyor."
+    },
+    {
+      "entry_id": 53,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "sazibey mahallesi haydar aliyev bulvarı bina no 12 yunus apartmanı a blok kat 4 daire 25 kahramanmaraş/ onikişubat\n\nnuray onur, uğur onur ve 2 çocuk u"
+    },
+    {
+      "entry_id": 54,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "yardım\n\nyardım\n\narkadaşlar atatürk caddesi 12 sokak özdemir apt. kat 4 hatay antakya , haber alamıyoruz ulaşamıyoruz lütfen bölgede olanlar varsa yard"
+    },
+    {
+      "entry_id": 57,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "yardım isteyip sesini duyurmak isteyen çaylak arkadaşlarımız yazabilir\n\nedit: hatay iskenderun mustafa kemal mahallesi 544. sk. sarıgül sitesi özge ap"
+    },
+    {
+      "entry_id": 64,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hatay defne kaymakamliginin 300 m ilerisi turunclu sok market karsisi gocuk altinda insanlar var. lutfen yardim edin binanin google harita adresi: htt"
+    },
+    {
+      "entry_id": 72,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "general şükrü kanatlı mah. atatürk cad. ülkümen apt no :34 antakya/hatay\nhatayspor mağazası üstü\n\nkuzenimin anne ve babasından haber alamıyoruz. füsun"
+    },
+    {
+      "entry_id": 84,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hatay defne kaymakamliginin 300 m ilerisi turunclu sok market karsisi gocuk altinda insanlar var. lutfen yardim edin.\nbinanin google harita adresi: ht"
+    },
+    {
+      "entry_id": 90,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "odabaşı mahallesi, ahmet taner kışlalı caddesi, rende esenpark evleri dış kapı 15 daire 10. göçük altında arkadaşımın kuzeni. ne olursunuz orada olanl"
+    },
+    {
+      "entry_id": 91,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "adiyaman altinsehir mahallesi basaksehir sitesi b blok insanlar mahsur ve haberleri aldığım kadarıyla düzgün yardımda gidemiyor. mehmet sadık keskin\na"
+    },
+    {
+      "entry_id": 96,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "edit: iyiler çok şükür.\n\nanıl ve nisa'dan haber alamıyoruz.\n\nesenlik mahallesi 11. sokak dubleks evler no:52 antakya/ hatay"
+    },
+    {
+      "entry_id": 97,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "şehit evliya mahallesi 65001 sokak 25/1-1 kahramanmaraş/onikişubat erdi kaptanoğlu ve ailesi haber alamıyoruz lütfen yardım edin."
+    },
+    {
+      "entry_id": 99,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "05342445599",
+      "preview": "arkadaşımın ailesinden haber alamıyoruz evlerinin yıkıldığı bilgisini aldık acil yardıma ihtiyaç var. adres: kışlasaray mah.,fevzi çakmak caddesi, dal"
+    },
+    {
+      "entry_id": 102,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "merhabalar,\n\nacil yardım çağrısı!\n\naşağıdaki bölgenin çevresinde olan ve yardım ulaştırabilecek olan yazar&çaylak kullanıcılar bana mesaj yoluyla ulaş"
+    },
+    {
+      "entry_id": 107,
+      "class": 1,
+      "aid_types": "K,P",
+      "contact": "",
+      "preview": "tekerek yolu şehit abdullah cavus mahallesi ismet karaokur bulvarı palmiye sitesi c blok, arkadaşımızın ailesi 3 kişi haber alınamıyor, haber alabilen"
+    },
+    {
+      "entry_id": 123,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "arkadaşlar çok yakın bir arkadaşımın ailesi hatay iskenderunda göçük altında, arkadaşım yurtdışında ve kendilerinden düzenli haber alamıyor. yardım he"
+    },
+    {
+      "entry_id": 124,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "arkadaşlar çok yakın bir arkadaşımın ailesi hatay iskenderunda göçük altında, arkadaşım yurtdışında ve kendilerinden düzenli haber alamıyor. yardım he"
+    },
+    {
+      "entry_id": 127,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kahramanmaraş'ta akrabalarımız göçük altında.yardim gitmediğine dair bilgi aldık.lutfen destek\nadres trabzon caddesi has-el sitesi b blok\nisimler\ncela"
+    },
+    {
+      "entry_id": 128,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "yavuz selim mahallesi. tuna apt. nurdağı/ gaziantep\n. lütfen acil yardım. enkaz altındalar ve kurtarılmayı bekliyorlar.\n#deprem #gaziantep #nurdagi #a"
+    },
+    {
+      "entry_id": 147,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "ailem maras'ta. tv kanallarında bir tane haber yok maras'tan. tüm illere baglaniyorlar maras hariç. merkezdeki trabzon caddesi komple çökmüş denilenle"
+    },
+    {
+      "entry_id": 152,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "akevler mahallesi ayşe fitnat hanım cad. betonsan evleri c1 blok - antakya\n\nyaşlı akrabalarımızdan haber alamıyoruz, binayla ilgili haber alan olursa "
+    },
+    {
+      "entry_id": 161,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "pazarcık'ın eğlen köyünde neredeyse tüm evler yıkıldı ve evlerin içinde insanlar enkaz altında kaldı. afad ya da yardım hala gelmedi. hava karlı ve ço"
+    },
+    {
+      "entry_id": 164,
+      "class": 1,
+      "aid_types": "S",
+      "contact": "",
+      "preview": "sakarya mahallesi özrefah apartmanı hatay/ ıskenderun. adı mehmet yıldırım. yaşlı ve sağlık sorunları var. arkadaşım saatlerdir dedesine ulaşamıyor. l"
+    },
+    {
+      "entry_id": 174,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kışlasaray mahallesi vilayet caddesi cabbara apartmanı antakya valilik arkası ptt karşısı nedime , sabah ve turgay cabbaroğlundan haber alınamıyor has"
+    },
+    {
+      "entry_id": 178,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "iskenderun sahil piri reis mahallesi eda apartmani komple yikildi. yuz kusur kisi enkaz altinda. kayinpederim de enkaz altinda.\niskenderun devlet hast"
+    },
+    {
+      "entry_id": 186,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "ülkemizin büyük bir kısmını ve pek çoğumuzun tanıdıklarını etkileyen büyük bir deprem.\n\nbir arkadaşın teyzesi enkaz altında\n\nadıyaman merkez, alitaşı "
+    },
+    {
+      "entry_id": 188,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "merhaba arkadaşımın akrabası enkazın altında ebrar sitesi d blok saatlerdir haber alamıyoruz lütfen bilginiz varsa haber verin"
+    },
+    {
+      "entry_id": 192,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "en sevdiğim sporcularım sporcu merkezinde göçük altında. bir tanesi geçen ay nişanlanmıştı… çok üzgünüm.\n\nöğleden sonra yardım için yola çıkacağız. yo"
+    },
+    {
+      "entry_id": 197,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "acill yardım\nantakya akevler mahallesi, namık kemal atahan caddesi ibrahim akgün apartmanı a blok enkaz altındalar"
+    }
+  ]
+}
