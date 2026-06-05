@@ -13,28 +13,42 @@ API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:gener
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
 You will classify Turkish social media entries (from Eksi Sozluk) posted during earthquake disasters.
 
-CLASSIFICATION RULES - READ CAREFULLY:
+CLASSIFICATION:
+CLASS 1: Damage + explicit help request + actionable location OR phone number
+CLASS 2: No damage + explicit help request + actionable location OR phone number
+CLASS 3: Damage + explicit help request + no actionable location or phone number
+CLASS 4: No damage + explicit help request + no actionable location or phone number
+CLASS 5: Damage mentioned + no help request
+CLASS 6: No damage + no help request (feeling earthquake, news, general comments, offering help)
 
-CLASS 1: Structural damage OR people trapped + Aid explicitly requested + Specific location OR phone number provided
-CLASS 2: No structural damage + Aid explicitly requested + Specific location OR phone number provided
-CLASS 3: Structural damage OR people trapped + Aid explicitly requested + NO specific location or phone number
-CLASS 4: No structural damage + Aid explicitly requested + NO specific location or phone number
-CLASS 5: Structural damage mentioned + NO aid request (informational, already rescued, person reporting damage without asking for help)
-CLASS 6: No damage + No aid request (felt the earthquake, general comments, coordination info, offering help, news updates)
+LOCATION RULE - VERY STRICT:
+Location is ONLY valid if someone can physically go there or call to get directions.
+VALID: neighborhood name + street or building name (e.g. "Dogukent mahallesi Armutlu sokak No:5")
+VALID: phone number alone (someone can call to get the exact address)
+INVALID: only a city name ("Adana", "Kahramanmaras")
+INVALID: only a district name ("Feke", "Sahinbey")
+INVALID: vague descriptions ("near the school", "next to the mosque", "lokasyon: adana")
 
-CRITICAL DISTINCTIONS:
-- "Aid requested" means the entry is ASKING for rescue, food, shelter, medical help etc. — NOT offering it
-- Entries that OFFER help -> Class 6
-- "I felt the earthquake", "it was scary", "buildings shook" with no help request -> Class 6
-- "Buildings collapsed" or "I'm trapped" but no help request -> Class 5
-- A city name alone like "Adana" or "Kahramanmaras" is NEVER enough for location. Location requires a neighborhood, street, building name, or phone number.
-- A phone number alone counts as contact info and is sufficient for location.
-- Do NOT classify as Class 1 or 2 unless BOTH conditions are met: (1) clear explicit request for help AND (2) a specific address or phone number.
-- "We accepted death", "I was scared", "buildings cracked" without asking for help = Class 5 or 6, NOT Class 1.
+HELP REQUEST RULE - VERY STRICT:
+VALID: explicitly asking rescue teams, authorities, or the public for rescue, food, water, shelter, medical help
+INVALID: "allahim yardim et" (religious exclamation, not a request to authorities)
+INVALID: "we accepted death", "I was scared", "buildings cracked" (no request for help)
 
-Aid Type Codes (only fill if aid is explicitly requested):
-K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
-Y=Clothing, H=Hygiene, U=Transport, M=Financial Aid, F=Fuel, P=Missing Person
+EXAMPLES OF CLASS 6:
+- "lokasyon: adana, kandilli 7.4 acikladi" → Class 6
+- "3 dakika sallandik allah korusun" → Class 6
+- "cok korktum evden ciktik" → Class 6
+
+EXAMPLES OF CLASS 5:
+- "binada catlamalar var cok korktum" → Class 5 (damage, no help request)
+- "ev yikilacak basimiza ailecek olumu kabullenmiştik" → Class 5 (damage, no help request)
+
+EXAMPLES OF CLASS 1:
+- "dogukent mahallesindeyiz su yiyecek cadir lazim 0532..." → Class 1
+- "antakya armutlu mah yalin sok enkaz altinda vinc lazim" → Class 1
+
+Aid Types (only if explicitly requested):
+K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating, Y=Clothing, H=Hygiene, U=Transport, M=Financial, F=Fuel, P=Missing Person
 
 Respond ONLY with valid JSON, nothing else."""
 
