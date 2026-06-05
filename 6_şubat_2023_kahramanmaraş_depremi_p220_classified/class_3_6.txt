@@ -1,0 +1,62 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 201]
+yine çok kötü mersin'den sallandık. ya bağımsız bir deprem ya da büyük bir artçı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 202]
+neorama iş merkezi 18. katta çok ciddi hissedilen deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 203]
+antalya tekrar sallandı. artçısı bile ta burayı sallandırdı.
+edit: artçı değil 7.6 şiddetinde yeni bir depremdi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 204]
+çok uzun sürdü yer taurus.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 205]
+ankara fena sallandı, artçı geldi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 206]
+mersin yine çok şiddetli sallanıyor.
+edit: artçı değil elbistan merkezli 2. depremmiş. delireceğim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 207]
+ben de sandalye niye sallanıyor diyordum. meğer depremmiş. psikolojim bozuldu sandım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 208]
+tüm vatandaşlarımıza geçmiş olsun diliyorum. bu kara kışta enkaz altında bekleyenlerin allah yardımcısı olsun. gerçekten zor bir durum. geçen akşamki ufacık istanbul sarsıntısında bile stresten uyku tutmamıştı. kamera kaydında 7 katlı o koca binanın toz duman olması tüyler ürpertici. iklim ve hasar gören ulaşım ağının arama kurtarma faaliyetlerini zorlaştırması da işin bir başka boyutu. henüz müdahale edilememiş haneler olduğu bilgileri okuyoruz medyada. allah yardımcıları olsun. geçmiş olsun türkiyem.
+
+► Class: 5
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 209]
+13:24 te akpınar merkezli tekrar 7.7 olarak bildirim geldi.rabbim yardımcıları olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 210]
+giresun'da iyi sallandı bu nasıl deprem güneyden kuzeye nasıl sallıyor yahu
+
+► Class: 6
+--------------------------------------------------------------------------------
