@@ -5,8 +5,8 @@ import sys
 import time
 import os
 
-BATCH_SIZE = 10
-MODEL = "gemini-2.0-flash"
+BATCH_SIZE = 50
+MODEL = "gemini-1.5-flash-8b"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
@@ -109,7 +109,7 @@ def classify_batch(api_key, batch):
         except Exception as e:
             print(f"  Attempt {attempt + 1} failed: {e}")
             if attempt < 2:
-                time.sleep(5)
+                time.sleep(30)
 
     return []
 
@@ -227,7 +227,7 @@ def main():
         all_results.extend(results)
 
         if batch_num < total_batches:
-            time.sleep(1)
+            time.sleep(20)
 
     print(f"Done. {len(all_results)}/{len(entries)} entries classified.")
     priority, other = write_outputs(entries, all_results, output_dir)
