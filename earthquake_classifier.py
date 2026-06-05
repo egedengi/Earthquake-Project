@@ -20,36 +20,35 @@ CLASS 2: No damage + explicit help request + actionable location OR phone number
 CLASS 3: Damage + explicit help request + no actionable location or phone number
 CLASS 4: No damage + explicit help request + no actionable location or phone number
 CLASS 5: Damage mentioned + no help request
-CLASS 6: No damage + no help request (feeling earthquake, news, general comments, offering help)
+CLASS 6: No damage + no help request
 
-LOCATION RULE - VERY STRICT:
-Location is ONLY valid if someone can physically go there or call to get directions.
-VALID: neighborhood name + street or building name (e.g. "Dogukent mahallesi Armutlu sokak No:5")
-VALID: phone number alone (someone can call to get the exact address)
-INVALID: only a city name ("Adana", "Kahramanmaras")
-INVALID: only a district name ("Feke", "Sahinbey")
-INVALID: vague descriptions ("near the school", "next to the mosque", "lokasyon: adana")
+LOCATION RULE:
+A location is actionable if someone can physically go there.
+VALID location: neighborhood name + street name OR apartment/building name (e.g. "Akevler mah. Ayse Fitnat Hanim cad. Betonsan evleri C1 blok Antakya")
+VALID location: phone number alone (can call to get directions)
+INVALID: city name only ("Adana", "Hatay", "Malatya")
+INVALID: district name only ("Iskenderun", "Defne", "Pazarcik")
+INVALID: vague reference ("near the hospital", "next to the mosque")
+INVALID: Twitter/Instagram links
 
-HELP REQUEST RULE - VERY STRICT:
-VALID: explicitly asking rescue teams, authorities, or the public for rescue, food, water, shelter, medical help
-INVALID: "allahim yardim et" (religious exclamation, not a request to authorities)
-INVALID: "we accepted death", "I was scared", "buildings cracked" (no request for help)
+HELP REQUEST RULE:
+A help request means someone is ASKING for rescue, food, shelter, medical help etc.
+VALID help request: asking for rescue teams, food, water, shelter for self or others
+VALID help request: asking on behalf of someone else ("arkadaşımın ailesi enkaz altında yardım edin")
+INVALID: "allahim yardim et" (prayer, not a request to authorities or public)
+INVALID: offering help ("yardima gidiyorum", "caylaklar bana yazsin yardim ederim")
+INVALID: coordination messages ("kan bagisi yapin", "afad'a basvurun")
+INVALID: general statements ("adiyaman'da yardim gitmemis") without specific address
 
-EXAMPLES OF CLASS 6:
-- "lokasyon: adana, kandilli 7.4 acikladi" → Class 6
-- "3 dakika sallandik allah korusun" → Class 6
-- "cok korktum evden ciktik" → Class 6
+DAMAGE RULE:
+Damage means structural damage to buildings or people trapped.
+VALID damage: collapsed building, people trapped under debris
+INVALID: "felt the earthquake", "I was scared", "buildings shook"
+INVALID: general news about damage in the region
 
-EXAMPLES OF CLASS 5:
-- "binada catlamalar var cok korktum" → Class 5 (damage, no help request)
-- "ev yikilacak basimiza ailecek olumu kabullenmiştik" → Class 5 (damage, no help request)
-
-EXAMPLES OF CLASS 1:
-- "dogukent mahallesindeyiz su yiyecek cadir lazim 0532..." → Class 1
-- "antakya armutlu mah yalin sok enkaz altinda vinc lazim" → Class 1
-
-Aid Types (only if explicitly requested):
+Aid Types (only fill if aid is explicitly requested):
 K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating, Y=Clothing, H=Hygiene, U=Transport, M=Financial, F=Fuel, P=Missing Person
+Do NOT list all aid types. Only list what is explicitly mentioned in the entry.
 
 Respond ONLY with valid JSON, nothing else."""
 
