@@ -1,40 +1,69 @@
 name: Earthquake Checker
-
 on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
-
 jobs:
   check-earthquake:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    
+
     - name: Setup Chrome
       uses: browser-actions/setup-chrome@latest
-    
+
     - name: Install dependencies
       run: |
         pip install selenium webdriver-manager
-    
+
     - name: Run earthquake checker
       run: |
         python earthquake_checker.py
-    
-    - name: Commit and push alert files
+
+    - name: Scrape new threads
+      run: |
+        python - <<'EOF'
+        import json
+        import os
+        import subprocess
+
+        if not os.path.exists("reported_threads.json"):
+            exit(0)
+
+        with open("reported_threads.json", "r", encoding="utf-8") as f:
+            all_urls = json.load(f)
+
+        scraped_file = "scraped_urls.json"
+        if os.path.exists(scraped_file):
+            with open(scraped_file, "r", encoding="utf-8") as f:
+                scraped_urls = json.load(f)
+        else:
+            scraped_urls = []
+
+        new_urls = [url for url in all_urls if url not in scraped_urls]
+
+        for url in new_urls:
+            print(f"Scraping: {url}")
+            subprocess.run(["python", "eksisozluk_into_text.py", url], check=True)
+            scraped_urls.append(url)
+
+        with open(scraped_file, "w", encoding="utf-8") as f:
+            json.dump(scraped_urls, f, ensure_ascii=False, indent=2)
+        EOF
+
+    - name: Commit and push files
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add earthquake_alert_*.txt reported_threads.json || true
+        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json *_entries.txt || true
         git diff --quiet && git diff --staged --quiet || (git commit -m "🚨 Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)
