@@ -50,60 +50,33 @@ Respond with this exact JSON format:
 
 def parse_entries_from_file(filepath):
     entries = []
+
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
-    blocks = re.split(r'\n[-_*=<]{3,}.*\n', content)
+    # Split on "Entry ID:" lines
+    parts = re.split(r'\nEntry ID:', content)
 
-    for block in blocks:
-        block = block.strip()
-        if not block:
-            continue
-
-        id_match = re.match(r'\[ENTRY (\d+)\]', block)
-        if id_match:
-            entry_id = int(id_match.group(1))
-            text = block[id_match.end():].strip()
-        else:
-            entry_id = len(entries) + 1
-            text = block
-
-        if "► Class:" in text or "► Aid Types:" in text:
-            continue
-
-        if text:
-            entries.append({"id": entry_id, "text": text})
-
-    return entries
-
-
-def parse_entries_from_raw_file(filepath):
-    entries = []
     entry_id = 1
-    current_content = []
-    in_content = False
+    for part in parts[1:]:  # skip header
+        lines = part.strip().split('\n')
+        content_lines = []
+        in_content = False
 
-    with open(filepath, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.rstrip()
-            if line.startswith("Content:"):
+        for line in lines:
+            if line.startswith("Author:") or line.startswith("Date:"):
+                continue
+            elif line.startswith("Content:"):
                 in_content = True
-                current_content = []
-            elif line.startswith("-" * 10) or line.startswith("=" * 10):
-                if in_content and current_content:
-                    text = "\n".join(current_content).strip()
-                    if text:
-                        entries.append({"id": entry_id, "text": text})
-                        entry_id += 1
-                in_content = False
-                current_content = []
+            elif line.startswith("-" * 10):
+                break
             elif in_content:
-                current_content.append(line)
+                content_lines.append(line)
 
-    if in_content and current_content:
-        text = "\n".join(current_content).strip()
+        text = "\n".join(content_lines).strip()
         if text:
             entries.append({"id": entry_id, "text": text})
+            entry_id += 1
 
     return entries
 
@@ -231,11 +204,7 @@ def main():
     model = genai.GenerativeModel(MODEL)
 
     print(f"Reading entries from: {input_file}")
-
     entries = parse_entries_from_file(input_file)
-    if not entries:
-        entries = parse_entries_from_raw_file(input_file)
-
     print(f"Found {len(entries)} entries")
 
     if not entries:
@@ -259,9 +228,9 @@ def main():
     print(f"Done. {len(all_results)}/{len(entries)} entries classified.")
     priority, other = write_outputs(entries, all_results, output_dir)
 
-    print(f"Output written to: {output_dir}/")
-    print(f"  Priority (Class 1-2): {priority} entries -> class_1_2.txt")
-    print(f"  Other    (Class 3-6): {other} entries -> class_3_6.txt")
+    print(f"Output: {output_dir}/")
+    print(f"  Priority (Class 1-2): {priority} -> class_1_2.txt")
+    print(f"  Other    (Class 3-6): {other} -> class_3_6.txt")
     print(f"  Summary:               summary.json")
 
 
