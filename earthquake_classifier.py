@@ -6,7 +6,8 @@ import time
 import os
 
 BATCH_SIZE = 50
-MAX_ENTRIES = 100
+SKIP_ENTRIES = 100
+MAX_ENTRIES = 400
 MODEL = "gemini-2.5-flash-lite"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 
@@ -229,7 +230,7 @@ def main():
 
     print(f"Reading entries from: {input_file}")
     entries = parse_entries_from_file(input_file)
-    entries = entries[:MAX_ENTRIES]
+    entries = entries[SKIP_ENTRIES:SKIP_ENTRIES + MAX_ENTRIES]
     print(f"Found {len(entries)} entries (max {MAX_ENTRIES})")
 
     if not entries:
