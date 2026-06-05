@@ -40,6 +40,7 @@ def get_chrome_driver():
 
 
 def scrape_thread(url):
+    url = url.split("?")[0]
     driver = None
     all_entries = []
     topic_title = "unknown_topic"
@@ -111,7 +112,7 @@ def scrape_thread(url):
             try:
                 driver.find_element(By.CLASS_NAME, "pager")
                 page_num += 1
-                next_url = f"{url}{'&' if '?' in url else '?'}p={page_num}"
+                next_url = f"{url}?p={page_num}"
                 driver.get(next_url)
                 time.sleep(1)
 
