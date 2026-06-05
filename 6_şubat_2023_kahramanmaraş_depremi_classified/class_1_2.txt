@@ -1,0 +1,43 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 2]
+yetkililerin yıllardır bağıra bağıra söylediği ‘beklenen’ bir depremin daha gerçekleşmesidir.
+
+2,5 yıl önce yazmıştım ;
+#108399958
+
+şimdi sırada ne var? siz tahmin edin.
+
+büyük geçmiş olsun…
+
+edit: “kahramanmaras dogukent mahallesindeyiz su yiyecek cadir battaniyeye ihtiyac var ates yakacsk bir sey kalmiyor sesimizi duyur lutfen” çaylak yazar: @cevems
+
+► Class: 1
+► Aid Types: G,S,B,I
+--------------------------------------------------------------------------------
+[ENTRY 19]
+allahım yardım et. hala sallanıyor. ev yıkılacak başımıza.
+
+edit: adana'dayız. evin içinde ve binada çatlaklar var. şimdilik yakındaki okula sığındık. ailecek ölümü kabullenmiştik. ben böyle korktuğumu hatırlamıyorum.
+
+► Class: 1
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 31]
+ben daha önce böyle bir şey yaşamadım. resmen 3 dakika beşik gibi sallandık.
+
+yakın bir yerde büyük bir deprem oldu kesin. allah korusun.
+
+lokasyon: adana
+
+edit: kandilli rasathanesi otomatik ölçüm tespitine göre merkez üssü gaziantep/şahinbey büyüklük 7.4.
+
+► Class: 1
+--------------------------------------------------------------------------------
