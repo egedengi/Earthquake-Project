@@ -9,6 +9,8 @@ import sys
 import time
 import os
 
+MAX_PAGES = 5
+
 
 def get_chrome_driver():
     chrome_options = Options()
@@ -66,8 +68,8 @@ def scrape_thread(url):
 
         page_num = 1
 
-        while True:
-            print(f"Processing page {page_num}...")
+        while page_num <= MAX_PAGES:
+            print(f"Processing page {page_num}/{MAX_PAGES}...")
             time.sleep(1)
 
             entries = driver.find_elements(By.CSS_SELECTOR, "li[data-id]")
@@ -108,6 +110,10 @@ def scrape_thread(url):
 
                 except:
                     continue
+
+            if page_num >= MAX_PAGES:
+                print(f"Reached page limit ({MAX_PAGES}), stopping.")
+                break
 
             try:
                 driver.find_element(By.CLASS_NAME, "pager")
