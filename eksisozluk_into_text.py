@@ -4,13 +4,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 import re
 import sys
 import time
 import os
-
-os.environ['WDM_LOG'] = '0'
 
 
 def get_chrome_driver():
@@ -21,9 +18,7 @@ def get_chrome_driver():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--lang=tr-TR')
     chrome_options.add_argument('--log-level=3')
-    chrome_options.add_argument('--disable-logging')
     chrome_options.add_argument('--disable-software-rasterizer')
-    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     chrome_options.add_argument(
         'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
         'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -33,17 +28,21 @@ def get_chrome_driver():
         win_chrome = r"D:\Chrome\Application\chrome.exe"
         if os.path.exists(win_chrome):
             chrome_options.binary_location = win_chrome
+        from webdriver_manager.chrome import ChromeDriverManager
+        driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()),
+            options=chrome_options
+        )
+    else:
+        driver = webdriver.Chrome(options=chrome_options)
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=chrome_options
-    )
     return driver
 
 
 def scrape_thread(url):
     driver = None
     all_entries = []
+    topic_title = "unknown_topic"
 
     try:
         print(f"Starting browser...")
@@ -60,7 +59,7 @@ def scrape_thread(url):
         try:
             topic_title = driver.find_element(By.ID, "title").text.strip()
         except:
-            topic_title = "unknown_topic"
+            pass
 
         print(f"Topic: {topic_title}")
 

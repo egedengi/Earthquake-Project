@@ -44,18 +44,26 @@ jobs:
             all_urls = json.load(f)
 
         scraped_file = "scraped_urls.json"
-        if os.path.exists(scraped_file):
-            with open(scraped_file, "r", encoding="utf-8") as f:
-                scraped_urls = json.load(f)
-        else:
-            scraped_urls = []
+        with open(scraped_file, "r", encoding="utf-8") as f:
+            scraped_urls = json.load(f)
+
+        if not scraped_urls:
+            print("First run: marking all existing URLs as already scraped.")
+            with open(scraped_file, "w", encoding="utf-8") as f:
+                json.dump(all_urls, f, ensure_ascii=False, indent=2)
+            exit(0)
 
         new_urls = [url for url in all_urls if url not in scraped_urls]
 
+        if not new_urls:
+            print("No new threads to scrape.")
+            exit(0)
+
         for url in new_urls:
             print(f"Scraping: {url}")
-            subprocess.run(["python", "eksisozluk_into_text.py", url], check=True)
-            scraped_urls.append(url)
+            result = subprocess.run(["python", "eksisozluk_into_text.py", url])
+            if result.returncode == 0:
+                scraped_urls.append(url)
 
         with open(scraped_file, "w", encoding="utf-8") as f:
             json.dump(scraped_urls, f, ensure_ascii=False, indent=2)
