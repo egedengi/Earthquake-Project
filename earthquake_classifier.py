@@ -1,5 +1,4 @@
-from google import genai
-from google.genai import types
+import requests
 import json
 import re
 import sys
@@ -8,6 +7,7 @@ import os
 
 BATCH_SIZE = 10
 MODEL = "gemini-2.0-flash"
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
 You will classify Turkish social media entries (from Eksi Sozluk) posted during earthquake disasters.
@@ -81,7 +81,7 @@ def parse_entries_from_file(filepath):
     return entries
 
 
-def classify_batch(client, batch):
+def classify_batch(api_key, batch):
     formatted = "\n\n".join(
         f"[ENTRY {e['id']}]\n{e['text'][:500]}"
         for e in batch
@@ -92,16 +92,20 @@ def classify_batch(client, batch):
         entries=formatted
     )
 
+    url = API_URL.format(model=MODEL, key=api_key)
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+
     for attempt in range(3):
         try:
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=prompt
-            )
-            raw = response.text.strip()
+            response = requests.post(url, json=payload, timeout=60)
+            response.raise_for_status()
+            data = response.json()
+            raw = data["candidates"][0]["content"]["parts"][0]["text"].strip()
             raw = re.sub(r'^```json\s*|\s*```$', '', raw, flags=re.MULTILINE).strip()
-            data = json.loads(raw)
-            return data["results"]
+            result = json.loads(raw)
+            return result["results"]
         except Exception as e:
             print(f"  Attempt {attempt + 1} failed: {e}")
             if attempt < 2:
@@ -203,8 +207,6 @@ def main():
         print("Error: GEMINI_API_KEY not set.")
         sys.exit(1)
 
-    client = genai.Client(api_key=api_key)
-
     print(f"Reading entries from: {input_file}")
     entries = parse_entries_from_file(input_file)
     print(f"Found {len(entries)} entries")
@@ -221,7 +223,7 @@ def main():
         batch_num = i // BATCH_SIZE + 1
         print(f"Classifying batch {batch_num}/{total_batches}...")
 
-        results = classify_batch(client, batch)
+        results = classify_batch(api_key, batch)
         all_results.extend(results)
 
         if batch_num < total_batches:
