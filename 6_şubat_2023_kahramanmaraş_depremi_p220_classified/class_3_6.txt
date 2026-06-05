@@ -1,0 +1,603 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 1]
+çok ama çok üzücü durumlar..
+
+söylenecek okadar çok şey var ki.. bu soğukta evini kaybeden, yakınlarına ulaşamayan, ailesine ulaşamayan insanların çaresizliği hayal bile edemiyorum..
+allah yaşamını yitirenlere rahmet, yaralılara da şifa versin inşallah..
+
+20-30 yıllık evlere milyonlar isteyerek insanları çaresizliğe sürükleyen, yaşanmayacak yerlere bile insanların başını sokmaya mecbur bırakanlara en ağır sözleri bile yetersiz buluyorum..
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 2]
+kandilli'ye göre depremin şiddeti 7.7 imiş. tv kanallarında hala 7.4 yazıyor. arada çok fark var. 99 depreminden bile daha yıkıcı maalesef.
+
+10^0.3'ten, ikisinin arasında yaklaşık 2 kat fark varmış. resmen bir felaket yaşanıyor. allahım yardım et.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 3]
+maalesef çok çok büyük bir felakete yol açan deprem.
+
+başta bizzat yaşayanlar olmak üzere herkese geçmiş olsun. yakınlarını kaybedenlere sabır diliyorum. yaralıların da bir an evvel sağlıklarına kavuşmasını temenni ederim.
+
+öncelikle şunu söylemek gerekir ki depremin büyüklüğü 7,4 değil, 7,8. abd jeoloji kurumu depremin büyüklüğünü 7,8 olarak açıkladı ve şu saat itibariyle hala değiştirmedi. bizim ölçümlerimiz global standartlara uygun değil. zamanla göreceksiniz ki kandilli ve afad da 7,4 olarak açıkladıkları büyüklüğü daha yukarı çekecekler. aradaki 0,4'lük fark az gibi görülebilir ama değil. uzmanlar iki veri arasında etki olarak büyük fark olduğunu söylüyor.
+
+10 kentte toplam 2 bine yakın binanın yıkıldığı ifade ediliyor. ki o da şu ana kadar elde edilen bilgi... saat 12.23 itibariyle can kaybı 284 olarak açıklandı ama ne yazık ki 10 bine yakın belki çok daha fazla insanımızı kaybettik. resmi verilere göre 2323 de yaralı var. umarım enkaz altında kalan binlerce can bir an evvel kurtarılır; yaralılar da bir an önce iyileşir.
+
+şimdi sorumlular, yani bu binalara izin verenler, bilimsellikten uzak raporlar hazırlayanlar ve denetlemekten sorumlu olanlar, "siyaset yapmayın" diyecek. oysa siyasetin insan canından daha önemli bir konusu yoktur. bu yıkım ve yitirilen insan hayatları, kötü siyasi kararların sonucudur. tepeden tırnağa, bu kararları verenler sorumludur ve hesap vermelidir. türkiye gibi bir ülkede depreme hazırlık yapmayanlar artık bedel ödemelidir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 5]
+depremin merkez üssü kahramanmaraş mı gaziantep mi bir karışıklık var anladığım kadarıyla. kandilli, şehitkamil gaziantep olarak güncelledi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 6]
+beinsports muhabiri hatay’da göçükten yollar kapalı yardım gelse bile ulaşması çok zor diye açıklama yaptı telefonda. ölü sayısı 284 diye açıklama yaptılar ama sanırım gerçek çok daha fazla.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 7]
+sedat kapanoglu'nun söyledigine göre türk mühendisler twitter verilerini kullanarak deprem yardim haritasi olusturmaya calisiyormus suanda:
+
+https://twitter.com/…?s=20&t=kk3bc8ie8y_6p6rsk5qxhg
+
+kendisiyle iletisime gecip screenshot halinde paylasilan ve apı tarafindan okunamayacak adres ve yardim isteklerini tweet haline getirmek icin organize olmali miyiz, veya tweet haline getirirken hangi hastag veya keywordleri kullanmaliyiz bunu sorabilecek var mi?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 8]
+anladığım kadarı ile sadece 10 il değil neredeyse bütün türkiye etkilenmiş durumda ancak umuyorum ki bu 10 ilde can kayıpları ve yaralanmalar minimum seviyede olur
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 9]
+geçmiş olsun türkiye.
+başta kahramanmaraş,gaziantep,şanlıurfa, osmaniye,kilis,adıyaman,diyarbakır,malatya, adana,hatay ve bölgedeki diğer illerimizin vatandaşları olmak üzere hepimize geçmiş olsun.inşallah can kaybımız daha da artmaz ve yaralılarımız iyileşir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 10]
+neredeyim yazıp tüm operatörlerden 7777 numarasına mesaj gönderildiğinde, cep telefonunuza yer ve koordinatlar hakkında bilgi gelecektir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 11]
+depremin siyasi sonuçları masaya yatırılmadıkça hiçbir şey değişmez. aynı döngü tekrar eder. işin sonunda ne olur peki? o yıkılan yolun yeniden yapılması için ihaleyi aynı şirkete verirler. deprem falan da unutulmuş olacağı için o an zaten konuşmanın mantığı yok. biz hiç konuşmayalım. zaten şu an vakti değil değil mi?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 12]
+arkadaşlar hala artçı depremler olmaya devam ediyor. sadece kahramanmaraş/pazarcık'ta 30a yakın artçı oldu ve 5-10dk arayla olmaya devam ediyor. buna hatay, antep ve adıyaman da dahil. tüm türkiye sallanıyor devamlı olarak. böyle bir şey ne gördüm ne duydum. adanada yağış çok fazla. enkaz altında kalanlar için durumu daha da zorlaştırıyor. allah yardımcımız olsun. çevre illerde olan bu depremlerin başka bölgeleri de etkileyeceği söyleniyor. lütfen deprem çantanızı yanınıza alıp korunaklı bir yerlerde kalın. hepiniz allaha emanet olun.
+
+http://www.koeri.boun.edu.tr/scripts/lst9.asp
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 13]
+deprem sebebiyle ne kadar manipülatif bilgi yayan, etkileşim kasmak için insanları yanlış yönlendiren, enkaz halindeki evlerden para pul çalan kansız varsa en büyük acıları yaşamalarını dilerim. allah yaralılarımıza acil şifalar versin. vefat edenlere rahmet dilerim..
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 14]
+bu kadar insana yardım nasıl gidecek hiç bilmiyorum. binlerce göçük var. hala çaresizce bekleyen binlerce insan var. haber alınamayan bir sürü yer var. maraş'ın ilçe köyünde yaşayan vatandaş kurtulduysa bile belki açlıktan, soğuktan, yardımsızlıktan ölecek. ailenle oturuyorsun belki de son akşamınmış farkında bile değilsin. son çayını yudumlayıp, son meyveni yemişsin. uykuda yakalanıyorsun. dünya yalan.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 16]
+maraş'ın kendisi dahil depremden etkilenen çoğu ilden sağlıklı haberlerin alınamadığı büyük felaket. daha köylerin durumları nasıldır hiç belli değil.
+allah yardımcımız olsun. vefat eden vatandaşlara allah'tan rahmet, yarılılara etkilenen herkese acil şifalar dilerim.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 17]
+söylenecek söz yok boğazım düğümleniyor allah yardımcımız olsun. çok kötü çok.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 18]
+acıların tarifi yok, bizim içimiz yanıyor ama oradakilerin neler hissettiğini, yaşadığını anlamak mümkün değil , şu an söylenecek hiç bir sözün anlamı da yok. hep bir olup saralım yaraları.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 19]
+konyadan ozel harekat birligi suan maras icin yola cikti. tum illerden geliyorlar. polis ve asker isin icinde girmeden bu enkazi senelerce kaldiramayiz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 20]
+bursalıların dikkatine!!!
+
+bursa afadla görüştüm. altınova mahalle 11 eylül caddesi osmangazide yeri. bursa bölge adliye mahkemesinin karşısı belediye ek hizmet binasının yanı
+
+erzak yardımını tutanakla alıyorlar.
+bebek maması - bezi -kadın pedi -mont çorap mini kahvaltılık ürünleri - bakliyat - jeneratör - tepe lambaları - el fenerleri - bot - ayakkabı -
+battaniye
+
+en çok ihtiyaç olan ürünler olduğunu söylediler. yukarıdaki adrese direk bırakabiliyoesunuz. tırlar doldukça direk yola çıkıyor.
+
+bireysel olarak yola çıkmanız söz konusu değilmiş. gönüllü olarak isim telefon bildiriyorsunuz lazım olan durumda sizinle iletişime geçiyorlar.
+
+► Class: 6
+► Aid Types: G,Y
+--------------------------------------------------------------------------------
+[ENTRY 21]
+söylemeden duramıyor insan. sürekli dejavu, sürekli konuşulan aynı şeyler...
+yıl 2023 hala aynı. hala binalar yıkılıyor, hala insanlar ölüyor. yine 5 bina sağlamken ortadaki yıkılıyor.
+bir süre sonra yine yaklaşan istanbul depremi ne zaman diye clickbait haberler, tvye çıkan uzmanlardan deprem nerde oldu nerde olacak programları. siyasi tartışmalar, deprem gelirleri neden harcanmadılar...
+sonra yine unutacağız.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 22]
+17 ağustos'ta gölcük'te yaşanan 7.5 büyüklüğündeki depremden sonraki en büyük deprem bugün saat 04:17'de meydana geldi.
+06 şubat maraş-antep depremi 7.4-7.8
+
+etkilenen ve yıkım yaşanan iller:
+gaziantep 581 bina,
+kahramanmaraş 300 bina,
+hatay 200 bina,
+malatya 140 bina,
+adıyaman 100 bina,
+osmaniye 83 bina,
+şanlıurfa 60 bina,
+kilis 50 bina,
+diyarbakır 20 bina,
+adana 16 bina,
+toplam 1.710 bina yıkıldı, 284 can kaybımız var.
+
+istanbul, ankara ve izmir'den belediye ve sivil toplum örgütlerinin arama kurtarma ekipleri yola çıktılar, afad ekiplerin hangi illere gideceklerini organize etti. istanbul belediyesi ekibinin hatay'a gideceği bilgisi geldi. g.antep ve maraş'taki yıkımın çok büyük olduğu, meydana gelen hasarın büyüklüğü nedeniyle mobil internet desteğine ihtiyaç bulunduğu, bu nedenle görüntü iletimi yapılamadığı anlaşılıyor. hatay'dan gelen görüntüler dehşet verici, tüm şehir adeta yerle bir olmuş. uluslararası yardım ekiplerinin takviyesine de ihtiyaç var.
+
+milletimizin başı sağolsun, geçmiş olsun.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 23]
+depremin gününü, saatini bilmek mümkün değil maalesef. yapacağımız tek şey; uzmanların öngörülerini dinleyip, o yönde hazır tutmak kendimizi. büyük türk milleti bu badireyi de atlatır elbet. elimizden gelen ne varsa, birlik ve beraberlik içerisinde gerçekleştireceğiz. allah yardımcımız olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 26]
+lütfen çok elzem olmadıkça bölgedeki arkadaşlarımıza ulaşmaya çalışmayalım telefon ile. biraz daha zaman geçsin. şu an telefon şebekelerine çok ihtiyacımız var.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 27]
+kahramanmaraş depremi şok dalgalarının, japonya'daki sensörler tarafından algılanışı.
+
+https://twitter.com/i/status/1622436401299226626
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 28]
+bazı görüntüler gördüm kahramanmaraş'a ait. şehir yok olmuş gibi. çok korkunç. çok.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 29]
+kayserideydim ve merkez üssü kayseri diye düşündüm o derece feci sallandık. biz böyle düşünürken merkez üssü ve çevresindekiler neler yaşadı tahmin bile edemiyorum. allah beterinden korusun herkesi, türk milletine geçmiş olsun.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 30]
+çok ama çok üzgünüm. etrafımda ne kadar insan varsa konuştuk haberleştik.
+kartal belediyesi meydanda deprem bölgesine yardım topluyor elimizden geldiği kadar battaniye çocuk bezi-maması hijyen seti alıp kolileyeceğiz kışlık giysi toplayacağız ve çokça dua edeceğiz elden başka birşey gelmiyor maalesef, allah yar ve yardımcıları olsun beterinden korusun amin.
+
+► Class: 6
+► Aid Types: Y,H
+--------------------------------------------------------------------------------
+[ENTRY 31]
+bu siktiğimin depremleri de hep gece millet yatağındayken mi olur. gündüz olsa en azından dışarda yolda orada burada olur hiç değilse uyanık olur bir ihtimal kaçar yada saklanır.
+
+yine gecenin karanlığında uyku ortasında vurmuş büyük deprem. bu soğukta insanlar nasıl dayanacak çok üzücü çok.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 32]
+her inşaat belirli bir aşamada 9 şiddetindeki deprem testine tabi tutulmalı. belki inşaat başlamadan maket planı üzerinden de yapılabilinir, mutlaka vardır benzer bir test aşaması. geçemeyen plan iptal bu kadar basit. zengin daha da semirecek diye hayvanlar gibi telef olmamalı insanoğlu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 33]
+küresel felaketleri inceleyen bağımsız yurtdışı kaynaklı bir kuruluşun (bkz: gdacs) olası insan kaybı tahminleri çok kötü. (istatistikleri hassas bir durum olduğu için yazmak istemiyorum) henüz afetin korkunçluk seviyesi idrak edilmiş değil. bir şok hali hakim.
+
+bu olayın 99 depremini dahi geride bırakabilecek olmasının temel iki nedeni var; uzun bir hattaki fay alanında kırılma olmasından ötürü birçok şehri yıkıcı şekilde etkilemesi. yardım faaliyetlerinde koordine olmak çok zor. diğer neden ise soğuk. insanların dışarıda yatabilme ya da enkaz altında uzun süreler dayanabilme şansı yok. yazarken tüyler ürpertiyor maalesef.
+
+antakya bölgesinin, doğrudan fay hattı üzerinde olmamasına rağmen en büyük yıkımın olduğu bölgelerden biri olmasının nedeni yerbilimcilere göre bölge zemini. sanıyorum bataklık gibi nemli bir zemine sahip kıyıya yakınlıktan dolayı.
+
+edit: arkadaşlar yardımlaşma için (bkz: ) burayı kullanın. uzaksanız kan verebilirsiniz, battaniye kıyafet gibi barınma eşyaları yollayabilirsiniz. yakınsanız bunlara ek olarak kolluk kuvvetleri ve arama kurtarma ekipleriyle çalışabilirsiniz. tek başınıza gitmeyin, çıplak elle ayakla çözülebilecek bir şey değil. bölgedeki her yerde tablo kötü ancak antep, hatay, maraş en çok kaybın olduğu yerler. antep'teki arkadaşım deneyimlerini biraz anlattı. neyse ki iyi ama evlerinden deprem anında çıkabilenlerin bile binasında ufak tefek hasarlar var. artçılar hasar alan binaları yıkabilir, aman diyim uzak durun.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 34]
+deprem bölgesine uzak kişilerin yapabileceği en etkili yardımlar kan bağışı ve kuruluşlara yapılacak para, eşya yardımı gibi duruyor. ahbap kuruluşu, ibb'nin düzenlediği yardım organizasyonu var şu anda bildiğim. afad'ı da takip etmek gerekir.
+
+► Class: 6
+► Aid Types: G,M
+--------------------------------------------------------------------------------
+[ENTRY 35]
+ne derseniz diyin. 24 saat sonra müthiş bir aciziyetten bahşediyor olacağız maraş ve pazarcık özelinde. maraş’tan akrabalara videolara bakılırsa afad vs hiçbir yardım alamıyorlar. müthiş bir yıkım ve aciziyet söz konusu olmasın diye dua ediyorum durum hala kötü hala bir net haber yok
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 36]
+acil afad numaralari
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 37]
+deprem ülkesi olduğumuz gerçeğini hatırlatan trajik olay. maalesef coğrafyamız böyle ve biz de buna uygun yaşamalıyız.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 38]
+2 yıl önce demiştik, yine aynı şeyler maalesef...
+
+(bkz: depremle ilgili bir şeyler yapılacak tarih)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 39]
+acil afad numaralari
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 41]
+iskenderun devlet hastanesi yoğun bakım ünitesi yıkılmış. akp iktidarında yapılmış, sözde deprem yönetmeliğine uygun, yeni bina olabilir. hepsinin ……
+
+tanım: enkaz altındakilerin bir an önce kurtulmalarını dilediğim.
+
+al bir de bu: rte’nin muhalefet belediyelerini aramaması.
+
+► Class: 5
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 42]
+basliklarin boyle ayri ayri olmasi daha iyi, bilgi kirliligi olmuyor
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 43]
+son 24 yılın en büyük depremi olduğu belirtiliyor gerçekten çok üzücü bir doğal afet. allah yardımcımız olsun.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 44]
+bu üzüntünün tarifini ifade etmek çok zor.
+
+yakınlarını kaybedenlere başsağlığı diliyor, daha fazla can kaybının yaşanmamasını temenni ediyorum.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 45]
+kuzey suriye’yi bile yerle bir etmiştir
+
+link
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 46]
+birkaç ay önce yaşanan 6.8lik depremden sonra depreme dair bir şey duymak beni korkutuyordu. maalesef gece yaşanan bu deprem avrupa'da son yüzyılda yaşanan en büyük 5 depremden biri oldu.
+
+ülkemin ciddi bir fay hattı üzerinde oluşuna hala alışamıyorum. sanki bu yaşananlar ülkemizdeki kırık/bozuk sistemler yüzünden oluyormuş gibi hissediyorum.
+
+avrupa geçmiş deprem kayıtları:
+
+https://earthquaketrack.com/v/europe/biggest
+
+avrupa deprem risk haritası:
+
+http://www.efehr.org/earthquake-risk/risk-map/
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 47]
+bölgede can pazarı kurulmuş durumdadır. allah göçük altında kalan ve korku içinde kurtarılmayı bekleyen mümin kardeşlerimizin kalbine iman ve sekinet versin. ölüm mukadder ise canlarını iman ile alsın.
+
+göçük altında kalarak ölmek hükmen şehitlik sayılır. çünkü büyük bir celal tecellisine uğrayarak ölen müslümanlar buna mukabil olarak ahirette ilahi lütuf ile telafi edilirler. dünya ne olursa olsun geçici bir yerdir. ebedi olan ahiret yurdudur.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 48]
+https://twitter.com/…?s=46&t=14xvuih-w2xom2v5_od_xa
+
+ahbap derneği ibanı arkadaşlar şu zor günde elinizden ne gelirse yardım edin.
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 49]
+rabbim şifalar versin, yaralılara acil şifalar, vefat edenlere de tanrımdan rahmet dilerim.
+
+söyleyecek söz bulamıyorum, inşallah çok fazla vefat haberi duymayız. mümkün olduğunca çok kişinin kurtarılması için herkesin elinden geleni yapması gerekiyor :(
+
+► Class: 6
+► Aid Types: K,S
+--------------------------------------------------------------------------------
+[ENTRY 50]
+yurt disindan gonderecegim yardimi nereye yapmaliyim? guvenebilecegim ve yardimin sonuclarini seffafca gorebilecegim bir bagis kanali ariyorum. elimden gelen maddi yardimi bir an once yapmak istiyorum.
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 51]
+266 sokak hatay iskenderun altun apartmanı a blok ulaşamıyoruz lütfen paylaşabilir misiniz
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 52]
+yıllardır görülmemiş boyutta felekat. arkadaslarımın iyi oldugunu ogrendim ama ınternette dolasan videolar korkunç. tablo netleştikce bu işin sonucları cok korkunc olacak.
+insanlarımıza sabır diliyorum. kıs zamanı sabaha karsı çok, çok zor
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 54]
+çok üzgünüm yazdıklarım hep yetersiz kalıyor tüm kalbim duygularım deprem bölgesindeki varandaşlarımızda. allah yardımcıları olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 55]
+başın sağ olsun türkiye.
+
+sabahtan beri üzüntüden elim ayağım titriyor, gözlerim doluyor, sönüyor.
+gereken neyse fazlasıyla yapılmalı. gerekirse devlet kimseye maaş yatırmasın bu parayı oralara kullansın. bu 81 milyonun acısı. herkes taşın altına elini sokacak. şu an tek yürek olma vakti. her türlü dezenformasyon yapana, ayrıştırıcılık yapana unf'u çakın geçin. şu an o an değil. şu an “ama”ların anı değil. yüzbinlerce vatandaşımızın hayatı söz konusu.
+kafanıza göre yardıma gidip sistemi tıkamayın. yetkililerle koordine olun.
+
+tanım: 7.7 olarak revize edilen cumhuriyet tarihinin en büyük 2. depremi. (erzincan 1939- 7.9)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 56]
+ülkece geçmiş olsun- 17 ağustos tan beri öncelikli riskli bölgelerdeki eski konut stoğunun dönüşüme yetersiz girmesi hala insanımızı tehlikeye açık hale getiriyor - bunun ne zaman görüleceğini merak ediyoruz -
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 57]
+2 sene öncesindeki izmir depreminde 5, 10 bina yıkılmış ve kurtarma çalışmaları haftalar sürmüştü. hem de çalışmalar sadece bayraklı bölgesinde olmasına rağmen. şu an 10 şehir ve 2000'e yakın binadan bahsediyoruz. kafayı yemek üzereyim. bu insanların çoğunu kurtarmak mümkün görünmüyor bu tabloda. ana akım medyaya bakarak yorumlarsak hükümet yetkilileri her zamanki gibi kurtarabildiğimizi alalım mantığıyla sadece belli şehirlere odaklanmış halde. bu kadar binayı ve insanı kurtarabilecek ne hesapları ne planları var. çok çok üzgünüm. gerçekten. çaresizce izliyoruz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 59]
+fakültemizde okuyan bir kız arkadaşımızdan da haber alınamıyor.
+
+adres ve isim bilgisi: görsel
+
+olur da buradan tanıdığı falan denk gelirse haber verirse çok sevinirim.
+
+► Class: 3
+► Aid Types: P
+--------------------------------------------------------------------------------
+[ENTRY 60]
+gercekten hala insanlariin deprem yuzunden hayatlarini kaybediyor olmasi utanc verici. her sene bunlari yasiyoruz, her yil yuzlerce insan hayatini kaybediyor ve deprem degil enkaz bunlara sebep oluyor. yapilan yollarin nasil paramparca oldugunu gorduk, bari su curuk binalari denetleseydiniz de depremden once yikip yenisini yapsaydiniz.
+
+ama tabii bir insaatin maliyeti insan hayatindan daha fazla. yaziklar olsun. deprem olduktan sonra sadece gecmis olsun demeyi dilerdim. ama yine yardimlasmalar, yine enkaz altinda yasayan birilerini bulma umutlariyla yikintilar icinde ugrasmalar.
+
+2 senedir deprem olacak diye bagiriyor bilim adamlari. hangisini dinlediniz de ciddiye aldiniz. depremin sucu yok ne yazik ki.
+
+gercekten yaziklar olsun. cok uzgunum. hayatini kaybedenlere rahmet diliyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 61]
+depremin büyüklüğü afad tarafından da 7.7 olarak revize edilmiştir.
+
+yabancı ölçüm sistemleri 1 dakika içinde büyüklüğü 7.8 konum olarak maraş-antep arasını tespit etmişti. bizimkiler daha yeni karar verdi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 62]
+büyük geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 63]
+ben bugün ölümle yaşam arasındaki çizgiye bastım. hayatımın en kötü sabahına uyandım, o haber alamama çaresizliği bir günde 30 yaş yaşlandırdı. bir daha yaşatmasın.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 64]
+7.7 olarak güncellendi büyüklüğü
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 65]
+gece tsunami kabusu gördüm sabahına bu haberlerle uyandım. mal gibiyim hala... civarda olan herkese sabırlar diliyorum. ne denilebilir bilmiyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 66]
+çamlıca mahallesi lcw bitişiğindeki bina.
+islahiye/gaziantep
+hakan duran
+elif duran
+nesrin duran
+murtaza duran
+anne baba ve 2 çocuk
+
+islahiye de olan varsa en azindan binanin durumunu ogrenebilir miyim
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 67]
+sanıldığından çok daha şiddetli olması muhtemel deprem.
+
+5 km gibi sığ bir derinlikte devasa şiddette olması hasarın boyutunu çok ciddi kılacaktır ne yazık ki.
+
+çok iyi organize olunması çok önemli bu vaziyette.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 68]
+çok üzücü bir deprem ve büyük bir felakettir. etkilenen herkese geçmiş olsun.
+
+böyle zamanlarda konuşmak zor, umarım en az hasarla atlatılabilir. fakat özellikle antep ve maraş için ekstra endişeliyim zira oralardan pek haber paylaşılmıyor. aynı anda 10 ili etkilemiş olması, şiddeti ve hava koşulları sebebiyle etkin müdahale edilmesi çok kolay olmayacaktır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 69]
+ne söyleyebilirim ki ya. deprem falan insanları öldürmüyor. bu bildiğin insanların insanları öldürdüğü cinayet. allah'ın japonya'sında her gün bu şiddette depremler oluyor. en fazla bardak tabaklar kırılıyor. desen ki başımıza ilk defa geldi bu iş. o yüzden hazırlıksız yakalandık. o da yok amk 99 depreminde aynı çukura düştük işte. düzce depreminde düş. izmir depreminde düş. van depreminde düş. bile bile ladesten başka bir şey değil bu. belediye başkanlığının binası yıkılmış. daha ötesi var mı bu kaçıncı seviye ben bilmiyorum. evlerimizin oturulup oturulmayacağına karar veren kurumun binası ayakta duramıyor. biz ne zaman akıllanacağız ben bilmiyorum. bu deprem biliniyordu. bangır bangır söylediler geleceği. bir deprem daha var sürekli söylüyorlar. büyük istanbul depremi diye. herkes kulağını tıkamış vaziyette bekliyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 70]
+7,7 olarak güncellenmiş depremin şiddeti.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 71]
+kamu personeli olarak maaşımızın yarısı gerekirse tamamı deprem bölgesine ödenek olarak aktarılmalı.
+
+bedenen,maddi olarak,kan bağışı ve dua ile herkes elinden geleni yapmalı. birlik ve beraberlikle; en az hasarla atlatırız inşallah.
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 72]
+99 depreminin üstünden tam 24 sene geçmesine rağmen bir adım yol alınmamış olduğunu görmek içler acısı.
+
+sıcağı sıcağına gelen canlı görüntülerde hiçbir organizasyon olmadan yardım edilmeye çalışılıyor. bu dondurucu soğukta montla bile durmak zor iken gece uykularında hazırlıksız yakalanmış insanlarımızı düşündükçe içim yanıyor.
+
+konuşalacak çok şey var fakat böylesine afetlerde sadece kaderimize terkedildiğimizi maalesef bir kez daha anladık.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 73]
+arama kurtarma konusunda sanırım kurumlar hala şoku üzerinde atmış değil. bir koordinasyonsuzluk var gibi. şu an tabi haliyle şehir merkezlerinde yıkılan binaları görüyoruz ama köy ve kırsal kesimdeki evler ne durumda acaba? yardım kolileri konusunda tüm şehirlerdeki belediye ve valiliklerin çok hızlı şekilde koordine olup halkın yardımlarını enkaz bölgelerine ulaştırması gerekiyor. hava şartları çok zor ve zamanla yarışıyoruz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 74]
+7.7 olarak revize edilmiş deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 75]
+yukarıda bi adet ibne "göcük altında kalan şehit sayılır, her şey allahın hükmüdür başa gelen çekilir." minvalinde entry girmiş. be amına koduğum 3-5 yıllık binalar orospu çocuğu müteahitler ve onlara izin veren belediyeler yüzünden tuz buz olmuş ne şehitliği düpedüz cinayet ulan bu cinayet! ülkede yediğiniz her boku din kisvesi altında sümenaltı etmeyin, zihniyetiniz batsın.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 76]
+rasathaneye göre gaziantep merkezli, ekşiye göre kahramanmaraş merkezli olan depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 78]
+depremi birkaç gün önceden bilen bilim adamlarımız var. görsel
+
+bilimden şaşmamak, önlemler ve tedbirlerden tâviz vermemek şart!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 79]
+şimdi revize edildi 7.7 şiddetinde olan deprem. cehennemi yaşadı insanlar ve hala enkaz altında olanlar var allah'ım nolur yardım et o insanlara...
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 81]
+haarp komploları yine hortlamış. o yüzden yeniden hatırlatmakta fayda var:
+insanları çürük binalar, ahlaksız mütahitler ve bunlara göz yuman politikacılar öldürdü.
+ama illa ki suçu her yıl 3-4 kere boğaza demirleyen bir abd gemisinde arayacaksınız siz bilirsiniz yazmış ayhan tarakci. altina imzami atarım. geçmiş olsun hepimize.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 83]
+saatler geçtikçe daha net ortaya çıkacaktır ki cumhuriyet tarihinin en büyük felaketini yaşıyoruz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 85]
+iskenderuna telefonla ulaşabilen var mi?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 86]
+yardımlaşma için ayrı başlık açıldığından artık bu başlığa içimizi dökmemizde sakınca yok sanırım. (bkz: 6 subat 2023 deprem yardimlasma basligi)
+
+içim acıyor çok. tv öylece açık ama bakamıyorum, izleyemiyorum. sabah yine rutin hayatlarına devam etmek üzere her şeyden habersiz gece uyudular. insanlar ne halde. dağ gibi adamlar hüngür hüngür ağlıyor çocuk gibi, çocuklar dağıtılan sütlerden içiyor sokaklarda. çok üzgünüm. biz bakmaya izlemeye bile dayanamıyorken insanlar canlı kanlı yaşıyor o anları şu anda. çok üzücü, çok can sıkıcı.
+iyi dileklerde bulunmaktan başka elimizden bir şey gelmemesi daha da yıkıcı. hayatta yaşanılası en berbat his çaresizlik. ve hem oradaki insanlar hem de çok uzaklardan onlar için çırpınan bizler bir kez daha farkına vardık bunun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 88]
+çok çok büyük ve çok şiddetli bir deprem. izmir'de olan depremden onlarca belki yüzlerce kat daha şiddetli. uyandığımdan beri gözlerimden akan yaşlar bitmiyor çok üzücü.
+
+umuyorum ki çok fazla can kaybı olmaz, türk milleti canından dişinden artırıp tüm imkanlarını seferber edip yaralarımızın sarılmasına yardımcı olacaktır. bu kışın en soğuk gününde evsiz soğukta kalanlara sabır diliyorum.
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 89]
+osmaniye merkezde çarşı, metin tamerler, istasyon, rızaiye ve istiklal tarafı çok kötü şehrin tamamı gitmiş nerdeyse kabus gibi
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 91]
+(bkz: #145225905) demistim , gerek kalmadi ama bakan gozler gormedikten isiten kulaklar duymadiktan sonra ne fayda? memleketimin her kosesinde insanlar birkac gun sonra kesileceginden habersiz tavuklar gibi yasiyor.
+
+vefat edenlere rahmet, kalanlara sabir ve "sans" dilemekten baska birsey gelmiyor elimden. umarim onumuzdeki gunlerde "deprem sonrasi" afeti, depremin onune gecmez!
+
+allah ulkemi korusun!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 92]
+ege bölgesinden bile hissettik, gece bir ara aşırı rüzgardan ev sallanıyor zannettim meğer deprem olmuş. geçmiş olsun başımız sağolsun, umarım can kaybı ve yaralı sayımız artmaz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 93]
+1939'daki 7.9'luk erzincan depreminden sonra 7.7'yle cumhuriyet tarihinin en büyük ikinci depremi oldu bu deprem. maalesef 10 tane şehrimizi etkilemiş çok büyük bir deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 94]
+şu anda, canlı yayında kâhta'da vatandaşlar tekbir getirerek enkaz çalışması yapıyorlar.
+bir susun da, yardım isteyen biri varsa sesi duyulsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 95]
+büyük geçmiş olsun.
+başımız sağolsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 96]
+17 ağustos depreminden daha şiddetliymiş, 7,7 olarak revize edildi, böyle bir korku yaşadığımı hiç hatırlamıyorum, ev gitti geldi, güvenli liman olarak sığındığın evin mezarın oluyor düşünmek bile gözlerimi yaşartıyor, allah yardımcımız olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 97]
+adıyaman yeni mahalle güzel doğa sitesi f blokta ulaşamadığımız bir arkadaşımız var, oranın durumunu bilenler ulaşabilir mi rica etsem mesaj kutum açık
+
+edit:sonunda ulaştık, durumları iyiymiş
+
+► Class: 3
+► Aid Types: P
+--------------------------------------------------------------------------------
+[ENTRY 98]
+kahramanmaraş merkezde durum çok ciddi
+bölge ile ilgili maalasef ulusal basında haber akışı çok az, çok fazla enkaz var müdahale ekibi yeterli değil, hava öğleden sonra soğuyacak ilk 24 saat çok önemli hipotermi tehlikesi çok yüksek
+yetkililer elini çabuk tutmalı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 100]
+artçı depremler hala devam ediyor büyük bir fay hattı kırıldı umarım daha uzun sürmez ve can kaybı da çok olmaz
+
+► Class: 6
+--------------------------------------------------------------------------------
