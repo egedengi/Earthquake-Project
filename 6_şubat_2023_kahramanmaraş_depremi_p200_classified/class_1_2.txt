@@ -1,0 +1,22 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 204]
+lütfen yardım.
+
+--- spoiler ---
+
+yenişehir mah. cumhuriyet bulvarı no :8 kiraz apt. dulkadiroğlu / kahramanmaraş arkadaşım kardeşine ulaşamıyor orada olup yardım edebilecek biri ulaşabilir mi?
+--- spoiler ---
+
+edit : malesef kaybettik :(
+
+► Class: 1
+► Aid Types: K
+--------------------------------------------------------------------------------
