@@ -26,7 +26,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install selenium webdriver-manager google-generativeai
+        pip install selenium webdriver-manager google-genai
 
     - name: Run earthquake checker
       run: |
