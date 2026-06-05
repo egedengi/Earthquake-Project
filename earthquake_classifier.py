@@ -24,12 +24,13 @@ CLASS 6: No damage + No aid request (felt the earthquake, general comments, coor
 
 CRITICAL DISTINCTIONS:
 - "Aid requested" means the entry is ASKING for rescue, food, shelter, medical help etc. — NOT offering it
-- Entries that OFFER help → Class 6
-- "I felt the earthquake", "it was scary", "buildings shook" with no help request → Class 6
-- "Buildings collapsed" or "I'm trapped" but no help request → Class 5
-- General city name like "Adana" or "Kahramanmaras" is NOT specific enough for location — needs neighborhood, street, building name, or phone number
-- A phone number counts as contact info → location available
-- Do NOT classify as Class 1 or 2 unless there is a clear, explicit request for help AND a specific address or phone number
+- Entries that OFFER help -> Class 6
+- "I felt the earthquake", "it was scary", "buildings shook" with no help request -> Class 6
+- "Buildings collapsed" or "I'm trapped" but no help request -> Class 5
+- A city name alone like "Adana" or "Kahramanmaras" is NEVER enough for location. Location requires a neighborhood, street, building name, or phone number.
+- A phone number alone counts as contact info and is sufficient for location.
+- Do NOT classify as Class 1 or 2 unless BOTH conditions are met: (1) clear explicit request for help AND (2) a specific address or phone number.
+- "We accepted death", "I was scared", "buildings cracked" without asking for help = Class 5 or 6, NOT Class 1.
 
 Aid Type Codes (only fill if aid is explicitly requested):
 K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
