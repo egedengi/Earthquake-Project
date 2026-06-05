@@ -7,7 +7,7 @@ import os
 
 BATCH_SIZE = 50
 SKIP_ENTRIES = 0
-MAX_ENTRIES = 400
+MAX_ENTRIES = 200
 MODEL = "gemini-2.5-flash-lite"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 

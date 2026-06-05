@@ -9,7 +9,8 @@ import sys
 import time
 import os
 
-MAX_PAGES = 50
+START_PAGE = 200
+MAX_PAGES = 21
 
 
 def get_chrome_driver():
@@ -51,31 +52,31 @@ def scrape_thread(url):
         print(f"Starting browser...")
         driver = get_chrome_driver()
 
-        print(f"Loading: {url}")
-        driver.get(url)
-        time.sleep(2)
+        page_num = START_PAGE
+        end_page = START_PAGE + MAX_PAGES - 1
 
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "li[data-id]"))
-        )
+        while page_num <= end_page:
+            page_url = f"{url}?p={page_num}"
+            print(f"Loading page {page_num}/{end_page}: {page_url}")
+            driver.get(page_url)
+            time.sleep(2)
 
-        try:
-            topic_title = driver.find_element(By.ID, "title").text.strip()
-        except:
-            pass
-
-        print(f"Topic: {topic_title}")
-
-        page_num = 1
-
-        while page_num <= MAX_PAGES:
-            print(f"Processing page {page_num}/{MAX_PAGES}...")
-            time.sleep(1)
-
-            entries = driver.find_elements(By.CSS_SELECTOR, "li[data-id]")
-            if not entries:
+            try:
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "li[data-id]"))
+                )
+            except:
+                print(f"No entries on page {page_num}, stopping.")
                 break
 
+            if page_num == START_PAGE:
+                try:
+                    topic_title = driver.find_element(By.ID, "title").text.strip()
+                    print(f"Topic: {topic_title}")
+                except:
+                    pass
+
+            entries = driver.find_elements(By.CSS_SELECTOR, "li[data-id]")
             print(f"  Found {len(entries)} entries on page {page_num}")
 
             for entry in entries:
@@ -111,26 +112,8 @@ def scrape_thread(url):
                 except:
                     continue
 
-            if page_num >= MAX_PAGES:
-                print(f"Reached page limit ({MAX_PAGES}), stopping.")
-                break
-
-            try:
-                driver.find_element(By.CLASS_NAME, "pager")
-                page_num += 1
-                next_url = f"{url}?p={page_num}"
-                driver.get(next_url)
-                time.sleep(1)
-
-                try:
-                    WebDriverWait(driver, 5).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, "li[data-id]"))
-                    )
-                except:
-                    break
-
-            except:
-                break
+            page_num += 1
+            time.sleep(1)
 
     except Exception as e:
         print(f"Error: {e}")
@@ -144,11 +127,12 @@ def scrape_thread(url):
 
 def save_entries(entries, topic_title, url):
     safe_title = re.sub(r'[^\w\s-]', '', topic_title).strip().replace(' ', '_')
-    filename = f"{safe_title}_entries.txt"
+    filename = f"{safe_title}_p{START_PAGE}_entries.txt"
 
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(f"Topic: {topic_title}\n")
         f.write(f"URL: {url}\n")
+        f.write(f"Pages: {START_PAGE} to {START_PAGE + MAX_PAGES - 1}\n")
         f.write(f"Total entries: {len(entries)}\n")
         f.write("=" * 80 + "\n\n")
 
