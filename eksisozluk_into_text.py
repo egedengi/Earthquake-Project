@@ -9,7 +9,7 @@ import sys
 import time
 import os
 
-MAX_PAGES = 5
+MAX_PAGES = 50
 
 
 def get_chrome_driver():
