@@ -1,0 +1,246 @@
+{
+  "total_classified": 300,
+  "priority_entries": 33,
+  "other_entries": 267,
+  "class_distribution": {
+    "6": 158,
+    "5": 90,
+    "2": 9,
+    "1": 24,
+    "3": 12,
+    "4": 7
+  },
+  "priority_list": [
+    {
+      "entry_id": 8,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "iskenderun askerlik şubesinden haber alan bana acil ulaşabilir mi? ne yapıyorlarmış? abim bedelli için 3 gün önce gitmişti iskenderun'a.\n\nne durumdala"
+    },
+    {
+      "entry_id": 17,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kışlasaray mahallesi vilayet caddesi cabbara apartmanı antakya/hatay valilik arkası ptt karşısı nedime , sabah ve turgay cabbaroğlu hasarlı binadan çı"
+    },
+    {
+      "entry_id": 28,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kışlasaray mahallesi vilayet caddesi cabbara apartmanı antakya/hatay valilik arkası ptt karşısı nedime , sabah ve turgay cabbaroğlu hasarlı binadan çı"
+    },
+    {
+      "entry_id": 37,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "iskenderun/hatay, yaşar doğu caddesi, sahil apartmanı, b blok - atlı spor klubu karsısı\n\ngöçük altında bir tanıdığımızın teyzesi var. kimseye ulaşamıy"
+    },
+    {
+      "entry_id": 45,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "çok acil elbistan saraykent yunusemre mah. kırk evler çok acil arkadaşım göçük altında kaldı. bölgede bulunanlar lütfen yardım etsin"
+    },
+    {
+      "entry_id": 49,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "sütçüimam mah. reyyan apt dulkadiroğlu göçükte kalanlar var. duyuralım."
+    },
+    {
+      "entry_id": 54,
+      "class": 2,
+      "aid_types": "B",
+      "contact": "",
+      "preview": "hatay/defne armutlu mahallesi mustafa kemal akbay ilköğretim okulu ve akbay sitesi civarında yardım çadırı sıcak korunaklı bir yer yok arkadaşım ve ai"
+    },
+    {
+      "entry_id": 75,
+      "class": 1,
+      "aid_types": "I,B,Y,G",
+      "contact": "",
+      "preview": "gücü yeten gitsin, gidemeyen evindeki ısıtıcısını, çadırını, yorganını, fenerini afad merkezlerine götürsün. parası olan kesesine göre yollasın, muhab"
+    },
+    {
+      "entry_id": 88,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "az önce 7.6 şiddetinde olan artçı değil bağımsız yeni bir depremmiş. uzmanlar daha da artçı olabileceği söyleniyor. lütfen bölgedekileri uyarın asla a"
+    },
+    {
+      "entry_id": 95,
+      "class": 1,
+      "aid_types": "U",
+      "contact": "",
+      "preview": "şu anda izmir'den asker ve polis mühimmatlari ile bölgeye sevk ediliyor, tüm özel uçak firmalari da tasimaya yardım ediyor.\n\nallah hepimize yardim ets"
+    },
+    {
+      "entry_id": 98,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "(bkz: #148662924)\n\nçok ciddi artçılar devam ediyor. tahminen 6+ şiddetinde anlık* yer sallandı. dışarıya kendimizi attığımız halde ayakta duramadık. d"
+    },
+    {
+      "entry_id": 105,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hatay-antakya cebrail mah. şehit m. ali demirbüken cad. adresinde bulunan arkadaşımın ailesine ulaşamıyoruz. orada olan bir bilgisi olanların mesaj at"
+    },
+    {
+      "entry_id": 114,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "maraş eski garajın orda bütün mahalle çökmüş durumda dümdüz olmuş her yer. teyzemler de göçük altında hiçbir çalışma yok. gerçi hangi binaya bakacak k"
+    },
+    {
+      "entry_id": 130,
+      "class": 1,
+      "aid_types": "K,S",
+      "contact": "",
+      "preview": "birinin artçıları bitmeden öteksi salladı, yıktı geçti tekrar. korkunç bir pazartesi bugün. iki tane 7.8 büyüklüğündeki depreme ne binalar dayanır ne "
+    },
+    {
+      "entry_id": 132,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "eğer yapılmadıysa uluslararası yardım çağrısı yapılmalı artık, söylemeye dilim varmıyor ama bu kar kıyamette enkaz altında kalan vatandaşlarımız gecey"
+    },
+    {
+      "entry_id": 134,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "aile dostumuzun yakınları hatice ökmen ve gökhan ökmen'den haber alamıyoruz. aşağıda iletmiş olduğum adres yakınlarında olup güncel bilgi alarak bizle"
+    },
+    {
+      "entry_id": 170,
+      "class": 2,
+      "aid_types": "Y,G,S",
+      "contact": "",
+      "preview": "izmir'de yardımlar gaziemir fuar alanına götürülüyor bilgisi var.\n\nbattaniye\nçocuk bezi\nkadın hijyen paketi\nkuru gıda\nkıyafet (kullanılmamış)\n\norada o"
+    },
+    {
+      "entry_id": 189,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "tatilbudur ile haftasonu hatay'a turla giden yakınımızla en son dün akşam görüştük. hava şartlarından dolayı uçağı iptal olduğu için, anemon otele yer"
+    },
+    {
+      "entry_id": 197,
+      "class": 2,
+      "aid_types": "G,B,I",
+      "contact": "",
+      "preview": "yardim ulastirmak isteyen arkadaslar icin üsküdar ve çevresinde olan arkadaslar için chp uskudar ilçe teşkilatına ulastirabilirler,özellikle bebek mam"
+    },
+    {
+      "entry_id": 200,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "çok fazla bina çökmüş. onca enkaza tsk’nın afad’ın gücü nasıl yetecek. kurtarılmayı bekleyen binlerce insan var.\nkurtarma ekibi sayısı az.\nhava soğuk."
+    },
+    {
+      "entry_id": 201,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "adıyaman yeni sanayi mah. eski 82.yil devlet hastanesi arkası\n\nyıkılmış bir bina var tek bir kurtarma çalışması yok."
+    },
+    {
+      "entry_id": 205,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "acilen bütün dünyadan yardım istenmeli.\n\ndepremler devam edecek maalesef. hele izmir veya istanbulu tetiklerse vay halimize."
+    },
+    {
+      "entry_id": 219,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "amcamın en yakın arkadaşı öldü. ailesi enkaz altında. son olan depremle dümdüz olmuş durumda. sivas'ta ailemin yaşadığı bina boydan boya çatladı. taba"
+    },
+    {
+      "entry_id": 223,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "arkadaşımızın evleri yıkılmış ve mahsur kalmışlar.\nadres : yenişehir mahallesi azerbaycan bulvarı utku apartmanı dulkadiroğlu/kahramanmaraş\n\nwhatsapp "
+    },
+    {
+      "entry_id": 243,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kahramanmaraş köker sitesine ulaşabilen bilgisi olan var mıdır?"
+    },
+    {
+      "entry_id": 254,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "istanbuldan gidecek olanlar lütfen mesaj atsın gidecektik fakat yeterli destek bulamadığımız için gidemedik. giden olursa lütfen mesaj atsın"
+    },
+    {
+      "entry_id": 262,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "gaziantep nurdağı ilçesine acil yardım lazım. çok fazla enkaz var. nolur bir yerlere ulaşın."
+    },
+    {
+      "entry_id": 269,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "adıyaman’dan herhangi birisi bana mesaj atabilir mi lütfen!!"
+    },
+    {
+      "entry_id": 272,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "şazibey mah. 64004. sokak ebrar sitesi bina:8 onikisubat maras\n\nbina durumu nedir bilen var mı?\nhaber alınamıyor şu an"
+    },
+    {
+      "entry_id": 274,
+      "class": 2,
+      "aid_types": "M",
+      "contact": "",
+      "preview": "nereye para yardımı yapabiliriz bilen var mı?"
+    },
+    {
+      "entry_id": 277,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "adıyaman/gölbaşı ile ilgili bilgisi olan var mı? öğretmen arkadaşım var bir türlü haber alamadım. gölbaşı ile ilgili sağlıklı bilgiye de ulaşamadım."
+    },
+    {
+      "entry_id": 279,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "maraş piazza karşısında nuray seyithanoglu ona da ulaşılamıyor bina adını tam bilmiyoruz piazza karşısı özdemir market yani"
+    },
+    {
+      "entry_id": 298,
+      "class": 1,
+      "aid_types": "U",
+      "contact": "",
+      "preview": "enkaz bölgesinde gitmek istiyorum lojistik depo vs çalışabilirim istanbul'da yaşıyorum"
+    }
+  ]
+}
