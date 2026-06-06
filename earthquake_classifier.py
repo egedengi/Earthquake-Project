@@ -50,6 +50,14 @@ Aid Types (only fill if aid is explicitly requested):
 K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating, Y=Clothing, H=Hygiene, U=Transport, M=Financial, F=Fuel, P=Missing Person
 Do NOT list all aid types. Only list what is explicitly mentioned in the entry.
 
+CALLING ON READERS RULE:
+If the entry is calling on readers or the public to take action (go somewhere, donate, send supplies, share a post), it is NOT a help request from someone in need → Class 6.
+
+GENERAL AREA RULE:
+Reporting that a general area, neighborhood, district, or city needs help WITHOUT naming a specific building or specific people is NOT actionable.
+- No specific building + no phone number → Class 3 at most, NEVER Class 1 or 2
+- A general statement about widespread damage with no specific address → Class 6
+
 Respond ONLY with valid JSON, nothing else."""
 
 USER_PROMPT_TEMPLATE = """Classify the following {count} entries.
