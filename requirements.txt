@@ -1,0 +1,12 @@
+# Web scraping (earthquake_checker.py, eksisozluk_into_text.py)
+selenium==4.35.0
+webdriver-manager==4.0.2
+
+# Classification API (earthquake_classifier.py)
+anthropic==0.100.0
+
+# Turkish morphology (add_space.py, deasciifier.py, analyze_my_words.py, etc.)
+nlptoolkit-morphologicalanalysis==1.0.52
+
+# PDF neighbourhood extraction (neighbourhood_extraction_pdf.py)
+pdfplumber>=0.11.0

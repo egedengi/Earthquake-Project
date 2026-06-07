@@ -1,61 +1,62 @@
-"""
-earthquake_classifier.py
-
-Automatically classifies Eksi Sozluk earthquake entries using the Anthropic API.
-Designed to be integrated into the existing GitHub Actions pipeline.
-
-Classification Schema:
-    Class 1 - Structural damage + Aid needed + Location/contact available  (HIGHEST PRIORITY)
-    Class 2 - No structural damage + Aid needed + Location/contact available
-    Class 3 - Structural damage + Aid needed + No location info
-    Class 4 - No structural damage + Aid needed + No location info
-    Class 5 - Structural damage present + No aid needed (rescued, informational)
-    Class 6 - No damage / Coordination / Info only                         (LOWEST PRIORITY)
-
-Aid Type Codes:
-    K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
-    Y=Clothing, H=Hygiene, U=Transport, M=Financial Aid, F=Fuel, P=Missing Person
-"""
-
-import anthropic
+import requests
 import json
 import re
 import sys
 import time
-from pathlib import Path
+import os
 
-
-# ── Configuration ────────────────────────────────────────────────────────────
-
-BATCH_SIZE  = 10         # Number of entries sent per API call (reduces cost)
-MODEL       = "claude-sonnet-4-20250514"
-MAX_RETRIES = 3
-RETRY_DELAY = 5          # seconds between retries on failure
-
-
-# ── Prompts ──────────────────────────────────────────────────────────────────
+BATCH_SIZE = 50
+SKIP_ENTRIES = 0
+MAX_ENTRIES = 200
+MODEL = "gemini-2.5-flash-lite"
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 
 SYSTEM_PROMPT = """You are part of an automated earthquake disaster response system.
-You will classify Turkish social media entries (from Eksi Sozluk) posted during the
-2023 Kahramanmaras earthquake disaster.
+You will classify Turkish social media entries (from Eksi Sozluk) posted during earthquake disasters.
 
-Classification Classes:
-- Class 1: Structural damage/debris + Aid needed + Location or contact info AVAILABLE
-- Class 2: No structural damage + Aid needed + Location or contact info AVAILABLE
-- Class 3: Structural damage/debris + Aid needed + No location info
-- Class 4: No structural damage + Aid needed + No location info
-- Class 5: Structural damage present + No aid needed (already rescued, informational)
-- Class 6: No damage / Coordination message / General info only
+CLASSIFICATION:
+CLASS 1: Damage + explicit help request + actionable location OR phone number
+CLASS 2: No damage + explicit help request + actionable location OR phone number
+CLASS 3: Damage + explicit help request + no actionable location or phone number
+CLASS 4: No damage + explicit help request + no actionable location or phone number
+CLASS 5: Damage mentioned + no help request
+CLASS 6: No damage + no help request
 
-Aid Type Codes:
-K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating,
-Y=Clothing, H=Hygiene, U=Transport, M=Financial Aid, F=Fuel, P=Missing Person
+LOCATION RULE:
+A location is actionable if someone can physically go there.
+VALID location: neighborhood name + street name OR apartment/building name (e.g. "Akevler mah. Ayse Fitnat Hanim cad. Betonsan evleri C1 blok Antakya")
+VALID location: phone number alone (can call to get directions)
+INVALID: city name only ("Adana", "Hatay", "Malatya")
+INVALID: district name only ("Iskenderun", "Defne", "Pazarcik")
+INVALID: vague reference ("near the hospital", "next to the mosque")
+INVALID: Twitter/Instagram links
 
-Rules:
-- Entries OFFERING help count as no aid needed (Class 5 or 6)
-- Coordination messages, Twitter links, short acknowledgement posts -> Class 6
-- A phone number OR an address counts as location/contact info AVAILABLE
-- Write only the phone number in the contact field, not the address
+HELP REQUEST RULE:
+A help request means someone is ASKING for rescue, food, shelter, medical help etc.
+VALID help request: asking for rescue teams, food, water, shelter for self or others
+VALID help request: asking on behalf of someone else ("arkadaşımın ailesi enkaz altında yardım edin")
+INVALID: "allahim yardim et" (prayer, not a request to authorities or public)
+INVALID: offering help ("yardima gidiyorum", "caylaklar bana yazsin yardim ederim")
+INVALID: coordination messages ("kan bagisi yapin", "afad'a basvurun")
+INVALID: general statements ("adiyaman'da yardim gitmemis") without specific address
+
+DAMAGE RULE:
+Damage means structural damage to buildings or people trapped.
+VALID damage: collapsed building, people trapped under debris
+INVALID: "felt the earthquake", "I was scared", "buildings shook"
+INVALID: general news about damage in the region
+
+Aid Types (only fill if aid is explicitly requested):
+K=Rescue, G=Food/Water, S=Health, B=Shelter, I=Heating, Y=Clothing, H=Hygiene, U=Transport, M=Financial, F=Fuel, P=Missing Person
+Do NOT list all aid types. Only list what is explicitly mentioned in the entry.
+
+CALLING ON READERS RULE:
+If the entry is calling on readers or the public to take action (go somewhere, donate, send supplies, share a post), it is NOT a help request from someone in need → Class 6.
+
+GENERAL AREA RULE:
+Reporting that a general area, neighborhood, district, or city needs help WITHOUT naming a specific building or specific people is NOT actionable.
+- No specific building + no phone number → Class 3 at most, NEVER Class 1 or 2
+- A general statement about widespread damage with no specific address → Class 6
 
 Respond ONLY with valid JSON, nothing else."""
 
@@ -76,92 +77,72 @@ Respond with this exact JSON format:
 }}"""
 
 
-# ── Entry Parsing ─────────────────────────────────────────────────────────────
-
-def parse_entries_from_file(filepath: str) -> list[dict]:
-    """
-    Reads preprocessed entries from a text file.
-    Expects entries separated by lines of dashes, with [ENTRY N] headers.
-    Compatible with the output format of the existing preprocessing pipeline.
-    """
+def parse_entries_from_file(filepath):
     entries = []
+
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
-    blocks = re.split(r'\n[-_*=<]{3,}.*\n', content)
+    parts = re.split(r'\nEntry ID:', content)
 
-    for block in blocks:
-        block = block.strip()
-        if not block:
-            continue
+    entry_id = 1
+    for part in parts[1:]:
+        lines = part.strip().split('\n')
+        content_lines = []
+        in_content = False
 
-        id_match = re.match(r'\[ENTRY (\d+)\]', block)
-        if id_match:
-            entry_id = int(id_match.group(1))
-            text = block[id_match.end():].strip()
-        else:
-            entry_id = len(entries) + 1
-            text = block
+        for line in lines:
+            if line.startswith("Author:") or line.startswith("Date:"):
+                continue
+            elif line.startswith("Content:"):
+                in_content = True
+            elif line.startswith("-" * 10):
+                break
+            elif in_content:
+                content_lines.append(line)
 
-        # Skip already-classified entries
-        if "► Class:" in text or "► Aid Types:" in text:
-            continue
-
+        text = "\n".join(content_lines).strip()
         if text:
             entries.append({"id": entry_id, "text": text})
+            entry_id += 1
 
     return entries
 
 
-# ── API Classification ────────────────────────────────────────────────────────
-
-def classify_batch(client: anthropic.Anthropic, batch: list[dict]) -> list[dict]:
-    """
-    Sends a batch of entries to the Anthropic API and returns classification results.
-    Retries up to MAX_RETRIES times on failure.
-    """
+def classify_batch(api_key, batch):
     formatted = "\n\n".join(
         f"[ENTRY {e['id']}]\n{e['text'][:500]}"
         for e in batch
     )
 
-    user_prompt = USER_PROMPT_TEMPLATE.format(
+    prompt = SYSTEM_PROMPT + "\n\n" + USER_PROMPT_TEMPLATE.format(
         count=len(batch),
         entries=formatted
     )
 
-    for attempt in range(MAX_RETRIES):
+    url = API_URL.format(model=MODEL, key=api_key)
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+
+    for attempt in range(3):
         try:
-            response = client.messages.create(
-                model=MODEL,
-                max_tokens=1024,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": user_prompt}]
-            )
-
-            raw = response.content[0].text.strip()
+            response = requests.post(url, json=payload, timeout=60)
+            response.raise_for_status()
+            data = response.json()
+            raw = data["candidates"][0]["content"]["parts"][0]["text"].strip()
             raw = re.sub(r'^```json\s*|\s*```$', '', raw, flags=re.MULTILINE).strip()
-            data = json.loads(raw)
-            return data["results"]
+            result = json.loads(raw)
+            return result["results"]
+        except Exception as e:
+            print(f"  Attempt {attempt + 1} failed: {e}")
+            if attempt < 2:
+                time.sleep(30)
 
-        except (json.JSONDecodeError, KeyError) as e:
-            print(f"  Parse error on attempt {attempt + 1}: {e}")
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-
-        except anthropic.APIError as e:
-            print(f"  API error on attempt {attempt + 1}: {e}")
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY)
-
-    print(f"  Failed after {MAX_RETRIES} attempts, skipping batch.")
     return []
 
 
-# ── Output Formatting ─────────────────────────────────────────────────────────
-
-def format_entry_output(entry: dict, result: dict) -> str:
-    """Formats a single classified entry for the output file."""
+def format_entry_output(entry, result):
     lines = [
         f"[ENTRY {result['entry_id']}]",
         entry["text"],
@@ -175,26 +156,19 @@ def format_entry_output(entry: dict, result: dict) -> str:
     return "\n".join(lines)
 
 
-def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: str):
-    """
-    Writes classified entries to two output files:
-      - class_1_2.txt : High priority (damage/need + location) -> Forward to AFAD
-      - class_3_6.txt : Lower priority or informational
-    Also writes a JSON summary for downstream processing.
-    """
-    output_path = Path(output_dir)
-    output_path.mkdir(exist_ok=True)
+def write_outputs(all_entries, all_results, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
 
     result_map = {r["entry_id"]: r for r in all_results}
-    entry_map  = {e["id"]: e for e in all_entries}
+    entry_map = {e["id"]: e for e in all_entries}
 
     sep = "-" * 80 + "\n"
     priority_count = 0
-    other_count    = 0
+    other_count = 0
 
     header = (
         "Class Definitions:\n"
-        "  1: Damage + Aid needed + Location AVAILABLE  (forward to AFAD immediately)\n"
+        "  1: Damage + Aid needed + Location AVAILABLE\n"
         "  2: Aid needed + Location AVAILABLE\n"
         "  3: Damage + Aid needed, No location\n"
         "  4: Aid needed, No location\n"
@@ -203,8 +177,8 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
         + "=" * 80 + "\n\n"
     )
 
-    with open(output_path / "class_1_2.txt", "w", encoding="utf-8") as f1, \
-         open(output_path / "class_3_6.txt", "w", encoding="utf-8") as f2:
+    with open(os.path.join(output_dir, "class_1_2.txt"), "w", encoding="utf-8") as f1, \
+         open(os.path.join(output_dir, "class_3_6.txt"), "w", encoding="utf-8") as f2:
 
         f1.write(header)
         f2.write(header)
@@ -221,7 +195,6 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
                 f2.write(formatted + sep)
                 other_count += 1
 
-    # JSON summary for downstream use (e.g., AFAD API integration)
     summary = {
         "total_classified": len(all_results),
         "priority_entries": priority_count,
@@ -236,62 +209,62 @@ def write_outputs(all_entries: list[dict], all_results: list[dict], output_dir: 
         if result["class"] in (1, 2):
             entry = entry_map.get(result["entry_id"], {})
             summary["priority_list"].append({
-                "entry_id":  result["entry_id"],
-                "class":     result["class"],
+                "entry_id": result["entry_id"],
+                "class": result["class"],
                 "aid_types": result.get("aid_types", ""),
-                "contact":   result.get("contact", ""),
-                "preview":   entry.get("text", "")[:150]
+                "contact": result.get("contact", ""),
+                "preview": entry.get("text", "")[:150]
             })
 
-    with open(output_path / "summary.json", "w", encoding="utf-8") as f:
+    with open(os.path.join(output_dir, "summary.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
     return priority_count, other_count
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
 def main():
     if len(sys.argv) < 2:
-        print("Usage:   python earthquake_classifier.py <input_file> [output_dir]")
-        print("Example: python earthquake_classifier.py entries.txt output/")
+        print("Usage: python earthquake_classifier.py <input_file> [output_dir]")
         sys.exit(1)
 
     input_file = sys.argv[1]
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "classified_output"
 
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: GEMINI_API_KEY not set.")
+        sys.exit(1)
+
     print(f"Reading entries from: {input_file}")
     entries = parse_entries_from_file(input_file)
-    print(f"Found {len(entries)} unclassified entries")
+    entries = entries[SKIP_ENTRIES:SKIP_ENTRIES + MAX_ENTRIES]
+    print(f"Found {len(entries)} entries (max {MAX_ENTRIES})")
 
     if not entries:
-        print("No entries to classify. Exiting.")
+        print("No entries to classify.")
         sys.exit(0)
 
-    client = anthropic.Anthropic()  # Reads ANTHROPIC_API_KEY from environment
-
-    all_results   = []
+    all_results = []
     total_batches = (len(entries) + BATCH_SIZE - 1) // BATCH_SIZE
 
     for i in range(0, len(entries), BATCH_SIZE):
-        batch     = entries[i:i + BATCH_SIZE]
+        batch = entries[i:i + BATCH_SIZE]
         batch_num = i // BATCH_SIZE + 1
-        print(f"Classifying batch {batch_num}/{total_batches} "
-              f"(entries {batch[0]['id']}—{batch[-1]['id']})...")
+        print(f"Classifying batch {batch_num}/{total_batches}...")
 
-        results = classify_batch(client, batch)
+        results = classify_batch(api_key, batch)
         all_results.extend(results)
 
         if batch_num < total_batches:
-            time.sleep(0.5)
+            time.sleep(20)
 
-    print(f"\nDone. {len(all_results)}/{len(entries)} entries classified.")
+    print(f"Done. {len(all_results)}/{len(entries)} entries classified.")
     priority, other = write_outputs(entries, all_results, output_dir)
 
-    print(f"Output written to: {output_dir}/")
-    print(f"  Priority (Class 1-2): {priority} entries  -> class_1_2.txt")
-    print(f"  Other    (Class 3-6): {other} entries  -> class_3_6.txt")
-    print(f"  JSON summary:          summary.json")
+    print(f"Output: {output_dir}/")
+    print(f"  Priority (Class 1-2): {priority} -> class_1_2.txt")
+    print(f"  Other    (Class 3-6): {other} -> class_3_6.txt")
+    print(f"  Summary:               summary.json")
 
 
 if __name__ == "__main__":

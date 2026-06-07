@@ -1,0 +1,420 @@
+{
+  "total_classified": 300,
+  "priority_entries": 58,
+  "other_entries": 242,
+  "class_distribution": {
+    "6": 131,
+    "3": 23,
+    "1": 52,
+    "2": 6,
+    "5": 88
+  },
+  "priority_list": [
+    {
+      "entry_id": 4,
+      "class": 1,
+      "aid_types": "G,B,I,Y",
+      "contact": "",
+      "preview": "iskenderun'daki arkadaşın mesajını paylaşıyorum.\n\n\"insanlar toplama alanlarında arabalarda, halen buraya ulaşan çadır erzak hiçbir şey yok. yağmur var"
+    },
+    {
+      "entry_id": 6,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "beril özcelik anne onur özcelik 10 yaşında oğlu\n\nşehit abdullah çavuş mah alparslan türkeş bulvarı penta park 1. blok\nkahramanmaraş 12 şubat enkaz alt"
+    },
+    {
+      "entry_id": 7,
+      "class": 2,
+      "aid_types": "Y,M,B,I",
+      "contact": "",
+      "preview": "birazdan hava kararacak. en kötüsü de bu. vallahi canım yanıyor, deliriyorum olduğum yerde. başış yapalım, kıyafet para, battaniye çocuk bezi nolur. e"
+    },
+    {
+      "entry_id": 8,
+      "class": 2,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "gece soğuk olcak enkaz altında donma tehlikesi var.inşaat yıkımcıları,madenciler kim var kim yok toplanıp bu insanlara yardıma gidilmeli.1 kişiyi kurt"
+    },
+    {
+      "entry_id": 18,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "acil yardım için paylaşıyorum;\n\ngörsel"
+    },
+    {
+      "entry_id": 28,
+      "class": 2,
+      "aid_types": "K,B,I,Y,G",
+      "contact": "",
+      "preview": "çok acı... çok üzgünüm... biran önce daha fazla yardım gitmesi gerekiyor. her şekilde yardım etmeliyiz. gözyaşlarımı tutamıyorum binlerce kişi... ne o"
+    },
+    {
+      "entry_id": 29,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "turgutreis mahallesi 105.sk no:15 subasi apt.adiyaman merkez\n\narzum-duru-ayten bük.\n\nhicbir haber alamiyoruz, bilenler yardimci olursa sevinirim.\n\nhab"
+    },
+    {
+      "entry_id": 37,
+      "class": 2,
+      "aid_types": "I,G,Y",
+      "contact": "",
+      "preview": "akşam olmaya başladıkça daha da korkuyorum enkaz altındaki insanlar için. belki şimdiye kadar yardım gitmeyen binlerce insan var hayata tutunmaya çalı"
+    },
+    {
+      "entry_id": 38,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "hatay samandağ favvar mevki enkazlara yardım gitmiyor, afad'a ulaşılamıyor, yardım, destek lütfen!!!"
+    },
+    {
+      "entry_id": 40,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "maraş onikişubat'ta enkaz altında kalanlar var. aşağıdaki adrese de yönlendirin lütfen. mesut akben burada.\n\nkahramanmaraş malik ejder caddesi, birgül"
+    },
+    {
+      "entry_id": 51,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hatay'da enkaz altında kalan yakınlarıma acil yardım edin lütfen\nataturk cad. no:50 serdar apt (napcaz’in ustu)\n\nhttps://twitter.com/…86307?cxt=hhwwhs"
+    },
+    {
+      "entry_id": 52,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "gocuk altinda haber alinamiyor. bu iki bolgeye de yardim ulasmamis\n\nisim: leyla azar\nkisla saray mah. ayyildiz apt, antakya\n\nisim: eren dagtekin\nçay m"
+    },
+    {
+      "entry_id": 56,
+      "class": 1,
+      "aid_types": "K,G,S,B,I,Y,H,U,M,F",
+      "contact": "03261120000,03442214991,03424281118,03222272854,041621",
+      "preview": "yardım istenen bölgeler:\n1 / 2 / 3\n\nbilgi ve duyurular:\n\n• afad acil yardım telefon uygulaması:\n___android\n___ios\n\n• tüm türkiye'de okullar 13 şubat'a"
+    },
+    {
+      "entry_id": 57,
+      "class": 1,
+      "aid_types": "G,B",
+      "contact": "05455341530",
+      "preview": "malatya'da ikamet eden bir arkadaşımdan gelen çağrıyı paylaşıyorum: \"malatya/konak bölgesinde acil yardıma ihtiyaç var. yiyecek ve battaniye öncelikli"
+    },
+    {
+      "entry_id": 58,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "lütfen paylaşır mısınız:\n\nmerhabalar,\n\nantakya’daki yakınlarımıza (anne, baba ve kardeşimize) ulaşamıyoruz. kaldıkları binanın yıkıldığı ve göçük altı"
+    },
+    {
+      "entry_id": 59,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "ailem kahramanmaraş ta\nistanbul dan yola çıktık?\nkayseri üzerinden mi yoksa adana üzerinden mi gidelim bilgisi olan var mı? lütfen yardım eder misiniz"
+    },
+    {
+      "entry_id": 63,
+      "class": 2,
+      "aid_types": "",
+      "contact": "",
+      "preview": "bir arkadaşımızın mesajı;\n@marvinditerra\nmerhaba ailem kahramanmaraşta\nkahramanmaraş göksun yolu ile ilgili bilgi var mı ya da sorar mısınız.\nşehre te"
+    },
+    {
+      "entry_id": 69,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "bir başka arkadaşımızın mesajı;\n@keenlemyekun-ist\nhayrullah mah 33018 sok 15 temmuz apt onikisubat kahramanmaras arzu yurtgan kız kardeşim maras da og"
+    },
+    {
+      "entry_id": 74,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "05464965780",
+      "preview": "arkadaşlar sabahtan beri enkazin altinda yardim bekliyorlar. hicbir ekip yokmus yardim eden. nolur birilerine ulastiralim\n\nantakya/hatay macro center-"
+    },
+    {
+      "entry_id": 80,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "doğanşehir topraktepe köyü kuzenim ve ailesi enkaz altında kuzenimin adı ali kemal afşin, olcay afşin, fatma afşin ve iki küçük çocuğu ile beraberdir."
+    },
+    {
+      "entry_id": 81,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "+905432569289,+905442276342",
+      "preview": "kahramanmaraş ,\n\nhayrullah mahallesi, mâlik ejder caddesi, esencam apartmanı\n\nenkaz altinda 4 kisilik aile var. haber alinamiyor.\n\nhatice cevik\nertugr"
+    },
+    {
+      "entry_id": 86,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "bir arkadaşımızın mesajıdır. bilgisi olan, bölgeye yakın olanlar bilgi verebilirse yardımcı olmuş oluruz.\n\nhayrullah mah 33018 sok 15 temmuz apt oniki"
+    },
+    {
+      "entry_id": 88,
+      "class": 1,
+      "aid_types": "",
+      "contact": "05312118386,05443186294",
+      "preview": "mercimek tepe mah. adnan menderes bulvarı. hisar ap. kat:1 no:1 maras¸ merkez selver sevgi ers¸an 05312118386\n05443186294"
+    },
+    {
+      "entry_id": 89,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "05061790833",
+      "preview": "efe çağlar karagöz\nkurtuluş mahallesi şehit er erdoğan karaoğlu caddesi kupik apartmanı dış kapı no 3 daire no kırıkhan/hatay 0506 179 08 33 yıkılan b"
+    },
+    {
+      "entry_id": 92,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kahramanmaraş çınar palabıyık mehmet palabıyık neva palabıyık ali palabıyık\nhayrullah mahallesi, 33027 sokak, didem apartmanı bina no:10 daire no4/15 "
+    },
+    {
+      "entry_id": 93,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hala gocuk altinda\ndede korkut sitesi, pirireis, sokullu mehmet paşa caddesi no:33 31200 iskenderun/hatay\nalperen kayra kılınç\n\nisim: ebrar göde ve ai"
+    },
+    {
+      "entry_id": 102,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "alıntıdır. afad ya da birileri için yardım lazım guzelburc odabaşı tarafındayız ama şehir antakya komple gitti. yardım için yetkili birine haber verme"
+    },
+    {
+      "entry_id": 111,
+      "class": 1,
+      "aid_types": "K, G, S, B",
+      "contact": "",
+      "preview": "güzelburç mahallesi zümrüt 6 ilke apartmanı kat 7 daire 28 antakya/hatay adresinde iki yetişkin bir tane 6 aylık bebek enkaz altında geceden beri tek "
+    },
+    {
+      "entry_id": 113,
+      "class": 1,
+      "aid_types": "K, G, S, B",
+      "contact": "",
+      "preview": "antakya çamlık cebrail mahallesinde tüm yollar ve köprüler kapalı olduğu için yardım gidemiyor.\n\naçık yol yok enkaz altında kalanlar var erzak kıyafet"
+    },
+    {
+      "entry_id": 115,
+      "class": 1,
+      "aid_types": "K, G, S, B",
+      "contact": "",
+      "preview": "güzelburç mahallesi zümrüt 6 ilke apartmanı kat 7 daire 28 antakya/hatay adresinde iki yetişkin bir tane 6 aylık bebek enkaz altında geceden beri tek "
+    },
+    {
+      "entry_id": 117,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "afad başkanı ulaşılamayan bölge yok dedi ama 7.5 büyüklüğündeki ikinci depremin merkez üssü elbistan'dan neredeyse hiç ses yok çünkü telefon ağı çökmü"
+    },
+    {
+      "entry_id": 119,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kahramanmaraş şekerdere mahallesi, aktaş apartmanındaki enkaz için henüz arama kurtarma başlatılmadı. 3ü çocuk olmak üzere 7 kişi enkazda. haber alamı"
+    },
+    {
+      "entry_id": 137,
+      "class": 1,
+      "aid_types": "P",
+      "contact": "",
+      "preview": "yenişehir mahallesi cumhuriyet bulvarı no 4 köker sitesihalk bank üstü.\nbu adreste 1 bebek ve annesinden haber alamıyoruz. enkazda mı hastanede mi bil"
+    },
+    {
+      "entry_id": 143,
+      "class": 1,
+      "aid_types": "P",
+      "contact": "",
+      "preview": "odabaşı mah. gürses sok. no:4 prestij asi apartmanı antakya/hatay hatice ökmen gökhan ökmen. uzun zamandır ulaşamıyoruz!!"
+    },
+    {
+      "entry_id": 147,
+      "class": 1,
+      "aid_types": "P",
+      "contact": "",
+      "preview": "kahramanmaras¸’ta yas¸ayan arkadas¸ımız ays¸e ravza bu¨yu¨ksakallı’ya ulas¸amıyoruz. akrabalarına veya arkadas¸larınada ulas¸amıtoruz (adresi : binevl"
+    },
+    {
+      "entry_id": 148,
+      "class": 1,
+      "aid_types": "P",
+      "contact": "",
+      "preview": "arkadaşlarımız sevil huri ve migel huri'ye ulaşamıyoruz. antakya merkezi inönü caddesi. vilyam apt. no: 37/a adresinde ağır yıkım olduğu bilgisini ald"
+    },
+    {
+      "entry_id": 154,
+      "class": 1,
+      "aid_types": "U",
+      "contact": "",
+      "preview": "hataya gönderilmek üzere 22 tonluk ekskavatör mevcut ancak taşımak için lowbed gerekli. bulabilir miyiz ?"
+    },
+    {
+      "entry_id": 175,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "çaylak bir arkadaştan gelen mesaj;\n\"iyi akşamlar, cebrail mahallesi tiftikçi apartmanı antakya ablamız neşe sabuncuoğlu ve ailesinden haber alamıyoruz"
+    },
+    {
+      "entry_id": 176,
+      "class": 1,
+      "aid_types": "",
+      "contact": "0505775",
+      "preview": "evimiz kahramanmaraş merkezde madalyon kavşağına çok yakın, egemenlik, 21041. sk. no:15, 46080. ailemden kimseye ulaşamıyorum. yakın olan birisi var m"
+    },
+    {
+      "entry_id": 182,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "çaylak bir arkadaştan gelen mesaj;\n\n\"cebrail apartmanı cumhuriyet caddesi beşir sabuncu apt antakya\n\ngüzide duman\n\nyadigar nalçabasmaz\""
+    },
+    {
+      "entry_id": 188,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "karacaoğlan mahallesi 39016 s.k. no1 iç kapı 1 onikişubat maraş\n\nyakın bir arkadaşım ailesine ulaşamıyor betül avcı fatih kürtül emine kürtül iskender"
+    },
+    {
+      "entry_id": 192,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "annemi kaybettim ama defin için ulaşamıyorum bile. allahım ne olur yardım et."
+    },
+    {
+      "entry_id": 207,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "trabzon bulvarı anadolu b apartmanı bina no 26\nonikişubat kahramanmaraş\nbu binadan haber verebilecek var mı?"
+    },
+    {
+      "entry_id": 208,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "adıyaman besni ummu tugsuz caminin yanindaki binada göçük altında kalanlar var. yakınlarda olanlardan yardım bekliyorlar.\n\nyildiz ozcan\nalper ozcan\nme"
+    },
+    {
+      "entry_id": 216,
+      "class": 1,
+      "aid_types": "I",
+      "contact": "",
+      "preview": "gaziantep'de vatandaş resmen bir tane afad yok bi tane ısıtıcı yok diye ağlıyor!!\nbelediye başkanı vali nerdesiniz !"
+    },
+    {
+      "entry_id": 227,
+      "class": 1,
+      "aid_types": "G",
+      "contact": "",
+      "preview": "gaziantep'teyiz belediyeyi aradım aç susuzuz mahalleli olarak dedim. yemek işini afad la kızılay yapıyor diyip kapattı"
+    },
+    {
+      "entry_id": 231,
+      "class": 1,
+      "aid_types": "G,Y",
+      "contact": "",
+      "preview": "kelimelerin yetmediği noktadayız. tarihi bi felaket, zaman birlik olma zamanı. siyasi tartışmaları bi kenara bırakın.\nantepte maraş'ta sokakta kaldık "
+    },
+    {
+      "entry_id": 232,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "iskenderun devlet hastanesi'nin iki sokak arkasında bir arkadaşım oturuyordu. kendisine ulaşamıyorum. telefonu kapalı şu an numune mahallesi yenikan s"
+    },
+    {
+      "entry_id": 233,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kahramanmaraş çuhadar sitesi huzurevi karşısı yakınlarımız enkaz altında ama henüz bir arama kurtarma çalışması yok..."
+    },
+    {
+      "entry_id": 234,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "başlıkta çok sayıda tekrar edilmiş ancak yazmaktan başka elimize bir şey gelmiyor ebrar sitesi d blok piazza avm çaprazinda çok sayida insan var. bilg"
+    },
+    {
+      "entry_id": 235,
+      "class": 1,
+      "aid_types": "K,B",
+      "contact": "",
+      "preview": "pazarcık narlıya yakın çevre köylerde akrabalarım yaşıyor. kendi imkanlarıyla cenazeleri çıkarıyorlar. ne bir yardım ulaşmış ne de başka bir şey. vinç"
+    },
+    {
+      "entry_id": 243,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hayrullah mahallesi tuzcu ailesinden haber alabilen varsa bir askerimiz geceden beri ana babasına ulaşamıyor. hepimize allah sabır versin."
+    },
+    {
+      "entry_id": 244,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "islahiye/gaziantep\n\nacil yardımın ulaşması gereken ilçelerden biri olarak gözüküyor. burası antepten çok maraşa yakın bir ilçe ve depremden belki de e"
+    },
+    {
+      "entry_id": 245,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "hayrullah mahallesi sandalzade bulvarı no:21 sabır apartmanı :\n\nnazife topal - gül ülger\n\nsandalzade mahallesi haydaralıyev bulvarı no :20 ebrar sites"
+    },
+    {
+      "entry_id": 246,
+      "class": 1,
+      "aid_types": "B,G",
+      "contact": "",
+      "preview": "gaziantep te hiçbir çalışma yok, ulaşılamayan yer sayısı çok fazla, kalacak yer yok, yemek yok bisküvi ve su bulabildik sadece bir market açıktı, benz"
+    },
+    {
+      "entry_id": 253,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "çaylak bir arkadaştan gelen mesaj;\n\"merhaba yeni çaylak olduğum için deprem başlığına girmeniz için size mesaj atıyorum. antakya dan afad i arayinca, "
+    },
+    {
+      "entry_id": 261,
+      "class": 1,
+      "aid_types": "K,I",
+      "contact": "",
+      "preview": "şehit abdullah çavuş mah. ismet karaokur bulvarı no 63 yücel apt. kahramanmaraş\n\nçocukluk arkadaşımın kızı halen göçük altında yardım gitmiyormuş gece"
+    },
+    {
+      "entry_id": 298,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "05069725087",
+      "preview": "arkadaşımız ozan'ın eşi ve 1.5 yaşındaki ikizleri melis ve ulaş kocaman enkaz altında. henüz kurtarma ekibi ulaşmamış, lütfen adresi yayalım.\n\ncumhuri"
+    }
+  ]
+}

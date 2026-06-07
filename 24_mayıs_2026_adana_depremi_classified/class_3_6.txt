@@ -1,0 +1,135 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 1]
+uykudan uyandıran depremdir. zangır zangır titretti. nerede kaç oldu bilmiyoru ama en az 5,5 var gibi. yine merkez malatya mı acaba?
+
+edit: merkez adana-feke 4.9 büyüklüğünde imiş.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 2]
+kayseride net şekilde 15 sn. kadar hissedildi. emsc ; 5.2 açıkladı büyüklüğünü..geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 3]
+adana feke merkezli olup 3.8 görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 4]
+4.8 akoluk-feke/ adana
+
+kahramanmaraş da uykudan uyandırdı. tüm yurttaşlara geçmiş olsun. 3-4 saniye kadar güzel salladı tatlı tatlı.
+
+http://www.koeri.boun.edu.tr/scripts/lst8.asp
+
+kaynak
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 5]
+adanadayım, tam yatıyordum, biraz da kafam iyi, sallandım ve çok korktum ya. inşallah bir şey olmaz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 6]
+adana merkezli 4.9 büyüklüğünde, 5km derinlikte deprem. gaziantep'ten de hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 7]
+uykudan uyandıran deprem. saati sebebiyle travmaların hepsi tekrardan ortaya çıktı. umarım gelmiş geçmiştir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 8]
+kahramanmaraş'ta sağlam sallayan depremdir. bir an buz kestim. kanım dondu.
+
+cümleten geçmiş olsun. allah beterinden sakınsın.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 9]
+yine gecenin köründe uykudan uyandırmıştır. bir taraftan gök gürlüyor şakır şakır yağmur yağıyor, bir taraftan deprem yemin ederim akıl sağlığı testine döndü artık.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 10]
+saimbeyli'de uykudan uyandırmıştır. android deprem uyarı sistemi 4,7 bilgisi geçti.
+hiç unutturmuyor kendini. zaman fark etmeksizin her an hatırlatabiliyor.
+kandilli rasathanesine göre 4,9 şiddetinde ve akoluk-feke merkezli bir deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 11]
+uykudan uyandırmadı ama korkuttu, her an hızlanacak vibe'ı vermesi ise geçmiş travmaların tetiklenmesi. yine aynı saatler. geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 12]
+adana, saimbeyli, 4,9.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 13]
+feke'ye 20 km mesafede birisi olarak tatlı tatlı 10-15 sn sallayan depremdir.6 şubattan sonra öyle bir özellik yüklendi ki hanıma, bu büyüyecek deprem değil şimdi biter diyip yatıştırdım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 14]
+yine uykudan uyanma, yine saat 4 suları ve yine dışarıda yağmurlu hava…
+ölene kadar 6 şubat travması yakamızı bırakmamaya yeminli belli ki.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 15]
+hayatı sorgulatan deprem, her an ölebiliriz hissi. kendi kendine; "ahirete hazır ol" telkini.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 16]
+adana, saimbeyli, 4,9.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 17]
+deprem, sel, kılıçdar, teyyo, trump. ne günah işledik de bu döneme denk geldik la biz...
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 18]
+kayseriden net şekilde hissedildi.şükür ki kısa sürdü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 19]
+bu bölgede 6-7 arası deprem bekleniyor ve 6 şubattan beri stres birikmiş durumda. eli kulağında bekliyor uzmanlar. adana dikkatli olmalı. binalar zaten yorgun ve hasarlı. yarın 6.8 oldu mesela, kaç bina buna dayanabilecek durumda ? 6 şubat binalarda gizli hasar bıraktı. bina yorgunluğu diye bir gerçek var. :(
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 20]
+şimdi kandilli'ye bakarken gördüğüm deprem. ekşi'de gündemin altlarında kalmış.
+
+yıkıcı değilse de korkutucu bir şiddet. yüreği hoplayanlara geçmiş olsun. daha şiddetlisinden allah korusun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 21]
+barajyolunda hissetmediğim ve fakat kayseri'den hissedilen deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 22]
+entry'lerdeki feke yazısını okuyup deprem haberinin fake olduğunu zanneden bi akıllı ben miyim?
+
+► Class: 6
+--------------------------------------------------------------------------------
