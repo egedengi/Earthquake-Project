@@ -9,8 +9,8 @@ import sys
 import time
 import os
 
-START_PAGE = 300
-MAX_PAGES = 31
+START_PAGE = 50
+MAX_PAGES = 21
 
 
 def get_chrome_driver():
