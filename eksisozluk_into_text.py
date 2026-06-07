@@ -9,7 +9,7 @@ import sys
 import time
 import os
 
-START_PAGE = 50
+START_PAGE = 70
 MAX_PAGES = 21
 
 
