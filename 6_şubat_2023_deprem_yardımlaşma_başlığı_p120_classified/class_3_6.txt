@@ -1,0 +1,1069 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 1]
+çaylak bir arkadaştan gelen mesaj;
+"iyi akşamlar, cebrail mahallesi tiftikçi apartmanı antakya ablamız neşe sabuncuoğlu ve ailesinden haber alamıyoruz, rica etsem paylaşır mısınız??"
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 4]
+çaylak bir arkadaştan gelen mesaj;
+
+"cebrail apartmanı cumhuriyet caddesi beşir sabuncu apt antakya
+
+güzide duman
+
+yadigar nalçabasmaz"
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 5]
+saatlerdir ulaşılamayan arkadaşımız ve ailesi enkaz altında
+
+"hala afad gitmemiş lütfen yayalım acil
+
+derebahçe mahallesi dedekorkut sitesi sarımazı bölgesi iskenderun/hatay"
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 7]
+çaylak bir arkadaştan gelen mesaj
+
+"cebrail apartmanı cumhuriyet caddesi beşir sabuncu apt antakya
+
+güzide duman
+
+yadigar nalçabasmaz"
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 11]
+işılay yılmaz adana çukurova bölgesi güzelyalı mahallesi hasan alpargün apt.
+(arkadaşımın arkadaşı ve ailesi enkaz altında.)
+
+bir arkadaşımın akrabaları elbistan çarşı bölgesinde halen enkaz altında. açık adres bilinmiyor.
+
+başka arkadaşlardan gelen
+
+görsel
+
+görsel
+
+görsel
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 13]
+ankaradaki arkadaşlar.
+
+yunus markette elektrikli sobalar satılıyor. imkanı olmayanlar için küçük boy olanı da var. alıp yollayabilirsiniz.
+
+ben 2 tane büyük olanından aldım, bir kaç tane de battaniye koyup yarın yolluyorum deprem bölgesine.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 14]
+arkadaşımızdan ve ailesinden haber alamıyoruz, lütfen imkanı olan yardımcı olsun
+görsel
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 15]
+arama-kurtarma için gönüllü olmak isteyenler nereye yönlendirilmeli. bunu araştırıyorum ama bir şey bulamadım. lütfen bilgi sahibi olan biri paylaşsın.
+
+► Class: 6
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 16]
+bir çalışan arkadaşımızın abisi ailesiyle göçük altında bana whatsapp'dan yazdı tweet attım ama kimse görmedi yardımcı olabilir misiniz?
+
+https://twitter.com/…?s=46&t=zscwpdv6rx4mdbs4zntwsw
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 17]
+arama kurtarma eğitimim yok ama kriz anlarında görüp görebileceğiniz en soğukkanlı insanlardan biriyimdir. çok işe yararım. ingilizce biliyorum, yabancı kurtarma gruplarıyla aradaki iletişime yardımcı olabilirim. gelen yardımların dağıtımında, yemek dağıtımında, depoda, nerede gerekiyorsa çalışabilirim. hemen bugün yola çıkabilirim. veya istanbul'da yardımların toplanması, gruplandırılması vb. konularda yardımcı olabilirim.
+
+herhangi bir noktada yardım gerekiyorsa bir yeşil uzağınızdayım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 18]
+moderasyon bu basligi uyelik gerektirmeksizin herkese acik bir hale getiremezmi,cok faydali olacagini dusunuyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 19]
+arkadaşlar insangücü oluşturmamı ve planlı hareket etmemiz lazım. afad umke akut ve diğer tüm stklar bir plan çizmeli ve gönüllüleri bölgeye götürmelidir. bireysel hareket etmeyelim lütfen.
+
+yollar ve hava şartları bireysel desteğe uygun değil.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 20]
+adiyaman gölbasinda depremden etkilenen ailemden haber alamıyorum hiç kimseye ulaşamıyorum telefonlar çekmiyor allahım ne kadar kötü bir gün.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 21]
+https://www.turkiye.gov.tr/…luk-basvurusu-ve-takibi
+
+https://gonullu.afad.gov.tr/
+
+imkanı olanın başvursun.
+şuan bazı bölgelere hiç bir şekilde ulaşılamıyor, öncelik sağlık çalışanı ve madenciler olmak üzere insan gücüne fazlasıyla ihtiyacımız var. etrafımızdaki insanlarla çalıştığımız kurumlar aracılığıyla başvurumuzu yaptık. beklemedeyiz.
+
+bireysel ve bu durumlarla ilgili eğitimi olmayan insanların kafalarına göre kendi başlarına bölgeye gitmesini önermiyorum. gerekli yerlerle iletişime geçip kordine olarak bir şeyler yapmalıyız.
+
+► Class: 6
+► Aid Types: S
+--------------------------------------------------------------------------------
+[ENTRY 23]
+arkadaşlar para gönderin! kamu kurumuna göndermek isteyenler afad'a, çeşitli sebeplerle kamu kurumlarına göndermek istemeyenler ahbap gibi derneklere para göndersin. malzeme desteği de çok önemli fakat para birçok engeli pratik olarak aşıyor. bu kurumlar ihtiyaç duyulan malzemeleri gönderdiğiniz parayla alıp ihtiyaç sahiplerine ulaştırabilir.
+
+zekat vermek isteyenler bugün versin. adak adayanlar bugüne saysın. çay, kahve, bira parası da olsa gönderin. cumhuriyet tarihinin en büyük felaketlerinden birini yaşıyoruz. almayı planladığınız bir kazağın, içtiğiniz bir paket sigaranın, gitmeyi planladığınız bir maçın biletinin parasını yollayın gitsin.
+
+emin olun ömrünüz boyunca yapacağınız bir yardımın bugün yapacağınız yardımdan daha makbule geçme ihtimali sıfıra yakın. fedakarlığınızı yapın ve para gönderin!
+
+afad için büyük harflerle "deprem" yazıp 1866'ya sms gönderebilirsiniz.
+
+para yardımı için :
+
+afad ziraat bankası iban:
+tr73 0001 0017 4555 5555 5552 04
+
+ahbap derneği iş bankası iban: tr12 0006 4000 0011 0211 3800 59
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 26]
+arkadaşlar yurt dışında yaşıyorum. malatya kırçuval otelde kalan voleybol takımına ulaşamıyoruz. yakınımızın adı mehmetcan ağırbaş, malatyaspor voleybol takımı oyuncusu. bölgede olup bilgi veren olursa çok seviniriz. ailesi perişan.
+
+allah tüm depremzedelerin yardımcısı olsun.
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 36]
+görsel
+
+görsel
+
+görsel
+
+görsel
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 38]
+görsel
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 41]
+antalyadan deprem bölgesine yardıma gidecek resmi ekiplere katılabilirim. ilkyardım eğitmeniyim, sağlıkçıyım.
+
+bilgisi ve bu ekiplerde tanıdığı olan varsa iletişim kurmamı sağlarsa çok sevinirim.
+
+► Class: 6
+► Aid Types: S
+--------------------------------------------------------------------------------
+[ENTRY 42]
+maraş afşin'de , afşin otogarına yakın bir bölgede muhammed isimli bir kişi enkaz altında. maalesef tam adres bilinmiyor ama belki bir duyan olur. numarası 539 228 76 45
+
+► Class: 3
+► Aid Types: K
+► Contact: 5392287645
+--------------------------------------------------------------------------------
+[ENTRY 43]
+insanlar yardım etse de tek tek açık adres yazmak yerine haritadan işaretleyip ortak bir database oluştursak birkaç örnek girdim ben yardımcı olmak isteyenler özelden yazsın hep birlikte gördüğümüz tüm adresleri buraya girelim.
+
+harita link
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 44]
+iskenderun’da iş makinesi operatörüne ihtiyaç var. görev almak isteyenler 0 532 113 80 39 telefon nosu ile irtibata geçebilir.
+
+► Class: 6
+► Aid Types: U
+► Contact: 05321138039
+--------------------------------------------------------------------------------
+[ENTRY 45]
+iskenderun’da kırıcı ve vinç ihtiyacımız var. gönüllü olarak görev almak isteyenlerin 0 532 113 8039 nolu telefon üzerinden bizimle irtibata geçmelerini bekliyoruz.
+
+► Class: 6
+► Aid Types: U
+► Contact: 05321138039
+--------------------------------------------------------------------------------
+[ENTRY 47]
+değerli ve şerefli kardeşlerim elimizden geleni ardımıza koymayalım.
+yapacağımız her yardım bir yurttaşımızı, kardeşimizi kurtarabilecek şeylerden.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 49]
+pazarcık'ın eğlen köyünde neredeyse tüm evler yıkıldı ve evlerin içinde insanlar enkaz altında kaldı. afad ya da yardım hala gelmedi. karlı ve çok soğuk insanlar üşüyor ve aç susuz haba soğuk açıktalar lütfen sesimizi duyurmamıza yardım edin.
+
+► Class: 3
+► Aid Types: K,G
+--------------------------------------------------------------------------------
+[ENTRY 50]
+hatay'da defneden karayolu ile belenden iskenderun ve hassadan geçilip otobana cikilabiliyor mu acaba yol durumu nedir bilen varsa yeşillendirsin
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 53]
+kahramanmaraş çuhadar sitesi huzurevi karşısı yakınlarımız enkaz altında ama henüz bir arama kurtarma çalışması yok.
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 58]
+bazı illerdeki geçici barınma noktaları.
+
+paylaşalım lütfen.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 63]
+şekerdere bul. 19 dr. sadullah cad. kahramanmaraş
+arkadaşımın ailesi göçük altında. henüz haber yok.
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 65]
+ankara barosu çok başarılı bir yardım toplama faaliyeti yürütüyor.
+
+yerleri ıhlamur caddesinde. kızılay'daki divan pastanesi'nin olduğu sokak. hemen pastanenin sokağa doğru yanında.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 66]
+hatay'da hastahaneler dahi çökmüş, insanların çadır, battaniye, ısıtıcı gibi ihtiyaçları had safhada. hatay şu an sanırım en sahipsiz kalan ilimiz. her il için özel yardım kanalları kurmalıyız. ben hatay için bir tane açacağım. telegramdan üye olmak isteyen bana kullanıcı adını yollayabilir. kullanıcı adı _nefti.
+
+► Class: 5
+► Aid Types: B,I
+--------------------------------------------------------------------------------
+[ENTRY 69]
+#beşiktaştekyürek noktalarını artırdık!
+deprem bölgesine göndereceğiniz tüm yardımlarınızı;
+- akat mustafa kemal merkezi (mkm) (7/24)
+- levent zübeyde ana kültür merkezi (7/24)
+- fulya süleyman seba kültür ve sanat merkezi (7/24) ve mahalle muhtarlıklarımıza mesai saatleri içerisinde ulaştırabilirsiniz.
+
+rıza akpolat - t.c. beşiktaş belediye başkanı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 75]
+bölge halkının acilen arama kurtarma konusunda eğitip sahaya sürmek gerektiğini düşünüyorum. 9000 kişilik acil yardım ekibiyle olacak iş değil bu. binlerce insan enkaz altında bekliyor hiç olmaz bazıları kurtulur yoksa donarak ölecekler.
+
+► Class: 6
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 78]
+geçici acil barınma yerlerinin listesi.
+
+adana (pdf olduğu için telegram linkiyle paylaşabiliyorum.)
+https://t.me/depremturkiyedestek/3962
+
+diğer iller: (hatay ve maraş için bakıyorum. hatay ve maraş sahipsiz kaldı nedense)
+
+maraş için yer listesi yok ama whatsapp yardımlaşma grubu linki geldi:
+https://chat.whatsapp.com/g7xsmeatv6gh6jilykvq5t
+
+hatay’da gece kalınabilecek yerler:
+
+
+
+hatay için whatsapp yardımlaşma ve dayanışma grubu linki:
+
+
+kalacak yer ihtiyacı olan varsa buralar vatandaşa açılmış gidebilirler
+gaziantep
+-çiçek plaza düğün salonu
+-uğur okulları gaziantep kampüsü
+-incilikaya spor salonu
+-şehitkamil belediyesi beykent spor salonu
+-kuzeyşehir spor salonu
+-talat özkarslı spor salonu
+-hasan doğan spor kompleksi
+-karakedi saklı bahçe
+-müzeyyen erkul bilim ve sanat merkezi
+
+malatya
+-hürriyet parkı
+-dedekorkut sosyal tesisleri
+-salköprü semt konağı
+-özalper semt konagi
+-akçadağ belediyesi
+-akçadağ anadolu lisesi
+-akçadağ şehit alper güde teknik lise ve çok programlı lise
+-arapgir belediyesi
+-darende hükümet konağı
+-battalgazi belediyesi
+-doğanyol lisesi
+-malatya kuluncak ilçe milli eğitim müdürlüğü
+
+diyarbakır
+-jiber fabrikası
+-seyrantepe kapalı spor salonu
+-şehit halit gülser kız anadolu imam hatip lisesi
+-yenişehir gençlik merkezi
+-gsb bağlar gençlik merkezi
+-tüyap diyarbakır fuar ve kongre merkezi
+-şehit polis halit gürsel spor kompleksi
+-diyarbakır stadyumu
+-talaytepe spor kompleksi
+-diyarbakır ulu camii
+-kurşunlu cami
+-fatih cami
+-diyarbakır merkez cami
+-hazreti süleyman camii
+-mehmet ümit balcı cami
+-halidiye cami
+-ismail hakkı demirok cami
+-mekke cami
+-abdürrezzak cami
+-mervani camii
+-kaynartepe cami
+-hazreti süleyman camii
+-hayırseverler cami
+-abide cami
+
+şanlıurfa
+-ahmet yesevi gençlik merkezi
+-birecik gençlik merkezi
+-bozova gençlik merkezi
+-ceylanpınar büyükşehir gençlik merkezi
+-halfeti gençlik merkezi
+-hilvan gençlik merkezi
+-hayati harrani gençlik merkezi
+-şehitlik ilkokulu
+-ibrahim halil yıldım parkı
+-sırrın cami
+-harran kapı caddesi
+-rabia meydanı
+
+istanbul'dan deprem bölgesine yardım göndermek isteyen vatandaşlar ibb yenikapı lojistik merkezi’ne ulaştırabilir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 79]
+depremzedeler, tehlikenin olmadığı illerdeki gönüllü ailelerin evlerine otobüslerle taşınamazlar mı? kış şartlarında çadırda kalmak zor. evlerimize gelsinler.
+
+sosyal medyada public hesapları olanlar bir hareket başlatamaz mısınız?
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 81]
+özellikle hatay için yardım etmek istiyorum ama direkt bir kanal bulamadım. belki entryler arasında yazmış olan vardır ancak o kadar çok entry var ki göremedim. direkt hatay için bir kanal varsa, bilen lütfen bilgilendirsin.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 84]
+(bkz: malatya sultansuyu barajının boşaltılması)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 89]
+eksi sozluk yonetimi, belki bu basligi caylaklara da acabilirsiniz. copy paste icin yazar aramak zorunda kalmazlar.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 92]
+şuan kendi bulunduğum il(denizli) de belediye afad ile birlikte çalışarak yardım topluyor buraya da yazıyorum belki görüp yardım etmek isteyen olur
+gönderilebilecek malzemeler;
+battaniye
+kışlık kıyafet
+çocuk bezi
+mama
+ısıtıcı
+sırt çantası
+sıvı,katı sabun
+kağıt havlu
+gibi temel şeyler gönderilebilir.
+toplanma merkezleri
+nihat zeybekçi kongre ve kültür merkezi
+egs fuar alanı ve kongre kültür merkezi
+bahçelievler itfaiye şubesi altı(adliye yanı park karşısı)
+maddi destek sağlayamıyorsak bile lütfen kızılay'a kan verelim
+
+► Class: 6
+► Aid Types: B,Y,G,I,H
+--------------------------------------------------------------------------------
+[ENTRY 101]
+hatay/antakya songül aydın ve filiz eker'den haber alınamıyor.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 103]
+bilmeyenler için:
+
+e devlet üzerinden il ilce mahalle bilgilerini girdikten sonra acil toplanma alanlarini görüntuleyebilirsiniz. link:
+
+https://www.turkiye.gov.tr/…oplanma-alani-sorgulama
+
+tüm depremzedelere geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 106]
+edit: güzergah değişikliği.
+
+bursadan ankaraya geçmemiz gerekiyor. ankaradan, arama kurtarma ekipleriyle bölgeye geçeceğiz. 2 arkadaşız sırt çantalarımız var. arama kurtarma ekibinden kendisi. yolu ankaraya düşen götürebilirim diyen var mıdır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 107]
+https://twitter.com/…?s=20&t=sniofqbkkxge263zu1tfyw
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 109]
+(bkz: airbnb.org)
+airbnb kullanan veya kiralama yapan herkesin bilgisine.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 110]
+darüşşafaka lassa basketbol kulübü ve sarıyer belediyesi erzak yardımı yaptı ve topluyor. dileyen vatandaşlar bizzat kendileri ya da kargoyla gerekli adrese gönderebilirler…
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 115]
+ingilizce yeminli tercümanım ve tır şoförüyüm.
+
+her türlü ağır vasıtayı kullanabilirim ve gelecek olan yabancı yardım ekipleriyle yerel unsurların irtibatını sağlayabilirim.
+
+edit: (bkz: hatayda serada kalan 20 kişiye yardım çağrısı)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 116]
+arkadaşım hatay ürgen paşa mah. 3109. sk. no:9/1 yıldızlar sitesi adresindeki ailesine ulaşamıyor.
+
+isim: hacı güzel
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 118]
+tekrar çağrımdir sesini duyurmak isteyen çaylaklar yazsın sesinize ses olmaya çalışıyim
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 122]
+hatay/antakya lütfen yardım edin
+görsel
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 124]
+direkt olarak bir arkadaşımdan gelen mesajı paylaşıyorum:
+
+malatya doğanşehir polat köyün yüzde 95 i yıkılmış giriş çıkış kapalı ekmek su elektrik hicbirsey yok. kurtulanlar suan açlık ve soğuktan ölüyor ciddi ciddi. sadece erzak yardımı lazim.
+
+yardımlarınızı esirgemeyin lütfen.
+
+► Class: 3
+► Aid Types: G
+--------------------------------------------------------------------------------
+[ENTRY 125]
+ekinci mahallesi, zeytin sokak
+(su kulesinin olduğu mahalle) hatay
+4, 5 bina yıkılmış durumda ve afad uğramamış buraya. acil yardım ulaşır umarım.
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 126]
+direkt sahibine ulaştırabileceğim bir yardım söz konusu olursa lütfen özelden yazın. devlet kurumlarına kuruş çalışmaz. ahbap'a gerekli yardımları yapıyorum. eğer afet bölgesinde ulaşabileceğimiz yerel marketler veya bu iş için çalışan yerel sivil toplum kuruluşu varsa yardım etmek istiyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 127]
+(bkz: enkaz bildirim formu)
+
+bu başlıktaki form ve sayfa üzerinden enkaz altında yardım bekleyenlerin bilgilerinin paylaşılıp takip edilebilirsiniz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 128]
+ittifakınızın allah belasını versin
+
+sırası mı şimdi siyasetin. makam sevdanızda boğulun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 130]
+hatay, atatürk caddesi, 18. sokak, yurtcan apartmanı adresindeki irem kaptan’a ulaşılamıyor. gören duyan olursa lütfen bilgi versin.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 131]
+istanbul maltepe de oturuyorum. deprem bölgesine gidecek olan ve aracında yer varsa seve seve gelebilirim yardım için.allah herkesin yardımcısı olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 132]
+şu an afet bölgesinde bulunan yapı kredi personelleri için adana'dan antalya'ya, konaklama ihtiyacını karşılamak hasebiyle uçak seferi planlamakta. kendisine mesaj ulaşmayan yapı kredililer, bölge segment yöneticisi ismail bey'e ulaşabilir.
+
+► Class: 6
+► Aid Types: U
+--------------------------------------------------------------------------------
+[ENTRY 133]
+hatay antakya akçaova ilkokulu müdürü mehmet keskin ve ailesinden haber alınamıyor.
+evleri 75. yıl bulvarı iyi parti il başkanlığı üzeri.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 135]
+burdan tüm bankaların son 2 yılda kar rekorları kırmasından ötür bu ülkeye borçlu olduklarını bildirir acil bu borçlarını yardım vasıtasıyla ödemesi için kamuoyundan destek bekliyorum.
+
+bankalar artık bir taşın altına elini atsın.
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 136]
+hatay ürgen paşa mah. 75. yıl bulv. no:36 bu bina hakkında bilgisi olan geri dönüş yapabilir mi? arkadaşımıza ulaşamıyoruz.
+edit: kendisine ulaştık durumu iyi
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 141]
+bütün ailem sulalem orada ve maraş kendi başına mücadele ediyor.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 145]
+hatay polis evinde kalan yakınımız berk doğan ulu'dan haber alamıyoruz. polis evine yakın olan bilgisi olan varsa lütfen yardımlarınızı bekliyoruz.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 147]
+#148695747
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 150]
+izmir'deyiz uzaktayız lakin evimizde depremzede aile, genç, yaşlı, çocuk misafir ederiz evimizi yemeğimizi paylaşırız, çok geçmiş olsun ülkeme.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 151]
+bir süredir istediğim terfiyi aldım. sanki o insan ben değilim hiçbir şey ifade etmedi. bomboş baktım.
+
+müşteri mail attı. kendimi insanlar ölüyor diye bağırırken buldum.
+
+her şey o kadar boş o kadar anlamsız ki
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 152]
+yeme,içme,barınma için gitmek isteyen,gidebilecek durumda olan varsa gidebilirler..
+
+bölgedeki cemevleri depremin ardından darda kalanlara kapılarını açtı. hacı bektaş veli anadolu kültür vakfı genel merkezi, bölgede bulunan cemevlerinin barınma ve yemek hizmeti vermek için 7/24 açık olduğunu duyurdu..
+
+► Class: 6
+► Aid Types: G,B
+--------------------------------------------------------------------------------
+[ENTRY 153]
+malatya’da konaklama için yardımcı olabileceklerin dikkatine. lütfen bana yazın.
+
+doğanşehir ilçesi, polatdere ve kelhalil köyü
+
+yeşilyurt ilçesi, cumhuriyet örnek köyü
+
+► Class: 3
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 154]
+veteriner hekimim; doktorun olmadığı ya da yetişemediği bölgede gerek koordinasyon gerekse klinik olarak yardımcı olurum. istanbulda yaşıyorum, gerekirse otobüsle bile gelebilirim.
+
+çaylak arkadaşlar, sizin mesajlarınız var ise buradan yayınlayabilirim. yeşillendirin lütfen.
+
+► Class: 6
+► Aid Types: K,S
+--------------------------------------------------------------------------------
+[ENTRY 156]
+instadıyaman arkadaşım story atıyor aç susuz oldupunu kimsenin yardıma gelmediğini söylüyor korkunç
+
+► Class: 4
+► Aid Types: G,B
+--------------------------------------------------------------------------------
+[ENTRY 159]
+arkadaşlar fiziksel yardım için gidildiğinde şehre almıyorlar gibi bir şeyler duydum. doğru mudur. böyle boş boş oturmak çok can sıkıcı. gitsek yardımımız olur mu? bu konu ile ilgili dönüş yapabilecek olan var mı?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 161]
+ankara'da küçük evimde 3 kişiyi ağırlayabilirim. bölgeden geliş için de araba sağlayabiliriz. evim eviniz yemeğim yemeğiniz olur. burada kalsın, gerek olursa yayılsın, mesaj bekliyorum.
+
+► Class: 6
+► Aid Types: B,G,U
+--------------------------------------------------------------------------------
+[ENTRY 167]
+(bkz: 6 şubat 2023 elbistan'da insanların susuz olması)
+
+► Class: 6
+► Aid Types: G
+--------------------------------------------------------------------------------
+[ENTRY 170]
+görsel
+göksun'da yardım edecek birileri var mı?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 171]
+yaşanan deprem felaketi sebebi ile depremzede vatandaşlara ücretsiz konaklama desteği sağlayan otel ve konaklama tesisleri.
+
+otelz.com/tr/gecmisolsunturkiyem
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 172]
+cep uygulamalarından ilgili yardım kuruluşlarına nakdi yardım yapabirsiniz.böyle zamanlarda ihtiyaçların sonu yok ve nakdi yardımlara ihtiyaçları var.allah bölgedeki herkesin yardımcısı olsun.
+
+► Class: 6
+► Aid Types: M
+--------------------------------------------------------------------------------
+[ENTRY 174]
+şuan ilk defa adam akıllı mobil veriden internet erişimi sağlıyorum.
+hatay/antakya'dayım. kuzeytepe mahallesindeyim.
+durum çok ciddi hemde hayal edemeyecekleri ötesinde. bizim oturduğumuz evler sağlamdı. herhangi bir enkaz herhangi bir can kaybı yaşanmadı bizim ailede ve akrabalarda. fakat komşular dahil tüm ilçeler tüm şehir çoğu enkaz altında. şu saatte kadar hala artçı sallantılar çok ciddi devam ediyor. insanlar göçük altlarında çığlık atıyor. onları duydukça gördükçe kahroluyorum . gecenin 4.buçuğunda yaşanan o sallantı o felaket film sahnelerinden farksız. ilçede olduğum için ne polis ne jandarma ne de itfaiye ne de afad hiçbirini görmedik şu saatte kadar. ama antakya'da bu durum nasıl bilmiyorum. antakya merkezde de yardım olmadıklarını söylüyorlar. insanlar yağmurun soğuğun altında telef oluyor. devlet bu durumun altından nasıl kalkacak hiç bilmiyorum herkes şuan tek başına. herkes kimsesiz. bu felaket hafife alınmayacak derecede çok büyük.
+gece çöktü hava soğuk şıan insanlar hala enkazın altında vücutları beyinleri parçalanmış vaziyette ve hala diri olarak enkaz altlarında bekleyenker var. ölüm haberlerinin ardı arkası kesilmiyor arkadaşlarıma ulaşamıyorum öldüklerini düşünüyorum. enkaza yardıma gitmeyi düşünüyorum ama yollarda yarık oluşmuş diyorlar. giriş sağlanamıyormuş. köprüler çökmüş diyorlar. giriş yok. şehir dışından gelenler yollarda mahsur kalmışlar. arabalar trafikte yoğunluk oluşturuyor. enkaza yardıma gidenler bile enkazın altında kalıyordur büyük ihtimal. sokaklarda izdiham şehri terkediyorlar. bazı insanlar paramparça arabalarıyla kaçmaya çalışıyorlar. şuan bu entry'i yazarken bile sallandığımı hissediyorum.
+tüm türkiye'nin bu felakete karşı birlik olması gerekiyor. bir an önce yardımcı olun deprem bölgelerine.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 180]
+ankara'da çadır satan bir yer bilen varsa yesillendirin lütfen.
+soğukta kalan dostlarımız için çadır, uyku tulumu gibi malzemeler göndermek istiyoruz.
+
+► Class: 6
+► Aid Types: B,Y
+--------------------------------------------------------------------------------
+[ENTRY 182]
+2 3 gün üretim olmasa işe gidilmese bir şey olmaz ama 2 3 gün içinde o insanlara ulaşılmazsa o insanları o enkazların altında bu soğuklarda kaybedeceğiz. seferberlik ilan edilsin durdurun hayatı ya gerekirse herkes oralara gitsin yardım etsin. büyük büyük şirketler yapsın yapacaklarını iş makinesini yollasın yiyeceğini içeceğini yollasın ölmezsiniz batmazsınız bunları yapsanız ama bunları kısa sürede planlayıp yapamazsak birçok insanımızın ölmesine neden olacaksınız.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 185]
+gebzedeyim , marasa giden varsa beni de alabilir mi aracina , otobüslerin hepsi dolu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 190]
+malatya yeşilyurt ve battalgazi merkez ilçelerinde hayat durmuş, insanlar enkaz altında, bir gece daha soğukta beklerlerse donarak ölecekler buralara acil yardım gerekiyor
+
+► Class: 3
+► Aid Types: K,B
+--------------------------------------------------------------------------------
+[ENTRY 191]
+adıyamanda hala yardım ekiplerinin olmadığı ve insanların çaresizce enkazlarla kendi çabalarıyla mücadele ettiğini söyledi bi arkadaşım.
+
+► Class: 3
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 193]
+gönüllü doktor olarak gitmek istiyorum. giden arkadaşlar var mı? ttbye bilgilerimi verdim, bunun dışında ne yapabilirim? nasıl hemen gidebilirim?
+
+► Class: 6
+► Aid Types: S
+--------------------------------------------------------------------------------
+[ENTRY 194]
+(bkz: depremzedelerin ücretsiz konaklayabileceği oteller)
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 195]
+https://stream.epctex.com/…vxbpamc4pq6ss2dghu0xn1fa
+
+yardim istenen tweetlerin toplanip guncellendigi bir adres.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 196]
+kan bağışı için önümüzdeki günlerde bağışlara devam edilmeli. bugün ankara'da iki kan merkezi, yoğun bağış nedeniyle daha fazla bağışçı kabul etmedi. sanırım kapasitelerini doldurdular. fakat sonraki günlerde, henüz bağış yapamayanlar kan merkezlerine giderek bağış yapabilirler. geçti diyerek ihmal edilmemeli.
+
+► Class: 6
+► Aid Types: S
+--------------------------------------------------------------------------------
+[ENTRY 199]
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 200]
+izmir'deyim, sağlıklıyım, iyi kötü ilk yardım biliyorum, yap denileni yaparım. evde elim kolum bağlı oturmak istemiyorum. gidip bir işin ucundan tutmak istiyorum. bireysel gitmeye müsaade etmiyorlarmış. ne yapmalıyım?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 201]
+kalacak yer ihtiyacı olan varsa buralar vatandaşa açılmış gidebilirler
+gaziantep
+-çiçek plaza düğün salonu
+-uğur okulları gaziantep kampüsü
+-incilikaya spor salonu
+-şehitkamil belediyesi beykent spor salonu
+-kuzeyşehir spor salonu
+-talat özkarslı spor salonu
+-hasan doğan spor kompleksi
+-karakedi saklı bahçe
+-müzeyyen erkul bilim ve sanat merkezi
+
+malatya
+-hürriyet parkı
+-dedekorkut sosyal tesisleri
+-salköprü semt konağı
+-özalper semt konagi
+-akçadağ belediyesi
+-akçadağ anadolu lisesi
+-akçadağ şehit alper güde teknik lise ve çok programlı lise
+-arapgir belediyesi
+-darende hükümet konağı
+-battalgazi belediyesi
+-doğanyol lisesi
+-malatya kuluncak ilçe milli eğitim müdürlüğü
+
+diyarbakır
+-jiber fabrikası
+-seyrantepe kapalı spor salonu
+-şehit halit gülser kız anadolu imam hatip lisesi
+-yenişehir gençlik merkezi
+-gsb bağlar gençlik merkezi
+-tüyap diyarbakır fuar ve kongre merkezi
+-şehit polis halit gürsel spor kompleksi
+-diyarbakır stadyumu
+-talaytepe spor kompleksi
+-diyarbakır ulu camii
+-kurşunlu cami
+-fatih cami
+-diyarbakır merkez cami
+-hazreti süleyman camii
+-mehmet ümit balcı cami
+-halidiye cami
+-ismail hakkı demirok cami
+-mekke cami
+-abdürrezzak cami
+-mervani camii
+-kaynartepe cami
+-hazreti süleyman camii
+-hayırseverler cami
+-abide cami
+
+şanlıurfa
+-ahmet yesevi gençlik merkezi
+-birecik gençlik merkezi
+-bozova gençlik merkezi
+-ceylanpınar büyükşehir gençlik merkezi
+-halfeti gençlik merkezi
+-hilvan gençlik merkezi
+-hayati harrani gençlik merkezi
+-şehitlik ilkokulu
+-ibrahim halil yıldım parkı
+-sırrın cami
+-harran kapı caddesi
+-rabia meydanı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 205]
+görsel
+teyitli bilgi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 210]
+görsel
+yardımlarınızı bekliyoruz
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 213]
+bir yardimlasma cesidi olarak acil servislerdeki gereksiz kalabalığı azaltin. burun akıntısının sırası degil. istanbula sevk edilen yaralilar var. hazir bekliyoruz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 214]
+(bkz: adıyaman merkez'de hiç çalışma yapılmaması)
+adıyaman'da durumlar çok fena. başlığa destek olun lütfen.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 215]
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 216]
+https://twitter.com/…?t=fvp8gjg2zv6wohti-_sqma&s=19
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 217]
+arkadaşlar, çaylak arkadaşlara mesaj alımınız kapalıysa yardıma ihtiyacı olanların sesini duyurabilmesi için mesaj alımını açmanız yerinde olur. en azından burada elimiz kolumuz bağlı oturmak yerine onların sesini duyurabiliriz. çaylak arkadaşlar bana mesaj atabilir.
+
+yardım ekibi seferber ediliyormuş. destek verirseniz çok mutlu olurum:
+
+(bkz: ekşisözlük sivil yardim ekibi kuruyoruz)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 218]
+https://uad.bio/gecmisolsunturkiyem
+
+otelz (@otelzcom) deprem felaketi sebebi ile depremzede vatandaşlarımıza ücretsiz konaklama desteği sağlayan otel ve konaklama tesislerini listelemişler.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 219]
+(bkz: ekşisözlük sivil yardim ekibi kuruyoruz)
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 221]
+adıyaman merkez'de hiç çalışma yapılmaması
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 227]
+çok fazla bilgi kirliliği var lütfen sadece emin olduğunuz ve şahit olduğunuz bilgileri paylaşın
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 228]
+ankara’da hazır bir şekilde bekliyorum, eczacıyım. elimden gelen ne varsa canla başla yapmaya hazırım. gönüllü bir topluluk varsa katılmaya hazırım. biz evlerimizde nasıl uyuyacağız? bir şeyler yapmalı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 230]
+merhabalar (bkz: ekşisözlük sivil yardim ekibi kuruyoruz) böyle bir başlığımız var, sivil bir ekip kurarak olay bölgelerine gitmek için insan toplamak istiyoruz ama başlığımız fark edilmiyor. başlığa yazarak bize destek olmak ister misiniz?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 236]
+arkadaşlar yardım isteyen çaylakların hepsinin mesajını iletebilirim. demin yazan bi arkadaşın verdiği linkin yönlendirmesi yoktu. söyledim ama cevap vermedi. kim isterse yayarım. ama bak şimdiden söylüyorum. sakın geyik malzemesi ya da kandırmaca bilgi ne bileyim olta şeklinde şey atmayın. bari bugün yapmayın!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 241]
+ücretsiz konaklama sağlayan yerlerin listesi illere göre ayrılarak şurada toplanmış
+https://www.otelz.com/…51daa1ky6qicgi3cgaaelpxvbysa
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 243]
+<<<<<<<<<<<>>>>>>>>>><<<<>>><<<<>>><
+arkadaşlar özellikle twitter üzerinden etkileşim yaparak yetkililerin bir an önce görmesini sağlayabiliriz. sosyal medyadan gelen bütün ihbarları değerlendiriyorlar, bu soğukta ulaşamadığımız kişi kalmayıncaya kadar çalışalım.
+grup adına oluşturduğumuz twitter hesabı:
+https://twitter.com/…?t=sapgmmcnd6dhyvpiycfxea&s=09
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 244]
+ankara'dan yardımda bulunacak arkadaşlar için görsel
+
+kullanılabilir durumda olan (battaniye, kıyafet, bebek bezi vb.) her şeyi gönderebilirsiniz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 245]
+arkadaşlar mevcut imkansızlıklar nedeniyle bilgiye ulaşmak da zor.deprem bölgesinde olup bilgiye ihtiyacı olanlara elimden geldiğince yardımcı olmaya çalışıyorum.mesaj atabilirsiniz
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 248]
+arkadaşlar az önce sarıyer ilçe yardım merkezindeydim. herkes elinden geldiğince destek olmaya çalışıyor. imkanınız var ise ilçe merkezlerine giderek hem çalışanlara yardım edebilirsiniz hem de yardım kolilerine katkıda bulunabilirsiniz. yardım merkezlerinde çalışan arkadaşlardan da allah razı olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 251]
+"cimer deprem acil sekmesi aktif ve anında cevap geliyor haber alamadığınız yakınların adresini ismini soy ismini numaralarını da ekleyip başvuru yapabilirsiniz"
+gorsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 252]
+acil yardım çağrısı antakya hatay’da arkadaşımızın ailesine görsel
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 253]
+arkadaşlar *ankara atatürk kapalı spor salonunda* insan gücüne ihtiyaç var, deprem bölgelerine yardım araçları gidecek. ankara'da olanlar lütfen yardıma gitsinler ???? mesaj günceldir, saat 21.10 lütfen arkadaşlar iletişim için mustafa karataş'a 05449265017 bu numaradan ulaşabilirsiniz
+
+► Class: 6
+► Contact: 05449265017
+--------------------------------------------------------------------------------
+[ENTRY 259]
+tatvan'dan adana'ya giden iki doktordan haber alınamıyormuş.
+ceren kaya kamik, selman kamik, bebekleri ahmet kaya kamik'i arıyorlar. adana'da hastanede oldukları öğrenilmiş. tekrar haber alınamamış. görsel
+edit: başımız sağolsun :(
+
+► Class: 4
+--------------------------------------------------------------------------------
+[ENTRY 260]
+ahbap'a bir miktar nakit yardımı yaptım. diğer yardim kuruluşlarına da bez ve battaniye yardımı da yapacağım.
+
+► Class: 6
+► Aid Types: M,Y,B
+--------------------------------------------------------------------------------
+[ENTRY 262]
+arkadaşlar onlarca stk var afet alanında birine üye olun eğitimlerine katılın. yoksa diğer türlü organize olmadıktan sonra ne o otobüs otobüs toplanan insanların ne o kamyon kamyon toplanan yardımların yararı oluyor. hatta şu an zararı var. afet bölgesi dışında oluşan trafikten arama kurtarma ekipleri ulaşamıyor bölgeye.
+
+lütfen ayni yardımları kaymakamlıklarda bulunan sosyal yardımlaşma ve dayanışma vakıflarına yapın ki organize dağılsın. diğer türlü irtibatsız yapılan yardımlarda bir bölgeye yığılma oluyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 267]
+kimse kusura bakmasin ama kendim bolgeye gidip kendim yardim edecegim.
+
+yardim organizasyonlarina ve ya devletin afadina kizilayina guvenim yok malesef.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 269]
+kopyala yapıştır yapmaya müsait bir metin halinde, deprem yardımlaşma kanalları
+
+kışlık kıyafet, bebek maması ve bezi, hijyenik ped yollamak için
+istanbul:
+- akut vakfı kartal yerleşkesi: onur okyay +90 532 303 66 22 veya hakan bingöl +90 537 208 19 09
+- kadıköy belediyesi başkanlık binası
+- küçükçekmece belediyesi sosyal yardım işleri müdürlüğü hizmet binası (444 4 360)
+- şişli belediyesi ana hizmet binası (444 31 12)
+türkiye geneli:
+- bu tweet zincirinde size en yakın ve kolay irtibata geçeceğiniz yeri seçiniz: https://twitter.com/…nss/status/1622523907705040897
+
+para yollamak için
+ahbap hesap numaraları:
+vakıfbank ıban: tr200001500158007318677809
+iş bankası tl ıban: tr120006400000110211380059
+iş bankası usd ıban: tr150006400000210212150262
+iş bankası eur ıban: tr320006400000210212150277
+(transfergo yurtdışından gönderim ücreti almıyor)
+
+kalacak yer ihtiyacı olanlar için
+cemevleri: maraş, antakya, samandağ, antep, osmaniye kadirli, malatya, adıyaman, adana, diyarbakır, urfa kısas cemevleri kabul ediyor.
+diğer lokasyonlar bu tweet zincirinde:
+ahbap'ın bu iş için işaretlediği lokasyonlar (google maps):
+
+arama kurtarma gönüllü olmak için
+türkiye işçi partisi: +90 542 352 7847
+
+► Class: 6
+► Aid Types: Y,P,H
+► Contact: +905323036622
+--------------------------------------------------------------------------------
+[ENTRY 270]
+dicle üniversite hastanesinde olan var mı?varsa ulaşabilir mi?
+
+► Class: 4
+--------------------------------------------------------------------------------
+[ENTRY 273]
+#148700772
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 274]
+antalya ve alanya bölgesinde, ayrıca eskişehir ve ankara'da onlarca otel ücretsiz konaklama imkanı veriyor depremzedelere:
+
+https://www.otelz.com/gecmisolsunturkiyem
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 276]
+kahramanmaraş merkez sürekli sallanıyor insanlar evlerine giremiyor herkes diken üstünde, herkes aç dün geceden beri. hava çok soğuk, arabası olmayanlar hayatta kalmaya çalışıyor. haberlerde ulaşamadığımız yer yok deniyor nerede bu yardımlar allah aşkına nerede!!
+
+► Class: 3
+► Aid Types: G,I
+--------------------------------------------------------------------------------
+[ENTRY 278]
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 281]
+kan verebilme şartlarını sağlayan herkesin kan bağışı yapması gerekmektedir. bugün yaklaşık 7 saat bekleyip kızılay'a kan bağışladım. 17 ağustos'u adapazarında yaşadığım için depremi yaşayan tüm insanları anlıyorum. kan bağışımız can kurtarır. lütfen.
+
+► Class: 6
+► Aid Types: S
+--------------------------------------------------------------------------------
+[ENTRY 282]
+ankara buyuksehir belediyesi kamyonlarla halktan yardim toplamakta angora evleri tarafina yarin sabah saat 11 de bir daha gelecegi soylendi abb den bu yardim kamyonlarinin bolgenize ne zaman gelecegini ogrenin ve gelmeden temiz kiyafet ve erzaklari hazirlayin, temiz olmak kaydı ile kullanilmis kiyafetleri aliyorlar bilginize.
+
+► Class: 6
+► Aid Types: Y,G
+--------------------------------------------------------------------------------
+[ENTRY 284]
+antakya armutlu mahallesi-cekmece mahallesi yardım gitmemiş acil yayar misiniz
+
+#hatayyardımbekliyor
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 285]
+anladığım kadarıyla en çok hasar hatay ve kahramanmaraş'ta. büyükşehir belediye başkanu lütfü savaş, 1200 civarında binanın yıkıldığını açıkladı.
+
+edit: imla
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 290]
+https://www.otelz.com/tr/gecmisolsunturkiyem
+
+hangi otellerin depremzedelere açık olduğunun listesi ve oda kontenjanları
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 292]
+özellikle antakya'da suriye uyrukluların yardım malzemelerini yağmaladığı yönünde ihbarlar alıyorum suriye'de deprem yardımı yapılmadığı için yardım almak için gelen kafileler olduğu bilgisi geliyor sınırı geçen kafileler yardımları yağmalıyor
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 293]
+hatay'da olan arkadaşlar lütfen yardımcı olmaya çalışalım.
+
+görsel
+görsel
+
+edit : çaylak arkadaşımızın ricası. imkanı olan lütfen yardımcı olsun
+
+görsel
+
+edit 2 : hatay'daki arkadaşımız enkazdan sağ olarak çıkarıldı.
+
+► Class: 3
+--------------------------------------------------------------------------------
+[ENTRY 295]
+https://www.otelz.com/…_2nknlqtj9dvgu-8k_cfule_ohy0 depremzedelere gönüllü oteller listesi
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
+[ENTRY 296]
+otelz-depremzedelere destekte bulunan otel ve konaklama tesisleri
+
+otellerin yaptığı bu iyiliğin kaydını aldım, yarın bir gün olarak bu otelleri tercih edeceğim.
+
+► Class: 6
+► Aid Types: B
+--------------------------------------------------------------------------------
