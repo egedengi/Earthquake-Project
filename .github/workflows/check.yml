@@ -45,32 +45,34 @@ jobs:
         with open("reported_threads.json", "r", encoding="utf-8") as f:
             all_urls = json.load(f)
 
-        scraped_file = "scraped_urls.json"
-        with open(scraped_file, "r", encoding="utf-8") as f:
-            scraped_urls = json.load(f)
+        MAX_PAGES = 21
 
-        if not scraped_urls:
-            print("First run: marking all existing URLs as already scraped.")
-            with open(scraped_file, "w", encoding="utf-8") as f:
-                json.dump(all_urls, f, ensure_ascii=False, indent=2)
-            exit(0)
-
-        new_urls = [url for url in all_urls if url not in scraped_urls]
-
-        if not new_urls:
-            print("No new threads to scrape.")
-            exit(0)
+        progress_file = "thread_progress.json"
+        if os.path.exists(progress_file):
+            with open(progress_file, "r", encoding="utf-8") as f:
+                thread_progress = json.load(f)
+        else:
+            thread_progress = {}
 
         scraped_in_this_run = []
-        for url in new_urls:
-            print(f"Scraping: {url}")
-            result = subprocess.run(["python", "eksisozluk_into_text.py", url])
+
+        for url in all_urls:
+            if url in thread_progress:
+                next_start = thread_progress[url] + MAX_PAGES
+            else:
+                next_start = 1
+
+            print(f"Scraping: {url} from page {next_start}")
+            result = subprocess.run(
+                ["python", "eksisozluk_into_text.py", url, str(next_start)]
+            )
+
             if result.returncode == 0:
-                scraped_urls.append(url)
+                thread_progress[url] = next_start
                 scraped_in_this_run.append(url)
 
-        with open(scraped_file, "w", encoding="utf-8") as f:
-            json.dump(scraped_urls, f, ensure_ascii=False, indent=2)
+        with open(progress_file, "w", encoding="utf-8") as f:
+            json.dump(thread_progress, f, ensure_ascii=False, indent=2)
 
         with open("newly_scraped.json", "w", encoding="utf-8") as f:
             json.dump(scraped_in_this_run, f, ensure_ascii=False, indent=2)
@@ -114,7 +116,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add earthquake_alert_*.txt reported_threads.json scraped_urls.json newly_scraped.json || true
+        git add earthquake_alert_*.txt reported_threads.json thread_progress.json newly_scraped.json || true
         git add *_entries.txt 2>/dev/null || true
         git add *_classified/ 2>/dev/null || true
         git diff --quiet && git diff --staged --quiet || (git commit -m "🚨 Earthquake alert detected at $(date '+%Y-%m-%d %H:%M:%S')" && git push)

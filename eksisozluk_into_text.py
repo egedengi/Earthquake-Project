@@ -148,11 +148,15 @@ def save_entries(entries, topic_title, url):
 
 
 def main():
+    global START_PAGE
     if len(sys.argv) < 2:
-        print("Usage: python eksisozluk_into_text.py <url>")
+        print("Usage: python eksisozluk_into_text.py <url> [start_page]")
         sys.exit(1)
 
     url = sys.argv[1]
+    if len(sys.argv) >= 3:
+        START_PAGE = int(sys.argv[2])
+
     entries, topic_title = scrape_thread(url)
 
     if not entries:
