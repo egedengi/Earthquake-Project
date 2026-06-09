@@ -1,0 +1,45 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 19]
+çiğli belediyesinde asansörde yakalandım allah kahretsin. inince güvenliğe bu asansörün hali nedir diyecektim in cin top oynuyordu belediye girişinde
+
+► Class: 1
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 186]
+çok kötü sallandı, park halinden bulunan araca ailecek binerken yakalandık
+karşıyaka, yalıcaddesinde bitişik bir kaç yanımız nizam bir bina yan komşusundan ayrıldı. üzerimize kentsel dönüşüme girmiş bir inşaattan kiremitler düştü. korku filmi gibiydi bir kaç saniye iyi ki yaralanan olmadı
+
+edit;
+ayrık apartman
+üzerimize düşen tuğlalar
+deprem sonrası
+
+herkese geçmiş olsun
+
+edit 2; başıma muhtemel ufak bir moloz çarptı. kafamdaki şişliği yeni fark ediyorum.
+
+► Class: 1
+--------------------------------------------------------------------------------
+[ENTRY 270]
+çok şiddetli sallaması yetmiyormuş gibi bir de çok uzun süren deprem. 6.5 en az bence ya da bana öyle geldi. bit artık 2020 bit.
+
+edit: bayraklı'da yıkılan binalar var inanamıyorum :((
+
+edit2: depremden sonra hemen dışarı çıktık, ihtiyaçlar için şimdi eve girdik, azcık bir şeyler yiyelim dedik oturduğumuz yerde art arda 3-4 deprem daha oldu. bitmiyor, azıcık titremek bile acaba büyüyecek mi korkusu vermeye yetiyor. büyük depremden sonra 67 tane artçı daha olmuş, böyle yaşamaya alışacağız galiba :(
+
+► Class: 1
+► Aid Types: K
+--------------------------------------------------------------------------------
+[ENTRY 275]
+çok kötüydü.off allah'ım sen yardım et...
+
+► Class: 2
+--------------------------------------------------------------------------------

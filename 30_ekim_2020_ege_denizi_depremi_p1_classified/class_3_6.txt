@@ -1,0 +1,1664 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 1]
+üst edit: umarım tekrar böyle büyük depremler yaşamayız diyeceğim ama deprem ülkesi olduğumuz için diyemiyorum. en azından umuyorum ki binalar para için kalitesiz malzemeyle değil de güvenlik için sağlam malzemeyle yapılmaya başlanır ve tüm olası senaryolara karşı dizayn edilir.
+
+çok fena salladı lan. ne bu?
+
+tahminim en az 5.5-6.0.çok uzun sürdü.valla ölüyoruz sandım.
+
+edit:koeri 6.8 olarak verdi. saat 14.51 ege denizi. derinlik 11.8km.
+
+edit:emsc son güncelleme olarak 7.0 diyor.
+
+edit:afad’ın deprem öncesinde,anında ve sonrasında yapılması gerekenler listesini ekliyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 2]
+çok fena sallamıştır. merkezi başka yer olabilir..
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 3]
+arkadaşımla telefonla konuşurken denk geldiğim depremdir. baya şiddetli sallamış. geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 4]
+çok etkili bir deprem oldu 30 sn kadar sürdü.
+edit:izmir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 5]
+çok uzun sürmüş ve korkutmuştur
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 6]
+urla'da ağzımıza sıçmıştır afedersiniz
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 7]
+en az 6.5 olan depremdi. ömrü hayatımda bu kadar şiddetli deprem hissetmedim.
+
+uzunluğu ve şiddeti en iyi gösteren video
+https://www.instagram.com/…doj/?igshid=qc4tkkawznw9
+
+edit: 30 saniye sürdü. hissedilen rahat 7 vardır, sürekli yıkılan bina ve deniz taşması videoları geliyor. çok geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 8]
+hemen başlık aç ama sallarken. yoksa depremi durduramazsın.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 9]
+5 saniyede başlık açmışlar lan
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 10]
+30 sn kadar fena sallamıştır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 11]
+inanılmaz sallandı, koşarak çıktık binadan
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 12]
+edit: 6,6 izmir/seferihisar merkezli olduğu belirlendi
+çok çok kötü sallandı, izmir konak geçmiş olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 13]
+ürküttü çok fena, bodrum'dan bile hissedildi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 14]
+hayatimin en siddetli depremiydi 6 uzerinde net.
+
+edit: sanirim 14 51 de basladi suan 14 57 hala evim biraz sallanıyor. araliklarla. geçen sene istanbulda deprem olduğunda istanbuldaydım. açikcası zerre paniğe kapılmadım. bu gün olan onunla karşılaştırilamayacak kadar korkunçtu.
+
+hala araliklarla devam ediyor... saat 16 suan hala yine ufak bir tane oluyor. büyük ihtimalle mantıklı olan evde durmamak ama üseniyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 15]
+edirne'de hissedildi
+
+edit: izmir merkezli olduğu söylendi.
+
+edit2: halil sezai'nin tahliye olması ile ilgili bir şeyler yazıyordum tam. sallayınca 'yemişim halil sezai'yi' deyip siliverdim. g.t korkusu çok başka bir şey...
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 16]
+yaklaşık 30 saniye sürdü ve 7 civarıydı en az
+6.5miş
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 17]
+hala sallıyor
+
+edit: kendimi hiçbir zaman ekşi sözlük yazarlığına uygun görmedim ama bir deprem başlığına ilk sayfadan entry girebilmeyi başardım sonunda. bütün ekşi yazarları gibi benim de sismografik bir götüm var artık. ben de sizden biriyim..
+
+edit2: başlık izmir başlığına taşınmış, sözlüm yazarlığımdan feragat ediyorum tekrardan
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 18]
+yarın olacak sanırım.
+edit: başlık 31 ekim diye açılmıştı o sebeple yazılmıştır. tüm yazar arkadaşlarımıza geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 20]
+sallanıyor muyuz, bana mı öyle geliyor dedirten deprem
+
+edit: 30 ekim antalya depremi diye başlık açmıştım
+antalya / konyaaltı'nda hissettiğim için bi an ekşiye girip;
+şimdiyse başlık taşınmış, çaylak yapılmışım, lanetli yapılmışım, nasıl bir moderasyonunuz var sizin? böyle bir anda dalga geçmek için mi başlık açıyoruz sanıyorsunuz?
+
+not: umarım ölen/ler yoktur.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 21]
+uzun süreli deprem 14.53 te hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 22]
+didimde sabit duran aracin icinde hissedilmistir. baya ciddi sekilde sallamistir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 23]
+bisikletle yolda giderken sallandım. baktığımda net bir şekilde yoldaki arabalar sallanıyordu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 24]
+oha lan ben böyle deprem görmedim. arabanın içinde otururken dedim ki arkadaş sallıyor arabayı baktım kimse yok. etrafa bir baktım resmen tüm binalar sallanıyor. en az 6.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 25]
+denizli'yi hafif sallamış depremdir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 26]
+çok korkunçtu ve çok uzun sürdü. şiddetini merak ettiğim deprem.
+izmir bu video doğru mu?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 27]
+istanbuldan hissettim. allah yardımcınız olsun, sağlam salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 28]
+şu an eskişehirde bile hafif hafif sallayan deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 29]
+2 dakikaya yakın sürdü maşallah
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 30]
+hala ufaktan sallamakta.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 31]
+hayatımda ilk defa depremden korktum. çok çok korkunçtu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 32]
+hala sallanıyorum. konum dudullu keyap tarafı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 33]
+kemeraltında yürürken sanki yer altımdan kaydı sanki.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 34]
+ufak ufak ama ben buradayım dercesine salladı. covid dolayısıyla geri planda kaldığını düşündü galiba.
+edit: istanbulda bana çok normal gelmişti ama izmir’de çok etkili olmuş. geçmiş olsun herkese yalnız eğer bu depremde yeni bir ev yıkılmışsa kesinlikle yapanlar bedelini ödemeli! suç var ama ceza yok genelde bizde.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 35]
+istanbulda hissettim bu ne yuh
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 36]
+arkadaşım bu nedir? oturduğum yerde tutunmak zorunda kaldım. hala artçılar devam. sanki zemin yarı sıvı gibi!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 37]
+merkez üssünü merak ettiğim deprem. tam başlık açmaya gelmiştim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 38]
+korkutan deprem. hiç bu kadar korkmamıştım. koşa koşa küçük kuzenimi kucaklayıp dışarı attım. koşarken depremle savrulduk. az daha duvara çarpıyorduk son anda durabildim. çok acayipti.
+
+edit: seferihisar narlıdere taraflarında yıkılan bina haberi almadık. bu civarda herkes iyi gibi görünüyor.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 39]
+deprem mi oldu uzun sürdü
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 40]
+bi karar verin nerenin depremi bu.
+
+tanım: hisseden herkesin başlık açtığı deprem. star binası da sallanmış bu arada.
+
+edit: yerini bulmuş entry. hissedenlere geçmiş olsun diyoruz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 41]
+geçmiş olsun vatandaşlarımıza.
+umarım kayıpsız atlatırız.
+denizli'den hissettik, uzun sürdü bayağı.
+editledim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 42]
+başım döndü sandım. fena salladı, sismik götüm sağolsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 43]
+sokağa kaçıp ağlamama sebebiyet veren deprem. ellerim titriyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 44]
+silivride hissedilmiş olamaz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 45]
+bahçeli evdeyiz kendimizi zor attik. hala da devam ediyor. en az 6 vardır. can kaybı yoktur umarım.
+
+edit: artçıları hala devam etmekte.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 46]
+1 dakkadır sallanıyoruz, mekan ataköy
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 47]
+antalyada hissedilen depremdir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 48]
+fena salladı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 49]
+aydın’da zangır zangır sallandık
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 50]
+bursadan fena hissedilen depremdir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 51]
+muğlada hissedilen depremdir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 52]
+sallanmaya devam ederken başlık açanları gördük deprem devam ediyordu çünkü hala
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 53]
+çok uzun salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 54]
+ömrümde hissettiğim en şiddetli depremi. ayakta duramadım. allah bizi doğal afetlerden korusun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 55]
+nilüferi iyi salladı, avizeler şıkır şıkır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 56]
+24 katlı binada dans ediyoruz resmen
+(bkz: en üst katta oturmanın dezavantajları)
+edit : konum istanbul avrupa yakası
+rasathaneyi bilmem ama ben 5-6 hissettim
+
+izmir 6.6 olarak duyuruldu
+twitter afad
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 57]
+istanbulda sallandı çok enteresan!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 58]
+eşim inanmıyor sallanıyoruz diyorum,iyi ki eksi var da inandı simdi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 59]
+hiçbir şey hissetmedim. avcılarda hissedilmedi.
+
+edit: görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 60]
+-1 kattayım. başım döndü sandım. halatların sallandığını görünce anladım
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 61]
+korkunçtu hiç bitmeyecek sandık.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 62]
+başıma bir şey gelmeyecekse ataşehir'de hissetmediğim depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 63]
+şaka gibi hala sallanıyoruz
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 64]
+en az 5 şiddetinde olmuştur.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 65]
+bodrum'dan saniyelerce hissedilen, beşik gibi sallayan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 66]
+çok sağlam vurdu. bayağı geniş bir alanda hissedilmiş gördüğüm kadarıyla.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 67]
+üst üste iki defa sallamıştır istanbul'da.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 68]
+hala sallıyor ne zaman başlığını açtınız da entry girdiniz arkadaş.
+
+iyi sallayan depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 69]
+ankaranın batısında komple hissedildi galiba, böyle ileri geri, sağa sola ağır ağır insanın içini çeken bir şekilde salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 70]
+uzunca süre sallandık. üzerine de şimşek çaktı; tam korku filmi sahnesi gibi.. lokasyon istanbul ataköy.
+
+edit: bodrum'da yaşayan kız kardeşimle konuştum. çok ciddi sallanmışlar ve korkmuşlar. izmir'de bina(lar) yıkılmış. herkese çok geçmiş olsun. umarım çok fazla can kaybı olmaz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 71]
+7 civarı olmuştur.
+
+deprem editi : 6.9 girmiş kandilli, ölüyorum sandım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 72]
+hissetemedim bile
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 73]
+vay anasını iyi salladı. 5.7 diyorum tahminen.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 74]
+salıncak gibi salladı geçti.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 75]
+istanbul’dan hissedilmiştir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 76]
+bilemiyorum sallandık.
+
+tanım: çaylak olarak lanetlenmeme sebep olan deprem. benim gibi yazarın amıma koyayım ya.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 77]
+antalya’da hissedilmedi. geçmiş olsun, umarım kayıp yoktur
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 78]
+çeşmede çok fena salladı 30 saniye kadar 5.5-6 şiddetinde. inşallah merkezi burasıdır.
+
+edit: 6.7 samos adası merkezli görünüyor. neden o kadar sallandığımız anlaşıldı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 79]
+teamste dersteydik ben istanbuldayım. izmir ekibi cıglık cıglıga kaçtı cok korkunçyu. tüylerim diken diken.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 80]
+4.5 tahmin ettiğim depremdir. bayağı sallandık.
+
+edit : samos merkezli, 6.5 büyüklüğündeymiş.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 81]
+bursa'dan hissettim depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 82]
+uzun ama hafif salladı. yer şişli.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 83]
+tam olarak merkez üstü neresi bilmiyorum ama karburun yarimadasi bildiğin helezon seklinde sallandı.
+
+ev bildiğin meksika dalgasi gibi gitti geldi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 84]
+ananı avradını sikeyim diyorum sadece, çok fenaydı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 85]
+ilk kez bi istanbul depremini yakaladım, fena salladı demek ki.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 86]
+baya uzun süren bir depremdi, manisa sarıgöl
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 87]
+lan ne ara açtınız başlığı amk 30 küsür entry girilmiş bide.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 88]
+her nerede olduysa bandırma'da da fena şekilde salladı ve epey uzun sürdü.
+
+edit: 7.0 büyüklüğünde merkez üssü sisam adası. ta libya, mısır, ingiltere'den bile hissedildiği söyleniyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 89]
+seferihisarda araba kullanırken yakalandığım depremdir..
+
+araba kullanırken salladığıma göre ciddi şiddetli olsa gerek
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 90]
+belki 20 saniye sürdü. asfalt denizde kayık gibi sallandı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 91]
+izmitte yaprak bile kıpırdamadı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 92]
+silivri de sallandı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 93]
+kartal'da hafif salladı. galiba silivri gene..
+
+edit: tüm ege'ye çok geçmiş olsun. umarım can kaybı yoktur..
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 94]
+buca'da normalde depremi hissetmezken bizim apartmanı bile salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 95]
+çok uzun sürdü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 96]
+istanbul'dan hissettirendir. merkezüstü istanbul sandım o derece
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 97]
+balıkesir’de sağlam hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 98]
+bodrum'da hissedilen deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 99]
+çok feci salladı bursa'da güçlü hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 100]
+alanya’da hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 101]
+bahçeşehir sallanıyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 102]
+fena olan depremdir. bi' de sağanak var ki gök gürültülü, insanlar sağlam korktu.
+
+konum, bağcılar basın ekspres lokasyonu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 103]
+ölümle yüz yüze gelmek.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 104]
+alışverişte reyonda kafama zeytinyağları devrildi mk.
+
+edremit.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 105]
+istanbuldan hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 106]
+bu neydi yahu. tur tur titriyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 107]
+sismik götlü ekşiciler yine titreşim yeryüzüne ulaşmadan başlık açmış.
+ama iyi salladı 9.kattan hissettim
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 108]
+edirne'de de çok şiddetli olmasa da fazla sürdü korkuttu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 109]
+bu sefer ben de sallandim , yer bomonti
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 110]
+tatlı tatlı salladı. yalnız ev baya yüksek bir katta başım döndü bir hoş oldum. son dönemde meydana gelen depremleri hiç hissetmemiştim. tılsımı bozdum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 111]
+ümraniye de kısa süreli hissettiğim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 112]
+çok hafifti deprem mi değil mi ikilemde kaldım. neyse ki sozluk var.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 113]
+doğru hissetmişim! sallantı hissedince direkt başlık var mı diye girdim ama yoktu. şimdi var. gerçekten olmuş. anadolu yakasında hissedildi.
+
+hafif ama birkaç saniye süren bir sallantıydı. haberlerde göremeyince bana öyle geldi herhalde dedim ama gerçekten hissetmişim.
+
+edit: istanbul başlığı için yazmıştım çünkü istanbul’dan hissettim. başlık önce izmir sonra ege denizi olmak üzere 2 kez revize edilmiş. haberlerde, şiddetin 6.6 büyüklüğünde olduğu belirtildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 114]
+14:55 itibariyle 30 saniye boyunca fena sallayan ve korkutan depremdir, avizeler hala sallanmaya devam ediyor
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 115]
+beşik gibi uzun uzun salladı , nerde oldu bu deprem ?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 116]
+6.8 ege denizi. iyi sallandı. umarım beklenen ege depremi budur. denizde olsun tek
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 117]
+harbiden iyi salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 118]
+balıkesir'den bile hissedilmiştir.
+
+edit: zaten izmir merkezliymiş. istanbul zannetmiştim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 119]
+sakarya’da hissedildi.
+
+edit: çok uzun sürdü. depreme bağlı yer altı sesi duyanlar olmuş fakat ben herhangi bir ses duymadım sadece baş dönme hissi vardı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 120]
+yıldırımla karışık combo yaptı b.düzü
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 121]
+ödümü kopartan depremdir, yatak sağa sola gitti geldi.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 122]
+minimum 6-7 olmuştur yerimde oturamadım bildiğin
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 123]
+inegöl'de de hissedilmiştir. ağır ağır sallandırdı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 124]
+avcıları güzel salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 125]
+çanakkale bayramiç te sağlam sallandı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 126]
+kütahya simav'da hissettim. nerede olduğunu bilmiyorum an itibariyle.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 127]
+izmir inciraltı hala sallıyor. 3 dk oldu nerdeyse. çok kötü.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 128]
+çok fena salladı. 45 saniye, minimum 6 siddetindedir.
+
+edit: bu amina kodumu operatorleri ne ise yariyor allah askina. ulan aninda network busy diyor. allah gostermesin buyuk bir depremde kimse kimseyi ariyamaz.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 129]
+izmirden hissettik.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 130]
+edremit'te sağlam sallandık
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 131]
+abi inanilmaz bahçeye çıktım yerler sallanıyordu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 132]
+bu kadar sallayan bi deprem hic hissetmemistim ölüyorum sandım
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 133]
+müthiş salladı. kaldırımda olmama rağmen büyüklüğünü hissettim
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 134]
+uşak'tan da hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 135]
+tekirdağ’dan da hissedilen depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 136]
+başlığı ilk an göremeyince kendimden şüphe ettiğim deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 137]
+tam rahmetli dilay için entry girecektim, bi anda deprem.. hemen girdim gündeme.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 138]
+epey uzun sürdü. işin ilginci evde değildim. açık havada oturduğum yerde sallandım. hala sallanıyorum. ön masamda oturan yaşlı teyzeler kaçtı. anlamadığım açık havadayız ne olabilir ki? derken göçüyormuşum yerin altına.
+az önce yine deprem oldu. artçılar devam ediyor. ne zamana kadar sürecek bu merak ediyorum doğrusu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 139]
+yaklaşık bir dakika boyunca kendimden şüphe ettiğim sallantı oldu. bu kadar uzun süremez başım dönüyor heralde dedim kendime.
+
+lokasyon tekirdağ. genelde hissetmem ama bayağı hissettim bu sefer.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 140]
+45 saniye surup 3 buyuklugunde olamaz bir deprem, bir yerlerde saglam bir deprem olmus ve bize az hissettiriyor belli ki, umarim can ve mal kaybi yoktur.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 141]
+buca da çok kötü salladı. hem deprem bizim ağzımıza sıçtı hem de ben depremin ağzına sıçtım. tuvaletteydim zira
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 142]
+ataşehirde uzun bir süre salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 143]
+bodrumdayım, sağlam hissettim. istanbul'dakiler hissetmiş. sağlam bir deprem olsa gerek
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 144]
+tekirdağ'da beşik etkisi yaratmıştır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 145]
+bursa'da epey uzun ve sert hissedildi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 146]
+lüleburgazda bayağı hissedilir sallandı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 147]
+bigada da uzun süreli hissedilmiştir. yaklaşık 30 saniye
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 148]
+didim’de çok şiddetli hissedilen deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 149]
+bursa 20. kattaki ofisimde lambalar adeta dans etmiştir
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 150]
+bursa’da baya uzun süre sallayarak sıçırtmıştır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 151]
+resmen elim ayağım titredi dostlar. çok canlar yaktı muhtemelen bu deprem. uzun zamandır böyle bir sarsıntı hatırlamıyorum. hepimize geçmiş olsun.
+
+edit: hala sallanıyoruz gibi hissediyorum. muhtemelen artçılar da var.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 152]
+çeşmeden fena sallandik. allah korudu valla
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 153]
+söke fena sallandı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 154]
+ilk defa bu kadar kötü hissettim bir depremi dizlerimin bağı çözüldü resmen
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 155]
+çok uzun sürdü çok.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 156]
+aşırı uzun süren deprem.
+
+home office çalışıyorum masam parke üstünde gözümün önünde ilerledi.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 157]
+eskişehir'de 20 sn falan baş döndürdü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 158]
+hayatımda böyle bi deprem görmedim
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 159]
+umarım iyidir herkes, istanbuldan sağlam hissettim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 160]
+izmitte hissedilen deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 161]
+uzerime esya dusurerek uyanmama sebep olmustur. siddetliydi. umarim kimseye bir sey olmamistir.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 162]
+3. kattaki odamda olan ne var ne yoksa yerlere dökmüş olan deprem lokasyon çandarlı 3. kattan aşağı inene kadar yer ayağımdan kaydı nasıl dışarı çıktık bilmiyorum baya fenaydı umarım can kaybı yoktur.
+
+edit: 6.6 şiddetindeymiş şöyle bi etraf bakayım derken en öndeki villanın dış cephesinin dökülmesine sebep olduğunu fark ettiğim depremdir. neyseki içinde insan yok.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 163]
+salladı, ama eve olan güvenimi artırdı. herkese sabır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 164]
+başım döndü resmen her taraf toz duman oldu
+edit: polisler gidiyor sürekli anlamadım
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 165]
+başlık açıldım mı diye bakayım dediğim telefonu alıp bakana kadar devam eden deprem geçmiş olsun herkese.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 166]
+istanbul’da iyi salladı yedinci katta.
+ancak merkez üssünün başka bir yer olduğunu sanıyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 167]
+çok fena sallamıştır. artçıları da hala olmakta, 3 tanesini hissettim. hepimize geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 168]
+geçmiş olsun herkese
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 169]
+bir ben hissetmedim sanırım
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 170]
+zaman kavramını sorguladığım deprem. çok uzun sürdü namussuz, bahçede yakalandım içeri girdim köpekleri çıkardım hala devam ediyordu. einstein haklıymış.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 171]
+istanbul üsküdar’da iki kez aralıklarla hissettirmiş olan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 172]
+görsel
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 173]
+gerçekten fena ve uzun salladı, tekirdağ'da da baya hissedildi. tahminim ise 4.7-5 civarı. 3 demiş başlığı açan sismik götlü suserimiz ancak, 3 civarı depremi olduğun yerden bile hissetmen çok zor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 174]
+çok kötü yer yerinden oynadı resmen.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 175]
+wodafone sıçtı yine, kahretsin aileme ulaşamıyorum yaa.
+
+► Class: 4
+► Aid Types: U
+--------------------------------------------------------------------------------
+[ENTRY 176]
+sakarya'da bile oturduğum yerden hissetmiştir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 177]
+bayağı sallandı, uzun süredir ilkkez bir depremi böyle hissederek yaşadım..
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 178]
+ben hayatımda boyle bir sey yasamadim. dokuz eylul de sıra beklerken aklımızı aldı. kendimizi nasıl dışarı attığımızı bilemedik.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 179]
+merkez üssü neresi bilmiyorum ama aydın'da yürüyemedim çok fenaydı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 180]
+ta bursa'dan hayvan gibi sallamıştır. geçen seneki istanbul depreminden daha kötüydü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 181]
+nedamet getirdim resmen bagira bagira dua ettim. korkunctu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 182]
+korkunçtu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 183]
+6.5 şiddetindeymiş.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 184]
+aydın'dan çok fena hissedilmiştir ve çok uzun sürmüştür.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 185]
+cnn türk yayınını bile 10 sn kesmiş olan deprem.televizyon bozuldu sandım kalbim kitlendi.çok geçmiş olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 187]
+apartman 15 katlı. hala sallanıyoruz.
+yer: antalya
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 188]
+normalde depremlerde sakin kalabilsem de bu sefer elim ayağım boşaldı. ellerim titriyor resmen
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 189]
+zangır zangır avizenin sallanmasıyla şahit olduğum afad‘ın bilgilerine göre 6.6 büyüklüğünde deprem. merkez üssü ege bölgesi izmir’in seferihisar ilçesi 16 km derinliğinde bursa ve civar illerde de net olarak hissedildi.
+
+kandilli rasathanesi depremin büyüklüğünün 6.8 olup derinliğinin 11.8 km olarak bilgi aktarıyor.
+kaynak
+
+izmir’den gelen bina yıkımı görüntüleri
+
+herkese geçmiş olsun. anlaşılan o ki 2020 sürprizlerini yapmaya devam edecek.
+
+e: düzeltme
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 190]
+istanbul’dan bile hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 191]
+kutahyayi hala sallamakta olan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 192]
+çanakkale’de zıplatan deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 193]
+çerkezköy den hissedildi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 194]
+sakaryada da ciddi hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 195]
+ege denizinde 6,5 büyüklüğünde bir deprem meydana geldi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 196]
+derinlerde bir kırılma oldu muhtemelen bu kadar uzak yerlerden bile hiseldiğine göre.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 197]
+18’inci katta çok fena hissettik.
+ben istanbul depremi sandım, izmir’miş merkez üssü.
+umarım can kaybı ve hasar yoktur!!!
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 198]
+bursa'da çok fena hissedildi, elim ayağım titredi, uzun zamandır bu şiddette bir deprem olmamıştı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 199]
+hayatimda yaşadığım en büyük depremdi. kuşadası zangır zangır sallandi.
+edit :gene deprem oldu artcilar bitmek bilmiyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 200]
+en az 6.5 vardı. 6.3 ü yaşamış biri olarak diyorum ki bu en felaketiydi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 201]
+balıkesir/ burhaniyede birinci kat dairede sağlam hissettik üst katları düşünemiyor bile umarım zayiat yoktur.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 202]
+alta sıçırtandır öyle böyle değildir
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 203]
+bu nasıl deprem!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 204]
+çok geçmiş olsun izmirdeki arkadaşlara.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 205]
+göcek'te en az 1.5 dakika salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 206]
+ıstanbuldan da hissedilen depremdir. anadolu yakasından hissedildi. uykumdan uyandırandır aynı zamanda, dedim kalbim çarpıyor heralde. tam o sırada iyice salladı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 207]
+annemle telefonda konusurken sahit oldugum deprem. cok kötu oldum umarim herkes iyidir. canak cömlek yerle bir oldu duydugum kadariyla, izmir normali olan 5 siddetinden buyuk sanirim.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 208]
+6,5 izmir sallanmış
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 209]
+bursa'dan da çok fena hissedilen deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 210]
+küçük şiddette, en az iki -muhtemelen üç- defa gerçekleşmiş, özellikle son salladığında bayağı bayağı uzun bir süre sallayan bir deprem.
+
+büyükçekmece'de bulunduğum sitede sadece masa üstündeki su şişesinin içindeki sallanması olarak hissettim. tesadüf, o esnada işyerinde olan eşimle telefondaydık. onlar bahçeşehir tarafında bir rezidansın 7. katında iyi sallandılar.
+
+geliyor gelmekte olan, cumhurbaşkanı'ndan vatandaşına, büyükşehir belediye'den akom'a herkes de uyumaya devam etsin.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 211]
+komple ülke sallandı galiba...
+
+başlığın 30 ekim 2020 türkiye depremi olarak değiştirilmesini talep ediyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 212]
+atina , izmir , istanbul 'dan edirneye kadar hissedildiği söyleniyor
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 213]
+başım dönüyor zannettim baktım yanımdaki kolonya şişesindeki kolonya sallanıyor deprem olduğunu anladım merkez üssü sisam adasıymış sanırım.
+
+lokasyon : istanbul
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 214]
+tam arabaya bindim arabayi kim salliyor diyorum cok uzun surdu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 215]
+iyi sallandık. alttan fokurdadı sanki ve 20 saniye sürdü en az. geçmiş olsun, can kaybı yoktur inşallah.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 216]
+karataş hastanesi kafetaryasında çok şiddetli hissedilmiş depremdir. hastane içinde herkes merdivenlere kaçtığı için kaos hakim oldu
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 217]
+istanbul sultangazi de hissettim 6 gibi salladı
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 218]
+7.1 yunistan samos aciklarinda olmus depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 219]
+ne güzel problem çözüyordum
+
+tanım: çök kapan uyguladığım ilk deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 220]
+izmirli müşterilerimle zoom toplantısı yaparken oldu. 1 dakika çığlıklarını duydum.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 221]
+edirne'den de hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 222]
+hayatımda yaşadığım en korkunç deneyimdi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 223]
+istanbul'dan hissetmedim ama odamdaki avizeyi kontrol ettiğimde halen milim milim sallandığını görebiliyorum. geçmiş olsun, ölü yaralı yoktur umarım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 224]
+fena sallamıştır. avizeler git gel yaptı.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 225]
+marmara ege akdeniz bolgelerinin hemen hemen tamamında hissedilen depremdir.
+
+merkez üssü ege denizi ise yakın şiddette artçılar beklenebilir. zira o bölgede deprem fırtınası şeklinde yaşanıyor depremler. ytd
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 226]
+istanbul da güzel sallandık, didim deki abimse, binalar gitti geldi diyor.
+merkez üssü neresi yahu bu depremin?
+
+evet.
+6.8 ege denizi açıkları. geçmiş olsun herkese.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 227]
+dışarıdaydım ayakta zor durdum. binaların çatılar dökülmeye başladı, bir bina yapışık olduğunu binadan ayrıldı ve baya çatlamıştı. korkuttu, umarım artçılar büyük olmaz.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 228]
+onca deprem gördüm yaşadım. ilk defa bu kadar yıkılacağız hissiyatı oluşturdu. dualar eşliğinde çaresizce bitmesini bekledik. çok feciydi çok!
+konum:bornova
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 229]
+9 falandı heralde
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 230]
+bursa ingeölde fena sallandıran depremdir. 45 sn kadar sürdü
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 231]
+edirne'de bu kadar sallandıysak izmir'i düşünemiyorum
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 232]
+bursa'da hissedilmiştir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 233]
+en az 30 saniye salladı. gerçekten baya şiddetliydi.
+
+lokasyon : muğla
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 234]
+yanlış açılmış başlık, 32 ekim olacak o.
+
+edit: 31 ekim başlığından taşındım, buraların yabancısıyım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 235]
+geçen seneki istanbul depremi ve izmir’deki son 5 yılın depremleri de dahil, hissettiğim en şiddetli depremdi. şimdi kedilerimle dışarıdayız.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 236]
+başta başım dönüyor zannettim. çok uzun sürdü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 237]
+sakarya da dahi bariz hissettiğim deprem. allah beterinden saklasın
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 238]
+çok fena sallandık. evka 3 te kaya üstünde bile deli sallandık.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 239]
+depremle ilgili de sürü bağışıklığı kazanmamız gerektiğini hatırlatan, depremle ilgili ülkece bir hazırlığımız olmadığını bildiğimiz deprem hadisesi. geçmiş olsun güzel ülkem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 240]
+didim de de hissettik, ayağımda salladı. uzun bir süre sonra, bir depremi ilkkez böyle hissederek yaşadım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 241]
+datça'da feci hissedildi. ve baya uzun sürdü. koltuk sağa sola doğru gitti. normalde korkmam hadi bit artık moduna girdim
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 242]
+sürekli ufak ufak devam ediyor. ana deprem kaç şiddetinde oldu bilmiyorum ama uzun zamandır böyle uzun ve şiddetli deprem görmedim. hala şiddeti nedir bulamadım.
+
+şaka gibi memleket ya. yemin ederim. haberlere bakıyorsun 6.6 yazıyor. interntten bakıyorsun. 7.0 yazıyor. google kocaman 7.0 yazıyor. ne biçim bir basın bu. depremin şiddetini çarpıtma be kardeşim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 243]
+45 saniye kadar fena salladi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 244]
+doğrusu 30 ekim 2020 on iki adalar depremi olması gerekiyor çünkü deprem güya yunanistan sınırlarında olmuş ancak ülkede sallanmayan yer yok anasını satayım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 245]
+hakkında 351798343064 tane başlık açılan deprem. koşar adım başlık açmaya çalışmadan önce iki dakika arasaydınız internette, merkezi neresi diye.
+
+herkese geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 246]
+samos'un kuzeyinde ege denizinde olan deprem. (6.7??)
+
+herkese geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 247]
+balıkesir’de aklımızı çıkaran depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 248]
+şiddetinden ziyade uzun sürmesiyle osurtan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 249]
+geçmiş olsun.
+
+yıkılan binalar gösteriliyor dilerim can kaybı yoktur.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 250]
+denizli'yi de sallayan deprem. durmadı bir türlü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 251]
+denizli’de hissetmediğim depremdir. umarım can kaybı olmaz
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 252]
+arabada giderken hissedildi, çok geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 253]
+izmir’den istanbul’dan herkes arıyor; burda deprem oldu diye. herkes çok uzun sürdü diyor. merkez üssü izmir anladığımız kadarıyla ama bu kadar geniş bir bölgede bu kadar uzun sürdüğünü söylemesi herkesin çok ilginç.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 254]
+küçükçekmece’de baya hissedilen depremdir. oynayan perdeler ve koltukla 22. katta makarina yaptık. sağanak yağmurla birlikte öğlen öğlen tadsız bir atmosfer yarattı birden.
+edit. 6.6 diyorlar
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 255]
+kuşadası açıklarında olmuştur. büyüklük 6.7
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 256]
+normalde anında hissederim. o sırada alt kata inerken sanırım fark edemedim. bir de dışarıda yine felaket gök gürültüsü başladı. ona odaklanmıştım sanırım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 257]
+çandarlı’dan hissedildi.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 258]
+depremin ortalarında lan bu nasıll depremm dedim resmen çok acayip depremdi
+
+herkese geçmiş olsun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 259]
+https://m.emsc.eu/earthquake/latest.php adresine göre oniki adalarda 6.7 büyüklüğünde meydana gelmiş.
+
+edit: 6.9 olarak güncellendi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 260]
+6,6 nedir ya yuh!
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 261]
+8 dakika da 200 entry girilmesine sebep olan depremdir.
+
+sanırım durum çok ciddi, geçmiş olsun dileklerimi iletiyorum inşallah en az can ve mal kaybıyla atlatılır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 262]
+ızmirden canlı ders veren hocamızın evinin sallanmasına şahit olduk bütün sınıf. çok geçmiş olsun hisseden herkese. sallanmayi görmek bile korkunçtu.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 263]
+hayatımda ilk kez depreme yakalandım ne uzun sallandı öyle başım hala dönüyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 264]
+adama bugünü yarın zanettiren depremden cenabı allah'a sığınırım.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 265]
+izmir depremi * eshotta yakalandım depreme lowrider gibi oynadı otobüs
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 266]
+başlığı açan yazara feleğini şaşırtmış olduğu anlaşılan depremdir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 267]
+selçukta ev beşik gibi gitti geldi. umarım kayıp yoktur
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 268]
+6.6 şiddetli, seferihisar merkezli
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 269]
+yalovayı titanik gibi sallayıp çok fena korkutmuş depremdir.
+geçmişin izleri de geçmedi tabi hala
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 271]
+sakin kalmakta zorlandığım deprem.
+ilk başladığında aha sallanıyoruz ama biter şimdi diye düşünüp kitabımı okumaya devam etmeye yelteneceğim sırada şiddetini arttıran ve bir türlü bitmeyen deprem. sonlarına doğru binanın yıkılacağını düşünmeye başlamıştım ki durdu.
+
+edit: 6.8 şiddetinde seferihisar açıklarında olan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 272]
+edirne'den hissedilmiştir. sanki 1 defa çok sert vurdu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 273]
+çok geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 274]
+bornova çok fena sallandı el ayagim titredi
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 276]
+eyüpsultan'dan acayip hissedildi. 6.7 rahat.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 277]
+izmirli olarak cok deprem gordum hic bukadarini gormedim insallah yıkım yoktur
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 278]
+asansöre binmek üzere yakaladı. hayatımda böyle bir şey görmedim. ikinci kattan atlayanlar vs falan vardı. kimseye bir daha yaşatmasın
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 279]
+uzun zamandır böyle sallanmamıştık
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 280]
+izmir bornova beşik gibi sallayan deprem
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 281]
+az önce olmuştur.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 282]
+geçmiş olsun. allah beterinden korusun
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 283]
+beşik gibi salladı. eylül 2019'dan beri en etkili deprem bu olabilir. lokasyon istanbul.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 284]
+ofiste döner sandalye ile bir oraya bir buraya gittim, herkese geçmiş olsun. konum: bursa
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 285]
+istanbuldan hissettik. çok fena vurdu
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 286]
+ölüm geçti önümden.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 287]
+uzun süreliydi.
+çok deprem yaşadım ama bu kadar uzun süreli olanını görmemiştim.
+
+bildiğin küçük kıyamet.
+etrafa epey bir çığlık yayıldı.
+
+artçılar devam ediyor..geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 288]
+çok fena sallayan deprem.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 289]
+ekşiye bakmasam haberdar olmayacağım depremdi. hiç hissetmedim.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 290]
+başlığı ilk açan olma sevdalılarını gösteren depremdir.
+bu işi bu kadar önemsemek ilginç hakkaten.
+
+[url=https://hizliresim.com/hqxj8c][img]
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 291]
+yok böyle bir korku ödüm koptu, umarım kimseye zarar gelmez.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 292]
+istanbul'u da iyi salladı, epey uzun sürdü.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 293]
+izmir'de olan deprem.
+
+istanbul'da bu depremi nası hissettiniz arkadaşlar? evinizi değiştirin kağıttan evde mi oturuyorsunuz?
+
+ikinci bir husus da daha deprem devam ederken neden başlık açma ihtiyacı duyduğunuz. iyi misiniz la?
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 294]
+raflardakileri ve kitaplığı deviren ve insanı şoka sokan depremdir.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 295]
+kutahya'da başım dönüyor sandım. lambaya bakınca anladım. 6.6 büyüklüğünde olduğu söyleniyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 296]
+kuşadası'nda ebemizi hoplatmis depremdir. şimdilik birşey yok gibi , uzun da sürdü ama.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 297]
+istanbul'dan da hissedilmiştir.
+
+herkese büyük geçmiş olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 298]
+6,6 olarak az önce açıklanan ve yaşamımda gördüğüm en büyük sarsıntıyı yaşatan depremdir. daha dün ayak bastık memlekete, iki huzur yüzü görelim be.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 299]
+didim’de baya hissedildi. 15-20 saniye sürmüştür 6 üzerindedir diye tahmin ediyorum.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 300]
+edit : kadir sütçü imiş , ertan özyiğit retweet etmiş
+
+facebook ta adamın biri bu hafta için ege de 6,5-7,5 arası deprem bekliyorum demişti kimdi bu merak ettim bulacağım şimdi
+
+► Class: 6
+--------------------------------------------------------------------------------
