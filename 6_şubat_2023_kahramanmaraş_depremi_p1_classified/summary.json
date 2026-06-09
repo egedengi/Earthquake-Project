@@ -1,0 +1,112 @@
+{
+  "total_classified": 500,
+  "priority_entries": 14,
+  "other_entries": 486,
+  "class_distribution": {
+    "6": 421,
+    "1": 14,
+    "5": 56,
+    "3": 8,
+    "4": 1
+  },
+  "priority_list": [
+    {
+      "entry_id": 2,
+      "class": 1,
+      "aid_types": "G,I",
+      "contact": "",
+      "preview": "yetkililerin yıllardır bağıra bağıra söylediği ‘beklenen’ bir depremin daha gerçekleşmesidir.\n\n2,5 yıl önce yazmıştım ;\n#108399958\n\nşimdi sırada ne va"
+    },
+    {
+      "entry_id": 224,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "diyarbakırda binalar yıkıldı neredeyse çoğu binada hasar var deprem bayağı uzun sürdü"
+    },
+    {
+      "entry_id": 232,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "diyarbakır'da uykudan uyandırdı. komşumuzun üstüne dolap devrilmiş. eski püskü bir binada da değiliz."
+    },
+    {
+      "entry_id": 242,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "edit: konum adana. yıkılan binalar olduğuna dair mesajlar geldi maalesef.\nmerkez üssü antep gibi görünen deprem. çok uzun sürdü derken yazdığım sırada"
+    },
+    {
+      "entry_id": 243,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "artçı geliyor, yumurtalık'ta sürekli sallanıyoruz.\nedit: şu ana kadar 3 tane daha artçı oldu sanki. elektriklerimiz kesildi ve okullar tatil edildi."
+    },
+    {
+      "entry_id": 279,
+      "class": 1,
+      "aid_types": "B",
+      "contact": "",
+      "preview": "adana'dan çok kötü hissettik bitmek bilmedi . şimdi tüm mahalle apartmanı terk ediyoruz. bir yerler çok kötü yıkıldı allah herkese yardımcı olsun."
+    },
+    {
+      "entry_id": 292,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "kadirlide çok fena salladı merkez üssü burası büyük ihtimal.\n\nedit: maraş ,7.8"
+    },
+    {
+      "entry_id": 327,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "gelmiş geçmiş olsun dediğim depremdir. yalnız şu saatlerde insan ürküyor yalan yok. ulan uyku gelsin diye bekliyorum hepten gitti iyi mi.\n\numarım can "
+    },
+    {
+      "entry_id": 345,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "of of. çok şiddetli maalesef. elazığ depreminde olanları gördük, bu yüzden yarın hiç beklemeden elimizden gelen yardımı yapacağız.\n\nedit: antakya'da b"
+    },
+    {
+      "entry_id": 390,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "gaziantep merkezine 3 km yakınlığında yaşanan deprem de çok sayıda bina yıkılmıştır. aldığım bilgilere göre binaların altında kalan vatandaşların oldu"
+    },
+    {
+      "entry_id": 393,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "az once babamin telefonumu aramasiyla yerimden sicradim. maras inanilmaz bir sekilde sallanmis ve sallanmaya devam ediyormus. gozunun onunde yeni bir "
+    },
+    {
+      "entry_id": 418,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "kirikhanda kardeşimin oturduğu bina yıkılmış herşeyi gitmiş. ölen kalan dan haber yok"
+    },
+    {
+      "entry_id": 493,
+      "class": 1,
+      "aid_types": "K",
+      "contact": "",
+      "preview": "antep ten, değirmiçem mh yazıyorum. çok uzun sürdü, şuan dışarıdayız şimdi. toyota plazanın arkasında bir bina yıkılmış diyorlar. duvarlarımızda çatla"
+    },
+    {
+      "entry_id": 494,
+      "class": 1,
+      "aid_types": "",
+      "contact": "",
+      "preview": "ben böyle bişey görmedim. beşik gibi sallandık. allah yardımcımız olsun kaybımız çok gibi. yer gaziantep."
+    }
+  ]
+}
