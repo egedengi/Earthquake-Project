@@ -1,0 +1,93 @@
+Class Definitions:
+  1: Damage + Aid needed + Location AVAILABLE
+  2: Aid needed + Location AVAILABLE
+  3: Damage + Aid needed, No location
+  4: Aid needed, No location
+  5: Damage, No aid needed
+  6: Info / Coordination only
+================================================================================
+
+[ENTRY 1]
+usgs deprem ajansına göre önce;
+- tsi 01:04'te m7.2;
+- 40 saniye sonra çok yakın bir lokasyonda tsi 01:05'te m7.5 büyüklüğünde iki depremi yaşadı venezuela.
+edit: bizde 25 haziran iken oldu bu depremler ancak venezuela'da tarih hala 24 haziran.
+
+edit2: (bkz: 25 haziran 2026 venezuela depremi) adı altında ikinci bir başlık açılmıştır ancak verildiği tarih itibariyle hatalıdır çünkü venezuela'da deprem olduğunda tarih orada 24 haziran idi. moderasyonun iki başlığı birleştirmesi gerek.
+
+https://earthquake.usgs.gov/…39,-61.17188&map=false
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 2]
+binlerce kilometre uzaktan korkutmuştur. zaten diken üstündeyiz.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 3]
+bizde arka arkaya olan iki 7+ buyuklugunde depremlerin aynisi venezuela'da oldu maalesef. elektrik ve internet kesik. binlerce ölü olabilir diyorlar. umarim dogru degildir.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 4]
+çok geçmiş olsun venezuela halkına. büyük bir yıkıma neden olması muhtemel, ardarda 7 üzeri, 2 büyük depremle sallanmıştır.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 5]
+ilk gelen görüntüler çok korkunç, umarım fazla bir kayıp olmaz. geçmiş olsun venezuela.
+
+https://x.com/i/status/2069916270422601978
+
+edit: tsunami de gelmiş.
+https://x.com/i/status/2069926433791824306
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 6]
+asrın felaketi deyip geçerler, üzerine birde 250000 konut yapıp parayla dağıttınmı tamam olur.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 7]
+boş entry girilmeyecek kadar önemli bir konudur. yıkılmış binaların videoları gelmeye başladı. usgs 44% oranla 10,000 ila 100,000 arası kayıp olabileceğini söylüyor.
+
+► Class: 5
+--------------------------------------------------------------------------------
+[ENTRY 8]
+bir yandan ekonomik kriz bir yandan amerika, bir de bu iki deprem ve ardından yaşanan tsunami. o kadar zor ki gerçekten, allah yardımcıları olsun.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 9]
+asrın felaketi yaşanmış. (bkz: 6 şubat 2023 kahramanmaraş depremi) ile benzer ikiz deprem fırtınasına uğramış ülke umarım çok daha az can kaybı yaşanır.
+
+(bkz: 25 haziran 2026 venezuela depremleri)
+
+sismoloji literatüründe nadir rastlanan ve yıkıcı potansiyeli son derece yüksek olan (bkz: doublet earthquake) (çifte deprem) fenomeninin en güncel ve çarpıcı vaka çalışmasıdır. abd jeolojik araştırmalar kurumu'nun (bkz: usgs) yayınladığı nihai verilere göre, kuzey-orta venezuela'da karayip ve güney amerika levhalarının sınırında tam bir sismik dehşet yaşanmıştır.
+
+olayın usgs kayıtlarına yansıyan sismolojik anatomisi şu şekildedir:
+
+öncü şok (foreshock): türkiye saati ile 01:04:33'te, yumare'nin 23 km güneydoğusunda, 20.3 kilometre derinlikte ve 7.2 büyüklüğünde gerçekleşti.
+
+ana şok (mainshock): bu ilk kırılmanın yarattığı muazzam stres transferi sonucu, tam 39 saniye sonra saat 01:05:12'de, yine yumare'nin 23 km güneydoğusunda ancak bu kez yeryüzüne çok daha yakın olan 10.0 kilometre sığlıkta, 7.5 büyüklüğündeki asıl yıkıcı şok patladı.
+
+iki sarsıntı arasındaki sadece 39 saniyelik bu süre, fay üzerindeki (bkz: ) hızının ve birikmiş tektonik stresin korkunçluğunu göstermektedir. yanal atımlı (strike-slip) bu iki kırılma, yeryüzündeki gözlemciler tarafından tek bir uzun sarsıntı olarak hissedilmiş; merkez üssüne 160 km mesafedeki caracas'ta dahi yapısal çöküşlere ve altyapı iflaslarına neden olacak sismik ivmeler yaratmıştır.
+
+gelelim bu olayın türkiye'nin yakın sismik trajedisiyle, yani (bkz: ) ile bilimsel kıyasına:
+
+fay mekanizması ve sığlık: her iki felaket de yanal atımlı fay sistemlerinde ve yüzeye çok yakın sığlıklarda meydana gelmiştir. depremlerin sığ olması (maraş ~8.6 km, venezuela 10 km), sismik enerjinin kabuk içinde sönümlenmeden doğrudan yüzeye vurmasına ve yanal yer değiştirme ivmesinin binaları jilet gibi kesmesine neden olmuştur.
+
+tetiklenme süresi ve afet yönetimi (en kritik fark): venezuela'daki doublet sadece 39 saniye içinde ikinci fayı kırıp afeti tek bir seferde yaşatırken; maraş'ta doğu anadolu fayı'nın komşu fayı kırması yaklaşık 9 saat sürmüştür. bu 9 saatlik faz farkı, maraş'ta insanların hasarlı binalara girmesi ve arama-kurtarma ekiplerinin enkaz üzerindeyken ikinci ve bambaşka bir yıkıma yakalanması gibi, dünya afet yönetimi literatürüne geçen emsalsiz bir kriz yaratmıştır.
+
+enerji salınımı ve kırık boyutu: sismolojide kullanılan moment magnitüd ölçeği logaritmiktir ve her 1 birimlik artış enerjiyi yaklaşık 32 kat katlar. maraş'taki 7.8'lik ilk deprem, venezuela'yı vuran 7.5'lik asıl ana şoktan sismik enerji salınımı olarak yaklaşık 2.8 kat daha güçlüdür. bu devasa enerji farkı sebebiyle maraş depremi yüzlerce kilometrelik bir yüzey kırığı yaratarak kıtasal çapta (11 il) bir yıkıma imza atarken, venezuela dizisi çok şiddetli olmakla beraber daha lokalize bir alanda kalmıştır.
+
+özetle bu vakalar bize gösteriyor ki; devasa bir fay kırıldığında bir sonraki faya binen stresin pimi çekilmiş demektir. ancak o pimin patlama süresi bazen 9 yıl, bazen 9 saat, bazen sadece 39 saniye.
+
+► Class: 6
+--------------------------------------------------------------------------------
+[ENTRY 10]
+sarı kafa'nın müdahale ettiği her yer yıkılıyor.
+
+► Class: 6
+--------------------------------------------------------------------------------
